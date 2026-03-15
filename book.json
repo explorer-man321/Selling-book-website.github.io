@@ -5,7 +5,8 @@
         "author": "Tuế Kiến",
         "publisher": "Nhà xuất bản Trẻ",
         "price": 119350,
-        "description": "Hồ Điệp Và Kình Ngư là một câu chuyện tình yêu đầy cảm động giữa Hồ Điệp, một cô gái trẻ xinh đẹp và Kình Ngư, một chàng trai nghèo nhưng có trái tim ấm áp. Câu chuyện diễn ra trong bối cảnh xã hội hiện đại, nơi mà tình yêu và sự hy sinh luôn được đặt lên hàng đầu."
+        "imglink": "https://cdn1.fahasa.com/media/catalog/product/b/i/bia-2d_ho-diep-va-kinh-ngu_17307_1.jpg",
+        "description": "Hồ Điệp Và Kình Ngư là một câu chuyện tình yêu đầy cảm động giữa Hồ Điệp, một cô gái trẻ xinh đẹp và Kình Ngư, một chàng trai nghèo nhưng có trái tim ấm áp."
     },
     {
         "id": "2",
@@ -13,7 +14,8 @@
         "author": "Dale Carnegie",
         "publisher": "NXB Tổng hợp TP.HCM",
         "price": 76000,
-        "description": "Cuốn sách đưa ra các lời khuyên về cách thức cư xử, ứng xử và giao tiếp với mọi người để đạt được thành công trong cuộc sống. Đây là một trong những cuốn sách bán chạy nhất mọi thời đại."
+        "imglink": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_36793.jpg",
+        "description": "Cuốn sách đưa ra các lời khuyên về cách thức cư xử, ứng xử và giao tiếp với mọi người để đạt được thành công trong cuộc sống."
     },
     {
         "id": "3",
@@ -21,7 +23,8 @@
         "author": "Paulo Coelho",
         "publisher": "NXB Văn Học",
         "price": 63200,
-        "description": "Tác phẩm kể về hành trình theo đuổi giấc mơ của cậu bé chăn cừu Santiago. Một cuốn sách truyền cảm hứng mãnh liệt về việc lắng nghe trái tim và dũng cảm theo đuổi đam mê."
+        "imglink": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_41705.jpg",
+        "description": "Tác phẩm kể về hành trình theo đuổi giấc mơ của cậu bé chăn cừu Santiago. Một cuốn sách truyền cảm hứng mãnh liệt về việc dũng cảm theo đuổi đam mê."
     },
     {
         "id": "4",
@@ -29,7 +32,8 @@
         "author": "Rosie Nguyễn",
         "publisher": "NXB Hội Nhà Văn",
         "price": 72000,
-        "description": "Không chứa đựng những giáo điều khô khan, cuốn sách là những lời tâm sự bình dị của một người đi trước, giúp các bạn trẻ nhận ra giá trị của bản thân và biết cách trân trọng khoảng thời gian thanh xuân."
+        "imglink": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_27181.jpg",
+        "description": "Những lời tâm sự bình dị của một người đi trước, giúp các bạn trẻ nhận ra giá trị của bản thân và biết cách trân trọng khoảng thời gian thanh xuân."
     },
     {
         "id": "5",
@@ -37,7 +41,8 @@
         "author": "José Mauro de Vasconcelos",
         "publisher": "NXB Hội Nhà Văn",
         "price": 86400,
-        "description": "Câu chuyện cảm động về cậu bé Zezé 5 tuổi tinh nghịch nhưng cô đơn. Cậu đã tìm thấy niềm vui và sự an ủi từ một cây cam ngọt sau vườn. Một tác phẩm lấy đi nước mắt của hàng triệu độc giả."
+        "imglink": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935235226272.jpg",
+        "description": "Câu chuyện cảm động về cậu bé Zezé 5 tuổi tinh nghịch nhưng cô đơn. Một tác phẩm lấy đi nước mắt của hàng triệu độc giả."
     },
     {
         "id": "6",
@@ -45,7 +50,8 @@
         "author": "Nguyên Phong",
         "publisher": "NXB Tổng hợp TP.HCM",
         "price": 134000,
-        "description": "Cuốn sách mở ra một góc nhìn mới về luật luân hồi và nhân quả thông qua những câu chuyện kỳ bí và sâu sắc về tiền kiếp của một doanh nhân người Mỹ."
+        "imglink": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935280900509.jpg",
+        "description": "Cuốn sách mở ra một góc nhìn mới về luật luân hồi và nhân quả thông qua những câu chuyện kỳ bí và sâu sắc."
     },
     {
         "id": "7",
@@ -53,7 +59,8 @@
         "author": "Stanton E. Samenow",
         "publisher": "NXB Dân Trí",
         "price": 145000,
-        "description": "Hành trình đi sâu vào tâm trí của những kẻ phạm tội, phân tích các kiểu tư duy lệch chuẩn và giải mã những bí ẩn đằng sau các hành vi tàn ác."
+        "imglink": "https://cdn0.fahasa.com/media/catalog/product/t/a/tam-ly-hoc-toi-pham-1.jpg",
+        "description": "Hành trình đi sâu vào tâm trí của những kẻ phạm tội, phân tích các kiểu tư duy lệch chuẩn và giải mã bí ẩn hành vi tàn ác."
     },
     {
         "id": "8",
@@ -61,7 +68,8 @@
         "author": "Mark Manson",
         "publisher": "NXB Thể Thao Và Du Lịch",
         "price": 85000,
-        "description": "Một cuốn sách self-help ngược đời, khuyên chúng ta hãy ngừng cố gắng sống tích cực giả tạo mà thay vào đó là chấp nhận sự thật phũ phàng để sống một cuộc đời ý nghĩa hơn."
+        "imglink": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936066684803.jpg",
+        "description": "Khuyên chúng ta hãy ngừng cố gắng sống tích cực giả tạo mà thay vào đó là chấp nhận sự thật phũ phàng để sống ý nghĩa hơn."
     },
     {
         "id": "9",
@@ -69,7 +77,8 @@
         "author": "Thomas Harris",
         "publisher": "NXB Hội Nhà Văn",
         "price": 95000,
-        "description": "Tiểu thuyết trinh thám kinh điển kể về thực tập sinh FBI Clarice Starling và cuộc đối đầu nghẹt thở với kẻ sát nhân hàng loạt ăn thịt người Hannibal Lecter."
+        "imglink": "https://cdn1.fahasa.com/media/catalog/product/8/9/8935235247147.jpg",
+        "description": "Tiểu thuyết trinh thám kinh điển kể về thực tập sinh FBI Clarice Starling và cuộc đối đầu nghẹt thở với kẻ sát nhân."
     },
     {
         "id": "10",
@@ -77,7 +86,8 @@
         "author": "Tô Hoài",
         "publisher": "NXB Kim Đồng",
         "price": 45000,
-        "description": "Tác phẩm văn học thiếu nhi kinh điển của Việt Nam, kể về cuộc phiêu lưu của chú Dế Mèn cùng những bài học sâu sắc về tình bạn, lòng dũng cảm và khát vọng hòa bình."
+        "imglink": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935244845557.jpg",
+        "description": "Tác phẩm văn học thiếu nhi kinh điển của Việt Nam, kể về cuộc phiêu lưu của chú Dế Mèn cùng những bài học sâu sắc."
     },
     {
         "id": "11",
@@ -85,7 +95,8 @@
         "author": "Andrea Hirata",
         "publisher": "NXB Hội Nhà Văn",
         "price": 94000,
-        "description": "Câu chuyện có thật và đầy xúc động về nỗ lực giành lấy quyền được học tập của những học sinh nghèo tại trường Muhammadiyah, Indonesia."
+        "imglink": "https://cdn1.fahasa.com/media/catalog/product/8/9/8935235245136.jpg",
+        "description": "Câu chuyện có thật và đầy xúc động về nỗ lực giành lấy quyền được học tập của những học sinh nghèo tại Indonesia."
     },
     {
         "id": "12",
@@ -93,7 +104,8 @@
         "author": "Charles Duhigg",
         "publisher": "NXB Lao Động",
         "price": 125000,
-        "description": "Cuốn sách giải thích khoa học về cách các thói quen được hình thành và cách chúng ta có thể thay đổi chúng để cải thiện cuộc sống, sức khỏe và công việc."
+        "imglink": "https://cdn1.fahasa.com/media/catalog/product/8/9/8935251416916.jpg",
+        "description": "Cuốn sách giải thích khoa học về cách các thói quen được hình thành và cách chúng ta có thể thay đổi chúng."
     },
     {
         "id": "13",
@@ -101,7 +113,8 @@
         "author": "Fyodor Dostoevsky",
         "publisher": "NXB Văn Học",
         "price": 142000,
-        "description": "Kiệt tác văn học Nga xoay quanh Raskolnikov, một sinh viên nghèo đã phạm tội giết người và quá trình đấu tranh tâm lý đầy dằn vặt của anh ta để tìm sự cứu rỗi."
+        "imglink": "https://via.placeholder.com/400x600/222f3e/ffffff?text=Toi+Ac+Va+Hinh+Phat",
+        "description": "Kiệt tác văn học Nga xoay quanh Raskolnikov, một sinh viên nghèo đã phạm tội giết người và đấu tranh tâm lý đầy dằn vặt."
     },
     {
         "id": "14",
@@ -109,7 +122,8 @@
         "author": "Antoine de Saint-Exupéry",
         "publisher": "NXB Kim Đồng",
         "price": 55000,
-        "description": "Một câu chuyện triết lý dưới hình thức truyện thiếu nhi, kể về một hoàng tử nhỏ đến từ một tiểu hành tinh khác và những bài học về tình yêu, tình bạn và bản chất con người."
+        "imglink": "https://cdn1.fahasa.com/media/catalog/product/s/c/scan_20250514_074042_002.jpg",
+        "description": "Một câu chuyện triết lý dưới hình thức truyện thiếu nhi, kể về một hoàng tử nhỏ đến từ một tiểu hành tinh khác."
     },
     {
         "id": "15",
@@ -117,7 +131,8 @@
         "author": "Haruki Murakami",
         "publisher": "NXB Hội Nhà Văn",
         "price": 138000,
-        "description": "Tiểu thuyết hiện thực huyền ảo cuốn hút người đọc vào hai tuyến truyện song song kỳ bí, đan xen giữa giấc mơ, ký ức và những bí ẩn của tiềm thức."
+        "imglink": "https://cdn1.fahasa.com/media/catalog/product/8/9/8935235245136.jpg",
+        "description": "Tiểu thuyết hiện thực huyền ảo cuốn hút người đọc vào hai tuyến truyện song song kỳ bí."
     },
     {
         "id": "16",
@@ -125,7 +140,8 @@
         "author": "Nhiều Tác Giả",
         "publisher": "NXB Trẻ",
         "price": 82000,
-        "description": "Tuyển tập những câu chuyện ngắn truyền cảm hứng về giá trị của cuộc sống, nhắc nhở chúng ta trân trọng hiện tại và sống trọn vẹn từng phút giây."
+        "imglink": "https://via.placeholder.com/400x600/1dd1a1/ffffff?text=Dieu+Y+Nghia+Nhat",
+        "description": "Tuyển tập những câu chuyện ngắn truyền cảm hứng về giá trị của cuộc sống, nhắc nhở chúng ta trân trọng hiện tại."
     },
     {
         "id": "17",
@@ -133,7 +149,8 @@
         "author": "Nguyễn Nhật Ánh",
         "publisher": "NXB Trẻ",
         "price": 90000,
-        "description": "Tác phẩm tuổi thơ mang đậm phong cách Nguyễn Nhật Ánh, đưa người đọc về với những ký ức trong sáng, hồn nhiên và đầy ắp tiếng cười."
+        "imglink": "https://via.placeholder.com/400x600/c8d6e5/ffffff?text=Cho+Xanh+Di+Dao",
+        "description": "Tác phẩm tuổi thơ mang đậm phong cách Nguyễn Nhật Ánh, đưa người đọc về với những ký ức trong sáng."
     },
     {
         "id": "18",
@@ -141,7 +158,8 @@
         "author": "Ayn Rand",
         "publisher": "NXB Trẻ",
         "price": 195000,
-        "description": "Một tiểu thuyết đồ sộ đề cao chủ nghĩa cá nhân, xoay quanh kiến trúc sư Howard Roark và cuộc chiến bảo vệ lý tưởng sáng tạo của anh trước áp lực của xã hội."
+        "imglink": "https://via.placeholder.com/400x600/576574/ffffff?text=Suoi+Nguon",
+        "description": "Một tiểu thuyết đồ sộ đề cao chủ nghĩa cá nhân, xoay quanh kiến trúc sư Howard Roark."
     },
     {
         "id": "19",
@@ -149,7 +167,8 @@
         "author": "J.D. Salinger",
         "publisher": "NXB Phụ Nữ",
         "price": 88000,
-        "description": "Cuốn sách lột tả tâm lý nổi loạn, hoang mang của tuổi vị thành niên thông qua góc nhìn của nhân vật Holden Caulfield trong những ngày cậu lang thang ở New York."
+        "imglink": "https://via.placeholder.com/400x600/ee5253/ffffff?text=Bat+Tre+Dong+Xanh",
+        "description": "Cuốn sách lột tả tâm lý nổi loạn, hoang mang của tuổi vị thành niên thông qua góc nhìn của nhân vật Holden Caulfield."
     },
     {
         "id": "20",
@@ -157,7 +176,8 @@
         "author": "Nguyễn Nhật Ánh",
         "publisher": "NXB Trẻ",
         "price": 110000,
-        "description": "Chuyện tình đơn phương buồn bã và khắc khoải của Ngạn dành cho Hà Lan - cô gái có đôi mắt biếc, kéo dài từ thuở ấu thơ cho đến khi trưởng thành."
+        "imglink": "https://cdn0.fahasa.com/media/catalog/product/8/9/8934974161365.jpg",
+        "description": "Chuyện tình đơn phương buồn bã và khắc khoải của Ngạn dành cho Hà Lan - cô gái có đôi mắt biếc."
     },
     {
         "id": "21",
@@ -165,7 +185,8 @@
         "author": "Thomas L. Friedman",
         "publisher": "NXB Trẻ",
         "price": 250000,
-        "description": "Tác phẩm phân tích sâu sắc về quá trình toàn cầu hóa trong thế kỷ 21, nơi công nghệ và internet đã san phẳng mọi khoảng cách và thay đổi cách thế giới vận hành."
+        "imglink": "https://via.placeholder.com/400x600/0abde3/ffffff?text=The+Gioi+Phang",
+        "description": "Tác phẩm phân tích sâu sắc về quá trình toàn cầu hóa trong thế kỷ 21, nơi công nghệ thay đổi cách thế giới vận hành."
     },
     {
         "id": "22",
@@ -173,7 +194,8 @@
         "author": "F. Scott Fitzgerald",
         "publisher": "NXB Văn Học",
         "price": 75000,
-        "description": "Bức tranh phản ánh 'Giấc mơ Mỹ' vào thập niên 1920 qua câu chuyện về sự giàu có, xa hoa và tình yêu ảo tưởng của triệu phú Jay Gatsby."
+        "imglink": "https://via.placeholder.com/400x600/ff9f43/ffffff?text=Dai+Gia+Gatsby",
+        "description": "Bức tranh phản ánh 'Giấc mơ Mỹ' vào thập niên 1920 qua câu chuyện về sự giàu có và tình yêu ảo tưởng của Jay Gatsby."
     },
     {
         "id": "23",
@@ -181,7 +203,8 @@
         "author": "Gustave Le Bon",
         "publisher": "NXB Tri Thức",
         "price": 105000,
-        "description": "Một nghiên cứu kinh điển về cách mà các cá nhân bị hòa tan vào đám đông, mất đi sự phán xét độc lập và bị dẫn dắt bởi cảm xúc tập thể."
+        "imglink": "https://via.placeholder.com/400x600/8395a7/ffffff?text=Tam+Ly+Hoc+Dam+Dong",
+        "description": "Nghiên cứu kinh điển về cách các cá nhân bị hòa tan vào đám đông và bị dẫn dắt bởi cảm xúc tập thể."
     },
     {
         "id": "24",
@@ -189,7 +212,8 @@
         "author": "Keigo Higashino",
         "publisher": "NXB Nhã Nam",
         "price": 115000,
-        "description": "Một tác phẩm trinh thám tâm lý xuất sắc, kể về một thiên tài toán học đã tạo ra một bằng chứng ngoại phạm hoàn hảo để bảo vệ người phụ nữ anh yêu."
+        "imglink": "https://via.placeholder.com/400x600/222f3e/ffffff?text=Phia+Sau+Nghi+Can+X",
+        "description": "Tác phẩm trinh thám tâm lý xuất sắc, kể về một thiên tài toán học tạo ra bằng chứng ngoại phạm hoàn hảo."
     },
     {
         "id": "25",
@@ -197,7 +221,8 @@
         "author": "Haruki Murakami",
         "publisher": "NXB Hội Nhà Văn",
         "price": 128000,
-        "description": "Tiểu thuyết sâu lắng về tình yêu, sự mất mát và nỗi cô đơn của những người trẻ tuổi ở Nhật Bản trong những năm 1960."
+        "imglink": "https://via.placeholder.com/400x600/10ac84/ffffff?text=Rung+Na+Uy",
+        "description": "Tiểu thuyết sâu lắng về tình yêu, sự mất mát và nỗi cô đơn của những người trẻ tuổi ở Nhật Bản."
     },
     {
         "id": "26",
@@ -205,7 +230,8 @@
         "author": "Hector Malot",
         "publisher": "NXB Văn Học",
         "price": 112000,
-        "description": "Hành trình phiêu lưu đầy gian truân nhưng ấm áp tình người của cậu bé mồ côi Rémi cùng gánh xiếc thú lang thang trên các nẻo đường nước Pháp."
+        "imglink": "https://via.placeholder.com/400x600/54a0ff/ffffff?text=Khong+Gia+Dinh",
+        "description": "Hành trình phiêu lưu đầy gian truân nhưng ấm áp tình người của cậu bé mồ côi Rémi."
     },
     {
         "id": "27",
@@ -213,7 +239,8 @@
         "author": "Trác Nhã",
         "publisher": "NXB Văn Học",
         "price": 89000,
-        "description": "Cẩm nang giao tiếp hữu ích, cung cấp các kỹ năng và mẹo ứng xử khéo léo để đạt được sự đồng thuận và thành công trong công việc cũng như cuộc sống."
+        "imglink": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936067597812.jpg",
+        "description": "Cẩm nang giao tiếp hữu ích, cung cấp kỹ năng và mẹo ứng xử khéo léo để đạt thành công."
     },
     {
         "id": "28",
@@ -221,7 +248,8 @@
         "author": "Dan Brown",
         "publisher": "NXB Lao Động",
         "price": 165000,
-        "description": "Tiểu thuyết ly kỳ kết hợp giữa khoa học, tôn giáo và nghệ thuật, theo chân giáo sư Robert Langdon trong nỗ lực ngăn chặn một âm mưu phá hoại Vatican."
+        "imglink": "https://via.placeholder.com/400x600/b71540/ffffff?text=Thien+Than+Va+Ac+Quy",
+        "description": "Tiểu thuyết ly kỳ kết hợp giữa khoa học, tôn giáo và nghệ thuật, theo chân giáo sư Robert Langdon."
     },
     {
         "id": "29",
@@ -229,7 +257,8 @@
         "author": "Nguyễn Nhật Ánh",
         "publisher": "NXB Trẻ",
         "price": 75000,
-        "description": "Những mẩu chuyện nhỏ hài hước và triết lý về thế giới trẻ thơ vô tư, trong trẻo, đánh thức ký ức tuổi nhỏ trong lòng mỗi người trưởng thành."
+        "imglink": "https://cdn0.fahasa.com/media/catalog/product/8/9/8934974158433.jpg",
+        "description": "Những mẩu chuyện nhỏ hài hước và triết lý về thế giới trẻ thơ vô tư, trong trẻo."
     },
     {
         "id": "30",
@@ -237,6 +266,7 @@
         "author": "George Orwell",
         "publisher": "NXB Hội Nhà Văn",
         "price": 98000,
-        "description": "Tiểu thuyết giả tưởng chính trị kinh điển miêu tả một xã hội toàn trị tương lai, nơi mà mọi hành vi và suy nghĩ của con người đều bị kiểm soát nghiêm ngặt."
+        "imglink": "https://via.placeholder.com/400x600/2c3e50/ffffff?text=1984",
+        "description": "Tiểu thuyết giả tưởng chính trị kinh điển miêu tả một xã hội toàn trị tương lai."
     }
 ]
