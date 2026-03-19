@@ -17,6 +17,10 @@ function buildCartTable(items) {
                 <td>${quantity}</td>
                 <td>${formatCurrency(book.price)}</td>
                 <td>${formatCurrency(itemTotal)}</td>
+                <td class="text-nowrap">
+                    <button class="btn btn-sm btn-outline-secondary" onclick="removeItem(${book.id})">−</button>
+                    <button class="btn btn-sm btn-outline-secondary" onclick="addItem(${book.id})">+</button>
+                </td>
             </tr>
         `;
     }).join('');
@@ -30,18 +34,36 @@ function buildCartTable(items) {
                         <th>Số lượng</th>
                         <th>Giá</th>
                         <th>Thành tiền</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>${rows}</tbody>
                 <tfoot>
                     <tr>
-                        <th colspan="3" class="text-end">Tổng</th>
+                        <th colspan="4" class="text-end">Tổng</th>
                         <th>${formatCurrency(totalPrice)}</th>
                     </tr>
                 </tfoot>
             </table>
         </div>
     `;
+}
+
+function addItem(bookId) {
+    cart.set(bookId, (cart.get(bookId) || 0) + 1);
+    saveCart();
+    renderCheckoutPage();
+}
+
+function removeItem(bookId) {
+    const qty = cart.get(bookId);
+    if (qty > 1) {
+        cart.set(bookId, qty - 1);
+    } else {
+        cart.delete(bookId);
+    }
+    saveCart();
+    renderCheckoutPage();
 }
 
 function renderCheckoutPage() {
