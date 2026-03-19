@@ -448,5 +448,275 @@
         "price": 175000,
         "imglink": "https://via.placeholder.com/400x600/0a2342/ffffff?text=Bi+An+Cua+Gio",
         "description": "Huyền thoại về Kvothe - phù thủy vĩ đại nhất từng sống, kể lại cuộc đời mình qua ba ngày với người ghi chép biên niên sử."
+    },
+    {
+        "id": "51",
+        "title": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
+        "author": "Nguyễn Nhật Ánh",
+        "publisher": "NXB Trẻ",
+        "price": 108000,
+        "imglink": "https://placehold.co/400x600/f9ca24/2d3436?text=Hoa+Vang",
+        "description": "Câu chuyện tuổi thơ đầy thơ mộng và xúc động của hai anh em Thiều và Tường tại một làng quê miền Trung nắng gió."
+    },
+    {
+        "id": "52",
+        "title": "Ngồi Khóc Trên Cây",
+        "author": "Nguyễn Nhật Ánh",
+        "publisher": "NXB Trẻ",
+        "price": 95000,
+        "imglink": "https://placehold.co/400x600/6ab04c/ffffff?text=Ngoi+Khoc+Tren+Cay",
+        "description": "Câu chuyện tình cảm nhẹ nhàng về cô bé Rùa và chàng trai Giang, đan xen giữa thế giới thực và thế giới cổ tích."
+    },
+    {
+        "id": "53",
+        "title": "Quê Nội",
+        "author": "Võ Quảng",
+        "publisher": "NXB Kim Đồng",
+        "price": 68000,
+        "imglink": "https://placehold.co/400x600/badc58/2d3436?text=Que+Noi",
+        "description": "Tác phẩm văn học thiếu nhi kinh điển Việt Nam, kể về cuộc sống làng quê miền Trung trong những ngày đầu kháng chiến."
+    },
+    {
+        "id": "54",
+        "title": "Số Đỏ",
+        "author": "Vũ Trọng Phụng",
+        "publisher": "NXB Văn Học",
+        "price": 79000,
+        "imglink": "https://placehold.co/400x600/eb4d4b/ffffff?text=So+Do",
+        "description": "Tiểu thuyết trào phúng xuất sắc nhất của văn học hiện thực Việt Nam, phản ánh xã hội thành thị thời Pháp thuộc đầy mâu thuẫn."
+    },
+    {
+        "id": "55",
+        "title": "Chí Phèo",
+        "author": "Nam Cao",
+        "publisher": "NXB Văn Học",
+        "price": 55000,
+        "imglink": "https://placehold.co/400x600/535c68/ffffff?text=Chi+Pheo",
+        "description": "Tuyển tập truyện ngắn của Nam Cao, đỉnh cao là truyện Chí Phèo - bi kịch của người nông dân bị tha hóa trong xã hội cũ."
+    },
+    {
+        "id": "56",
+        "title": "Lão Hạc",
+        "author": "Nam Cao",
+        "publisher": "NXB Văn Học",
+        "price": 52000,
+        "imglink": "https://placehold.co/400x600/7f8c8d/ffffff?text=Lao+Hac",
+        "description": "Truyện ngắn cảm động về người nông dân nghèo khổ với tình yêu thương con và lòng tự trọng cao cả."
+    },
+    {
+        "id": "57",
+        "title": "Tắt Đèn",
+        "author": "Ngô Tất Tố",
+        "publisher": "NXB Văn Học",
+        "price": 62000,
+        "imglink": "https://placehold.co/400x600/2c2c54/ffffff?text=Tat+Den",
+        "description": "Tiểu thuyết hiện thực về số phận người nông dân Việt Nam trước Cách mạng qua nhân vật chị Dậu kiên cường."
+    },
+    {
+        "id": "58",
+        "title": "Bỉ Vỏ",
+        "author": "Nguyên Hồng",
+        "publisher": "NXB Văn Học",
+        "price": 72000,
+        "imglink": "https://placehold.co/400x600/c0392b/ffffff?text=Bi+Vo",
+        "description": "Tiểu thuyết đầu tay của Nguyên Hồng, kể về cuộc đời đầy bi kịch của cô gái Tám Bính từ thôn quê lên thành thị."
+    },
+    {
+        "id": "59",
+        "title": "Nước Mắt Một Thời",
+        "author": "Nguyễn Nhật Ánh",
+        "publisher": "NXB Trẻ",
+        "price": 88000,
+        "imglink": "https://placehold.co/400x600/0652dd/ffffff?text=Nuoc+Mat+Mot+Thoi",
+        "description": "Hồi ký xen lẫn hư cấu của Nguyễn Nhật Ánh, gợi lại những ký ức tuổi học trò đẹp đẽ và khó quên."
+    },
+    {
+        "id": "60",
+        "title": "Cổng Trường Mở Ra",
+        "author": "Lý Lan",
+        "publisher": "NXB Giáo Dục",
+        "price": 45000,
+        "imglink": "https://placehold.co/400x600/1289a7/ffffff?text=Cong+Truong+Mo+Ra",
+        "description": "Tuyển tập những tác phẩm văn học đặc sắc về tuổi học trò và tình cảm gia đình ấm áp."
+    },
+    {
+        "id": "61",
+        "title": "Harry Potter Và Hòn Đá Phù Thủy",
+        "author": "J.K. Rowling",
+        "publisher": "NXB Trẻ",
+        "price": 145000,
+        "imglink": "https://placehold.co/400x600/6f1e51/ffffff?text=Harry+Potter+1",
+        "description": "Khởi đầu hành trình phép thuật của cậu bé Harry Potter tại trường Hogwarts, nơi cậu khám phá ra nguồn gốc thật sự của mình."
+    },
+    {
+        "id": "62",
+        "title": "Harry Potter Và Phòng Chứa Bí Mật",
+        "author": "J.K. Rowling",
+        "publisher": "NXB Trẻ",
+        "price": 155000,
+        "imglink": "https://placehold.co/400x600/833471/ffffff?text=Harry+Potter+2",
+        "description": "Harry Potter trở lại Hogwarts và phải đối mặt với bí ẩn đáng sợ trong Phòng Chứa Bí Mật đang ám ảnh toàn trường."
+    },
+    {
+        "id": "63",
+        "title": "Doraemon Tập 1",
+        "author": "Fujiko F. Fujio",
+        "publisher": "NXB Kim Đồng",
+        "price": 25000,
+        "imglink": "https://placehold.co/400x600/0097e6/ffffff?text=Doraemon+1",
+        "description": "Bộ truyện tranh kinh điển về chú mèo máy đến từ tương lai cùng cậu bé Nobita với vô số bảo bối thần kỳ."
+    },
+    {
+        "id": "64",
+        "title": "Thám Tử Lừng Danh Conan Tập 1",
+        "author": "Gosho Aoyama",
+        "publisher": "NXB Kim Đồng",
+        "price": 28000,
+        "imglink": "https://placehold.co/400x600/273c75/ffffff?text=Conan+1",
+        "description": "Thám tử thiên tài Shinichi Kudo bị biến thành đứa trẻ và phải sống dưới danh nghĩa Conan để tìm lại thân phận."
+    },
+    {
+        "id": "65",
+        "title": "Bố Già",
+        "author": "Mario Puzo",
+        "publisher": "NXB Hội Nhà Văn",
+        "price": 178000,
+        "imglink": "https://placehold.co/400x600/2f3640/ffffff?text=Bo+Gia",
+        "description": "Tiểu thuyết hình sự huyền thoại về gia đình mafia Corleone quyền lực nhất nước Mỹ và những toan tính chính trị ngầm."
+    },
+    {
+        "id": "66",
+        "title": "Mật Mã Da Vinci",
+        "author": "Dan Brown",
+        "publisher": "NXB Lao Động",
+        "price": 158000,
+        "imglink": "https://placehold.co/400x600/8e44ad/ffffff?text=Mat+Ma+Da+Vinci",
+        "description": "Cuộc điều tra hấp dẫn của giáo sư Langdon về bí ẩn đằng sau những kiệt tác của Leonardo da Vinci và âm mưu che giấu sự thật lịch sử."
+    },
+    {
+        "id": "67",
+        "title": "Inferno",
+        "author": "Dan Brown",
+        "publisher": "NXB Lao Động",
+        "price": 162000,
+        "imglink": "https://placehold.co/400x600/d35400/ffffff?text=Inferno",
+        "description": "Robert Langdon thức dậy không nhớ gì và bị cuốn vào cuộc truy đuổi xuyên qua những thành phố cổ kính châu Âu."
+    },
+    {
+        "id": "68",
+        "title": "Sapiens: Lược Sử Loài Người",
+        "author": "Yuval Noah Harari",
+        "publisher": "NXB Tri Thức",
+        "price": 185000,
+        "imglink": "https://placehold.co/400x600/2980b9/ffffff?text=Sapiens",
+        "description": "Hành trình 70.000 năm của loài người từ thời đồ đá đến kỷ nguyên công nghệ, nhìn dưới góc độ hoàn toàn mới."
+    },
+    {
+        "id": "69",
+        "title": "Homo Deus: Lược Sử Tương Lai",
+        "author": "Yuval Noah Harari",
+        "publisher": "NXB Tri Thức",
+        "price": 178000,
+        "imglink": "https://placehold.co/400x600/16a085/ffffff?text=Homo+Deus",
+        "description": "Sau khi chinh phục nạn đói, dịch bệnh và chiến tranh, loài người tiếp theo sẽ hướng đến bất tử, hạnh phúc và thần thánh."
+    },
+    {
+        "id": "70",
+        "title": "Nhà Hướng Nội",
+        "author": "Susan Cain",
+        "publisher": "NXB Lao Động",
+        "price": 125000,
+        "imglink": "https://placehold.co/400x600/2c3e50/ffffff?text=Nha+Huong+Noi",
+        "description": "Khám phá sức mạnh ẩn giấu của những người hướng nội trong thế giới không ngừng tôn vinh sự năng động và hướng ngoại."
+    },
+    {
+        "id": "71",
+        "title": "Đời Ngắn Đừng Ngủ Dài",
+        "author": "Robin Sharma",
+        "publisher": "NXB Lao Động",
+        "price": 112000,
+        "imglink": "https://placehold.co/400x600/e67e22/ffffff?text=Doi+Ngan+Dung+Ngu+Dai",
+        "description": "Hướng dẫn thực tế để thức dậy sớm, xây dựng thói quen buổi sáng và tối đa hóa tiềm năng bản thân mỗi ngày."
+    },
+    {
+        "id": "72",
+        "title": "Bạo Chúa",
+        "author": "Đinh Vũ Hoàng Nguyên",
+        "publisher": "NXB Trẻ",
+        "price": 98000,
+        "imglink": "https://placehold.co/400x600/c0392b/ffffff?text=Bao+Chua",
+        "description": "Tiểu thuyết lịch sử khai thác giai đoạn đầy biến động của triều đại phong kiến Việt Nam với những mưu đồ quyền lực."
+    },
+    {
+        "id": "73",
+        "title": "Người Giàu Có Nhất Thành Babylon",
+        "author": "George S. Clason",
+        "publisher": "NXB Lao Động",
+        "price": 89000,
+        "imglink": "https://placehold.co/400x600/f39c12/2d3436?text=Nguoi+Giau+Co+Nhat",
+        "description": "Những bài học về tài chính cá nhân được gói trong những câu chuyện ngụ ngôn từ thành Babylon huyền thoại."
+    },
+    {
+        "id": "74",
+        "title": "Cha Giàu Cha Nghèo",
+        "author": "Robert T. Kiyosaki",
+        "publisher": "NXB Trẻ",
+        "price": 135000,
+        "imglink": "https://placehold.co/400x600/27ae60/ffffff?text=Cha+Giau+Cha+Ngheo",
+        "description": "Bài học tài chính từ hai người cha với triết lý hoàn toàn khác nhau, thay đổi cách hàng triệu người nhìn nhận tiền bạc."
+    },
+    {
+        "id": "75",
+        "title": "Bắt Đầu Với Câu Hỏi Tại Sao",
+        "author": "Simon Sinek",
+        "publisher": "NXB Lao Động",
+        "price": 118000,
+        "imglink": "https://placehold.co/400x600/2980b9/ffffff?text=Bat+Dau+Voi+Tai+Sao",
+        "description": "Khám phá lý do tại sao một số nhà lãnh đạo và tổ chức có khả năng truyền cảm hứng trong khi những người khác thì không."
+    },
+    {
+        "id": "76",
+        "title": "Người Trong Muôn Nghề",
+        "author": "Spiderum",
+        "publisher": "NXB Trẻ",
+        "price": 105000,
+        "imglink": "https://placehold.co/400x600/8e44ad/ffffff?text=Nguoi+Trong+Muon+Nghe",
+        "description": "Tập hợp những câu chuyện thực tế về hành trình chọn nghề, định hướng bản thân của những người trẻ Việt Nam."
+    },
+    {
+        "id": "77",
+        "title": "Điều Kỳ Diệu Của Tiệm Tạp Hóa Namiya",
+        "author": "Keigo Higashino",
+        "publisher": "NXB Nhã Nam",
+        "price": 128000,
+        "imglink": "https://placehold.co/400x600/3498db/ffffff?text=Tiem+Tap+Hoa+Namiya",
+        "description": "Ba tên trộm trốn vào tiệm tạp hóa bỏ hoang và kỳ lạ thay bắt đầu nhận được những bức thư xin lời khuyên từ quá khứ."
+    },
+    {
+        "id": "78",
+        "title": "Bông Hoa Tuyết Và Chiếc Quạt Bí Mật",
+        "author": "Lisa See",
+        "publisher": "NXB Phụ Nữ",
+        "price": 115000,
+        "imglink": "https://placehold.co/400x600/e84393/ffffff?text=Bong+Hoa+Tuyet",
+        "description": "Tình bạn suốt đời giữa hai người phụ nữ Trung Hoa thế kỷ 19, giao tiếp qua thứ ngôn ngữ bí mật chỉ phụ nữ mới biết."
+    },
+    {
+        "id": "79",
+        "title": "Cô Gái Bán Diêm",
+        "author": "Hans Christian Andersen",
+        "publisher": "NXB Kim Đồng",
+        "price": 48000,
+        "imglink": "https://placehold.co/400x600/74b9ff/2d3436?text=Co+Gai+Ban+Diem",
+        "description": "Tuyển tập những câu chuyện cổ tích bất hủ của Andersen, từ Cô Gái Bán Diêm đến Nàng Tiên Cá và Bà Chúa Tuyết."
+    },
+    {
+        "id": "80",
+        "title": "Nghệ Thuật Sống Tối Giản",
+        "author": "Fumio Sasaki",
+        "publisher": "NXB Lao Động",
+        "price": 108000,
+        "imglink": "https://placehold.co/400x600/dfe6e9/2d3436?text=Song+Toi+Gian",
+        "description": "Hành trình của một người Nhật từ bỏ 95% đồ đạc và khám phá ra hạnh phúc thật sự ẩn giấu trong lối sống tối giản."
     }
 ]
