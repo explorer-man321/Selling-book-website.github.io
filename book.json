@@ -268,5 +268,185 @@
         "price": 98000,
         "imglink": "https://via.placeholder.com/400x600/2c3e50/ffffff?text=1984",
         "description": "Tiểu thuyết giả tưởng chính trị kinh điển miêu tả một xã hội toàn trị tương lai."
+    },
+    {
+        "id": "31",
+        "title": "Và Rồi Không Còn Ai",
+        "author": "Agatha Christie",
+        "publisher": "NXB Trẻ",
+        "price": 108000,
+        "imglink": "https://via.placeholder.com/400x600/1a1a2e/ffffff?text=Va+Roi+Khong+Con+Ai",
+        "description": "Mười người xa lạ bị mời đến một hòn đảo hẻo lánh và lần lượt chết bí ẩn. Kiệt tác trinh thám của Nữ hoàng tội phạm Agatha Christie."
+    },
+    {
+        "id": "32",
+        "title": "Tiếng Gọi Nơi Hoang Dã",
+        "author": "Jack London",
+        "publisher": "NXB Văn Học",
+        "price": 79000,
+        "imglink": "https://via.placeholder.com/400x600/16213e/ffffff?text=Tieng+Goi+Noi+Hoang+Da",
+        "description": "Câu chuyện về chú chó Buck bị bắt cóc và buộc phải thích nghi với cuộc sống khắc nghiệt ở vùng Bắc Cực băng giá."
+    },
+    {
+        "id": "33",
+        "title": "Đừng Bao Giờ Đi Ăn Một Mình",
+        "author": "Keith Ferrazzi",
+        "publisher": "NXB Lao Động",
+        "price": 118000,
+        "imglink": "https://via.placeholder.com/400x600/0f3460/ffffff?text=Dung+Bao+Gio+Di+An+Mot+Minh",
+        "description": "Bí quyết xây dựng mạng lưới quan hệ bền vững và chân thành giúp bạn thành công trong sự nghiệp lẫn cuộc sống."
+    },
+    {
+        "id": "34",
+        "title": "Shining",
+        "author": "Stephen King",
+        "publisher": "NXB Hội Nhà Văn",
+        "price": 155000,
+        "imglink": "https://via.placeholder.com/400x600/2d0000/ffffff?text=Shining",
+        "description": "Gia đình Torrance đến trông coi khách sạn Overlook trong mùa đông. Những thế lực tối tăm dần thức tỉnh và đẩy người cha đến bờ vực điên loạn."
+    },
+    {
+        "id": "35",
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "publisher": "NXB Lao Động",
+        "price": 139000,
+        "imglink": "https://via.placeholder.com/400x600/f5a623/000000?text=Atomic+Habits",
+        "description": "Hệ thống thực tế để xây dựng thói quen tốt và loại bỏ thói quen xấu, dựa trên khoa học thần kinh và tâm lý học hành vi."
+    },
+    {
+        "id": "36",
+        "title": "Cô Gái Trong Tàu Hỏa",
+        "author": "Paula Hawkins",
+        "publisher": "NXB Trẻ",
+        "price": 125000,
+        "imglink": "https://via.placeholder.com/400x600/1b1b2f/ffffff?text=Co+Gai+Trong+Tau+Hoa",
+        "description": "Rachel mỗi ngày đi tàu và nhìn vào ngôi nhà quen thuộc. Một buổi sáng cô chứng kiến điều bất thường, rồi người phụ nữ trong ngôi nhà đó mất tích."
+    },
+    {
+        "id": "37",
+        "title": "Mindset - Tâm Lý Học Thành Công",
+        "author": "Carol S. Dweck",
+        "publisher": "NXB Lao Động",
+        "price": 115000,
+        "imglink": "https://via.placeholder.com/400x600/4a90d9/ffffff?text=Mindset",
+        "description": "Nghiên cứu đột phá về tư duy cố định và tư duy phát triển, giải thích tại sao một số người thành công còn số khác thì không."
+    },
+    {
+        "id": "38",
+        "title": "Bầy Sói Vùng Tuyết",
+        "author": "Keigo Higashino",
+        "publisher": "NXB Nhã Nam",
+        "price": 132000,
+        "imglink": "https://via.placeholder.com/400x600/0d0d0d/ffffff?text=Bay+Soi+Vung+Tuyet",
+        "description": "Một vụ án mạng xảy ra trong bão tuyết. Mọi nghi can đều có alibi hoàn hảo. Thám tử Kaga phải tìm ra sự thật ẩn giấu sau lớp tuyết trắng."
+    },
+    {
+        "id": "39",
+        "title": "Người Đàn Bà Trong Ngôi Nhà",
+        "author": "A.J. Finn",
+        "publisher": "NXB Trẻ",
+        "price": 119000,
+        "imglink": "https://via.placeholder.com/400x600/2c003e/ffffff?text=Nguoi+Dan+Ba+Trong+Ngoi+Nha",
+        "description": "Anna Fox mắc chứng sợ ra ngoài, chỉ nhìn thế giới qua cửa sổ. Một đêm cô chứng kiến điều kinh hoàng ở nhà hàng xóm nhưng không ai tin cô."
+    },
+    {
+        "id": "40",
+        "title": "Ikigai - Đời Đáng Sống",
+        "author": "Héctor García & Francesc Miralles",
+        "publisher": "NXB Lao Động",
+        "price": 95000,
+        "imglink": "https://via.placeholder.com/400x600/e84d3a/ffffff?text=Ikigai",
+        "description": "Bí mật sống lâu và hạnh phúc của người Nhật Bản, xoay quanh khái niệm Ikigai - lý do để thức dậy mỗi buổi sáng."
+    },
+    {
+        "id": "41",
+        "title": "Nó",
+        "author": "Stephen King",
+        "publisher": "NXB Hội Nhà Văn",
+        "price": 198000,
+        "imglink": "https://via.placeholder.com/400x600/8b0000/ffffff?text=No",
+        "description": "Tại thị trấn Derry, một thực thể kinh dị ẩn nấp trong cống rãnh, thức dậy mỗi 27 năm để gieo rắc nỗi kinh hoàng. Nhóm bạn thời thơ ấu phải đối mặt với nỗi sợ hãi của chính mình."
+    },
+    {
+        "id": "42",
+        "title": "Đắc Nhân Tâm Thời Đại Số",
+        "author": "Dale Carnegie",
+        "publisher": "NXB Tổng hợp TP.HCM",
+        "price": 88000,
+        "imglink": "https://via.placeholder.com/400x600/1565c0/ffffff?text=Dac+Nhan+Tam+So",
+        "description": "Phiên bản cập nhật của kiệt tác giao tiếp kinh điển, áp dụng các nguyên tắc bất biến vào thế giới số, mạng xã hội và làm việc từ xa."
+    },
+    {
+        "id": "43",
+        "title": "Bắt Cóc",
+        "author": "Harlan Coben",
+        "publisher": "NXB Trẻ",
+        "price": 112000,
+        "imglink": "https://via.placeholder.com/400x600/212121/ffffff?text=Bat+Coc",
+        "description": "Một đứa trẻ mất tích bỗng xuất hiện trở lại sau nhiều năm, nhưng những bí mật theo sau nó còn đáng sợ hơn cả cái chết."
+    },
+    {
+        "id": "44",
+        "title": "Tư Duy Nhanh Và Chậm",
+        "author": "Daniel Kahneman",
+        "publisher": "NXB Lao Động",
+        "price": 168000,
+        "imglink": "https://via.placeholder.com/400x600/006064/ffffff?text=Tu+Duy+Nhanh+Va+Cham",
+        "description": "Nhà tâm lý học đoạt giải Nobel giải thích hai hệ thống tư duy của con người và cách chúng ảnh hưởng đến mọi quyết định trong cuộc sống."
+    },
+    {
+        "id": "45",
+        "title": "Những Người Khốn Khổ",
+        "author": "Victor Hugo",
+        "publisher": "NXB Văn Học",
+        "price": 185000,
+        "imglink": "https://via.placeholder.com/400x600/37474f/ffffff?text=Nhung+Nguoi+Khon+Kho",
+        "description": "Sử thi vĩ đại về cuộc đời Jean Valjean, từ tù nhân khổ sai trở thành con người lương thiện, trong bối cảnh nước Pháp đầy biến động thế kỷ 19."
+    },
+    {
+        "id": "46",
+        "title": "Nhà Thờ Đức Bà Paris",
+        "author": "Victor Hugo",
+        "publisher": "NXB Văn Học",
+        "price": 145000,
+        "imglink": "https://via.placeholder.com/400x600/4a148c/ffffff?text=Nha+Tho+Duc+Ba+Paris",
+        "description": "Chàng gù Quasimodo yêu đơn phương vũ nữ Esmeralda đẹp tuyệt trần trong bối cảnh Paris thế kỷ 15 đầy mê hoặc và bí ẩn."
+    },
+    {
+        "id": "47",
+        "title": "Truyện Ngắn Edgar Allan Poe",
+        "author": "Edgar Allan Poe",
+        "publisher": "NXB Hội Nhà Văn",
+        "price": 99000,
+        "imglink": "https://via.placeholder.com/400x600/1a237e/ffffff?text=Edgar+Allan+Poe",
+        "description": "Tuyển tập những truyện ngắn kinh dị và trinh thám nổi tiếng nhất của cha đẻ thể loại truyện trinh thám hiện đại."
+    },
+    {
+        "id": "48",
+        "title": "Nghĩ Giàu Làm Giàu",
+        "author": "Napoleon Hill",
+        "publisher": "NXB Lao Động",
+        "price": 109000,
+        "imglink": "https://via.placeholder.com/400x600/f57f17/000000?text=Nghi+Giau+Lam+Giau",
+        "description": "13 nguyên tắc thành công được đúc kết từ việc nghiên cứu 500 người giàu có nhất nước Mỹ, là nền tảng của hàng triệu sự nghiệp thành công."
+    },
+    {
+        "id": "49",
+        "title": "Trăm Năm Cô Đơn",
+        "author": "Gabriel García Márquez",
+        "publisher": "NXB Văn Học",
+        "price": 162000,
+        "imglink": "https://via.placeholder.com/400x600/1b5e20/ffffff?text=Tram+Nam+Co+Don",
+        "description": "Tiểu thuyết hiện thực huyền ảo kinh điển kể về bảy thế hệ dòng họ Buendía ở làng Macondo, biểu tượng của lịch sử Mỹ Latinh."
+    },
+    {
+        "id": "50",
+        "title": "Bí Ẩn Của Gió",
+        "author": "Patrick Rothfuss",
+        "publisher": "NXB Trẻ",
+        "price": 175000,
+        "imglink": "https://via.placeholder.com/400x600/0a2342/ffffff?text=Bi+An+Cua+Gio",
+        "description": "Huyền thoại về Kvothe - phù thủy vĩ đại nhất từng sống, kể lại cuộc đời mình qua ba ngày với người ghi chép biên niên sử."
     }
 ]
