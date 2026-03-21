@@ -1,6 +1,14 @@
 books = [];
+category = null;
+
+function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+}
 
 function loadBook(callback) {
+    category = getQueryParam('category');
+
     fetch('../book.json')
         .then(response => response.json())
         .then(data => {
@@ -21,6 +29,11 @@ function loadBook(callback) {
 
 function displayBooks() {
     const bookList = document.getElementById('book-list');
+    const categoryEl = document.getElementById('category');
+
+    if (categoryEl && category) {
+        categoryEl.innerHTML = `<h2 class="mb-4">${category ? `Danh mục: ${category}` : 'Tất cả sách'}</h2>`;
+    }
     if (!bookList) return;
 
     if (!window.books || !window.books.length) {
@@ -30,11 +43,14 @@ function displayBooks() {
 
     bookList.innerHTML = '';
     books.forEach(book => {
+        if (category && book.category !== category) {
+            return;
+        }
         const bookCard = `
             <div class="col-md-3 mb-4">
                 <div class="card h-100 shadow-sm">
                     <a href="book?id=${book.id}">
-                        <img src="https://placehold.co/1000x1000" class="card-img-top" alt="${book.title}">
+                        <img src="${book.imglink}" class="card-img-top" alt="${book.title}" style="height: 300px; object-fit: cover;">
                     </a>
                     <div class="card-body">
                         <a href="book?id=${book.id}" style="color: black; text-decoration: none;">

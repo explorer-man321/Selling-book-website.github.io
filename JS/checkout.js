@@ -14,13 +14,14 @@ function buildCartTable(items) {
         return `
             <tr>
                 <td>${book.title}</td>
-                <td>${quantity}</td>
+                <td class="text-nowrap">
+                    <button class="btn btn-sm" onclick="removeItem(${book.id})">−</button>
+                    ${quantity}
+                    <button class="btn btn-sm" onclick="addItem(${book.id})">+</button>
+                </td>
                 <td>${formatCurrency(book.price)}</td>
                 <td>${formatCurrency(itemTotal)}</td>
-                <td class="text-nowrap">
-                    <button class="btn btn-sm btn-outline-secondary" onclick="removeItem(${book.id})">−</button>
-                    <button class="btn btn-sm btn-outline-secondary" onclick="addItem(${book.id})">+</button>
-                </td>
+                <td class="d-flex align-items-center justify-content-center"><button class="btn btn-sm btn-danger" onclick="deleteItem(${book.id})">Xóa</button></td>
             </tr>
         `;
     }).join('');
@@ -40,7 +41,7 @@ function buildCartTable(items) {
                 <tbody>${rows}</tbody>
                 <tfoot>
                     <tr>
-                        <th colspan="4" class="text-end">Tổng</th>
+                        <th colspan="3" class="text-end">Tổng</th>
                         <th>${formatCurrency(totalPrice)}</th>
                     </tr>
                 </tfoot>
@@ -59,9 +60,13 @@ function removeItem(bookId) {
     const qty = cart.get(bookId);
     if (qty > 1) {
         cart.set(bookId, qty - 1);
-    } else {
-        cart.delete(bookId);
     }
+    saveCart();
+    renderCheckoutPage();
+}
+
+function deleteItem(bookId) {
+    cart.delete(bookId);
     saveCart();
     renderCheckoutPage();
 }
@@ -107,7 +112,7 @@ function renderCheckoutPage() {
                 if (!customerName || !customerEmail || !customerAddress) {
                     return;
                 }
-
+                
                 clearCart();
                 cartSummaryEl.innerHTML = '<div class="alert alert-success">Đặt hàng thành công! Cảm ơn bạn đã mua sắm.</div>';
                 messageEl.classList.remove('d-none', 'alert-info');

@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('book-detail-container').innerHTML = `
                 <div class="col-md-6 offset-md-3">
                     <div class="card mb-3">
-                        <img src="${book.image || 'https://placehold.co/600x800'}" class="card-img-top" alt="${book.title}">
+                        <img src="${book.imglink || 'https://plac   ehold.co/600x800'}" class="card-img-top" alt="${book.title}">
                         <div class="card-body">
                             <h3 class="card-title">${book.title}</h3>
                             <p class="card-text">${book.description || 'Không có mô tả.'}</p>
