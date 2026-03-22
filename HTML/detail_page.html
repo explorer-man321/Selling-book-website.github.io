@@ -178,47 +178,69 @@
         <div class="section-wrapper mt-5">
             <div class="row g-2 align-items-stretch">
                 <div class="col-md-4 ">
-                    <div id="prod_pic" class="wf-block wf-img rounded-3">[ pic ]</div>
+                    <img src="" alt="bia sach" id = "book-cover" style="height: 100%; width: 100%; object-fit: cover; border-radius: 10px;">
                 </div>
                 <div class="col-md-8">
                     <div  style="min-height: 400px;">
-                        
-
                             <div class="basic-info-box" >
+                                <h2 class="book-title" id="book-title">Heo Hồng</h2>
 
-                                <div>
-                                    <h2 class="book-title">Heo Hồng</h2>
-                                    <p class="tacgia_sach text-muted">Tác giả: <a href="#">Tên Tác Giả</a> &nbsp;·&nbsp; NXB: Nhà
-                                        Xuất Bản</p>
-                                    <p class="tacgia_sach text-muted">Mã SP: <a href="#">36363636</a> &nbsp;·&nbsp; Tình trạng:
-                                        <span style="color:green;font-weight:600;">Còn hàng</span></p>
+                                <div class="container-fluid">
+                                    <div class="row g-2">
+                                        <div class="col">
+                                            <p class="text-muted">Tác giả: </p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="text-black" id="book-author">Nguadfk</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row g-2">
+                                        <div class="col">
+                                            <p class="text-muted">Nhà xuất bản: </p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="text-black" id="book-publisher">Năm anh em</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row g-2">
+                                        <div class="col">
+                                            <p class="text-muted">Tình trạng: </p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="text-muted">
+                                                <span style="color:green;font-weight:600;">Còn hàng</span>
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <hr class="info-divider">
 
                                 <div class="price-block">
                                     <div class="price">
-                                        <span class="price_new">89.000đ</span>
-                                        <span class="price-old text-muted" >120.000đ</span>
+                                        <span class="price_new" id = "book-price">89.000đ</span>
+                                        <span class="price-old text-muted" id = "book-old-price">120.000đ</span>
                                         
                                     </div>
-                                    <p class="note text-muted">Tiết kiệm <strong>31.000đ</strong> · Miễn phí ship đơn từ
+                                    <p class="note text-muted" id = "savings-note">Tiết kiệm <strong>31.000đ</strong> · Miễn phí ship đơn từ
                                         <strong>199.000đ</strong></p>
                                 </div>
 
                                 <div class="qty-row">
                                     <span class="qty-label text-muted">Số lượng:</span>
                                     <div class="qty-ctrl">
-                                        <button class="qty-btn" onclick="changeQty(-1)">-</button>
-                                        <input class="qty-val" id="qtyVal" type="text" value="1" readonly>
-                                        <button class="qty-btn" onclick="changeQty(1)">+</button>
+                                        <button class="qty-btn" id="decrement-btn">-</button>
+                                        <input class="qty-val" id="quantity-input" type="text" value="1" readonly>
+                                        <button class="qty-btn" id="increment-btn">+</button>
                                     </div>
                                     <span style="font-size:12px;color:#888;">Còn 47 sản phẩm</span>
                                 </div>
 
                                 <div class="btn-row">
-                                    <button class="btn-them">🛒 Thêm vào giỏ hàng</button>
-                                    <button class="btn-buy">Mua ngay</button>
+                                    <button class="btn-them" id="add-to-cart-btn">🛒 Thêm vào giỏ hàng</button>
+                                    <button class="btn-buy" id="buy-now-btn">Mua ngay</button>
                                 </div>
 
                                
@@ -313,7 +335,7 @@
                                                     <tr>
                                                         <td class="fw-bold">Sản phẩm bán chạy nhất</td>
                                                         <td style="font-size: 13px;">
-                                                            <a href="#" class="info-link">Thầy cl Giang Sang</a>
+                                                            <a href="#" class="info-link">Top 100 Cuốn Sách bán chạy nhất của tuần</a>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -321,7 +343,7 @@
                                             </table>
                                         </div>
                                     </div>
-                                    <div class="tab ">
+                                    <div class="tab " id = "description">
                                         <p>Ngày con cất tiếng khóc chào đời ngày mẹ đã nói niềm vui trào dâng ngập
                                             trời</p>
                                         <p>Cho con gánh mẹ một lần cả đời mẹ đã tảo tần gánh con</p>
@@ -500,6 +522,9 @@
         [ FOOTER: Giới thiệu | Liên hệ | Chính sách | Mạng xã hội | Bản quyền ]
     </div>
 
+    <script src="../JS/booklist.js"></script>
+    <script src="../JS/cart.js"></script>
+    <script src="../JS/loadbook.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
 

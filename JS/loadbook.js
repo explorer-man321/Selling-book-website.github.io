@@ -23,24 +23,35 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById('book-detail-container').innerHTML = '<div class="col-12 text-center text-danger">Không tìm thấy sách!</div>';
                 return;
             }
-            document.getElementById('book-detail-container').innerHTML = `
-                <div class="col-md-6 offset-md-3">
-                    <div class="card mb-3">
-                        <img src="${book.imglink || 'https://placehold.co/600x800'}" class="card-img-top" alt="${book.title}">
-                        <div class="card-body">
-                            <h3 class="card-title">${book.title}</h3>
-                            <p class="card-text">${book.description || 'Không có mô tả.'}</p>
-                            <p class="card-text text-danger fw-bold">${book.price ? book.price.toLocaleString('vi-VN') : 'N/A'} VNĐ</p>
-                            <div class="input-group mb-3" style="max-width: 200px; margin: 0 auto;">
-                                <button class="btn btn-outline-secondary" type="button" id="decrement-btn">-</button>
-                                <input type="number" class="form-control text-center" id="quantity-input" value="1" min="1" style="max-width: 60px;">
-                                <button class="btn btn-outline-secondary" type="button" id="increment-btn">+</button>
-                            </div>
-                            <button class="btn btn-success w-100" id="add-to-cart-btn">Thêm vào giỏ</button>
-                        </div>
-                    </div>
-                </div>
-            `;
+
+            console.log('Book data loaded:', book);
+
+            Cover = document.getElementById("book-cover");
+            if (Cover) Cover.src = book.imglink || 'https://placehold.co/600x800';
+
+            Title = document.getElementById("book-title");
+            if (Title) Title.textContent = book.title || 'N/A';
+
+            Author = document.getElementById("book-author");
+            if (Author) Author.textContent = book.author || 'N/A';
+
+            New_price = document.getElementById("book-price");
+            if (New_price) New_price.textContent = book.price ? book.price.toLocaleString('vi-VN') + ' VNĐ' : 'N/A';
+
+            Old_price = document.getElementById("book-old-price");
+            oldprice = book.oldprice || book.price ? (book.oldprice || book.price * 1.2) : null; // Giả sử old price cao hơn new price 20%
+            if (Old_price) Old_price.textContent = oldprice ? oldprice.toLocaleString('vi-VN') + ' VNĐ' : 'N/A';
+
+            Savings_note = document.getElementById("savings-note");
+            if (Savings_note && book.price && oldprice) {
+                const savings = oldprice - book.price;
+                Savings_note.innerHTML = `Tiết kiệm <strong>${savings.toLocaleString('vi-VN')}đ</strong> · Miễn phí ship đơn từ <strong>199.000đ</strong>`;
+            }
+
+            Description = document.getElementById("description");
+            if (Description) Description.innerHTML = book.description || 'Không có mô tả cho sách này.';
+
+
             // Add event listeners for quantity buttons
             const quantityInput = document.getElementById('quantity-input');
             document.getElementById('decrement-btn').addEventListener('click', function() {
@@ -53,14 +64,27 @@ document.addEventListener('DOMContentLoaded', function () {
             });
             document.getElementById('add-to-cart-btn').addEventListener('click', function() {
                 const qty = parseInt(quantityInput.value, 10);
+                // console.log(`Adding to cart: Book ID ${book.id}, Quantity ${qty}`);
                 if (typeof addToCart === 'function') {
                     addToCart(book.id, qty);
                 } else {
                     alert('addToCart function not found!');
                 }
             });
+            document.getElementById('buy-now-btn').addEventListener('click', function() {
+                // console.log(`Buying now: Book ID ${book.id}`);
+                if (typeof addToCart === 'function') {
+                    addToCart(book.id);
+                    window.location.href = 'checkout.html';
+                } else {
+                    alert('addToCart function not found!');
+                }
+            });
+
         })
         .catch(err => {
-            document.getElementById('book-detail-container').innerHTML = '<div class="col-12 text-center text-danger">Lỗi tải dữ liệu sách!</div>';
+            console.error('Error fetching book data:', err);
         });
 });
+
+console.log('loadbook.js loaded');

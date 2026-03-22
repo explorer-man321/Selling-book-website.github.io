@@ -49,7 +49,7 @@ function displayBooks() {
         const bookCard = `
             <div class="col-md-3 mb-4">
                 <div class="card h-100 shadow-sm">
-                    <a href="book?id=${book.id}">
+                    <a href="detail_page?id=${book.id}">
                         <img src="${book.imglink}" class="card-img-top" alt="${book.title}" style="height: 300px; object-fit: cover;">
                     </a>
                     <div class="card-body">
