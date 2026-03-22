@@ -225,3 +225,13 @@ nav {
 .text-second{
     color: var(--second-color);
 }
+
+.btn-first{
+    background-color: var(--first-color);
+    color: white;
+}
+
+.btn-second{
+    background-color: var(--second-color);
+    color: white;
+}

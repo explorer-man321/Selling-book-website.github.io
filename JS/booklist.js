@@ -63,11 +63,11 @@ function displayBooks() {
                         <img src="${book.imglink}" class="card-img-top" alt="${book.title}" style="height: 300px; object-fit: cover;">
                     </a>
                     <div class="card-body">
-                        <a href="book?id=${book.id}" style="color: black; text-decoration: none;">
+                        <a href="detail_page?id=${book.id}" style="color: black; text-decoration: none;">
                             <h5 class="card-title" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${book.title}</h5>
                         </a>
                         <p class="card-text text-danger fw-bold">${book.price.toLocaleString('vi-VN')} VNĐ</p>
-                        <button class="btn btn-success w-100" onclick="addToCart(${book.id})">Thêm vào giỏ</button>
+                        <button class="btn btn-first w-100" onclick="addToCart(${book.id})">Thêm vào giỏ</button>
                     </div>
                 </div>
             </div>
