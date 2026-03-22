@@ -71,6 +71,41 @@
             margin-bottom: 0;
         }
 
+        .cat-item.image-cat {
+            position: relative;
+            overflow: hidden;
+            color: #fff;
+            border: none;
+            text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+            isolation: isolate;
+            background: transparent;
+        }
+
+        .cat-item.image-cat::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: var(--cat-bg);
+            background-size: cover;
+            background-position: center;
+            filter: blur(2px) brightness(0.6);
+            transform: scale(1.08);
+            z-index: 0;
+        }
+
+        .cat-item.image-cat::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.15);
+            z-index: 1;
+        }
+
+        .cat-item.image-cat span {
+            position: relative;
+            z-index: 2;
+        }
+
         /* PRODUCT CARD */
         .book-card {
             height: 260px;
@@ -302,7 +337,9 @@
             <div class="section-title">DANH MỤC SÁCH</div>
             <div class="row g-2">
                 <div class="col-6 col-md-2">
-                    <div class="wf-block cat-item rounded">Văn Học</div>
+                    <div class="wf-block cat-item image-cat rounded" style="--cat-bg: url(../IMG/vanhoc2.png);">
+                        <span>Văn Học</span>
+                    </div>
                 </div>
                 <div class="col-6 col-md-2">
                     <div class="wf-block cat-item rounded">Kinh Tế</div>

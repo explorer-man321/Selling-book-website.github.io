@@ -123,9 +123,9 @@ function renderCheckoutPage() {
                 formEl.reset();
                 formEl.style.display = 'none';
 
-                setTimeout(() => {
-                    window.location.href = 'booklist.html';
-                }, 2000);
+                // setTimeout(() => {
+                //     window.location.href = 'booklist.html';
+                // }, 2000);
             }, { once: true });
         });
 }
