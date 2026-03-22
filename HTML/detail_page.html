@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wireframe - Trang Chủ Web Bán Sách</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../CSS/detail_page.css">
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <div id="header" class="wf-dark w-100 mb-1">
+        <div class="container d-flex justify-content-between align-items-center h-100 ">
+            <div class="wf-block wf-dark px-4 py-2">
+                <img src="../IMG/logo.png" alt="" style="width: 100px; border-radius: 5px;">
+            </div>
+            <div class="wf-block wf-block1 wf-dark px-4 py-2" style="width:50%">
+
+                <div class="input-group">
+                    <!-- <span class="input-group-text">🔍</span> -->
+                    <input type="text" class="form-control" placeholder="Tìm kiếm..." style="border: none;">
+                    <button class="search-btn" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" viewBox="0 0 24 24"
+                            stroke="#a80116" stroke-width="2.7">
+
+                            <circle cx="11" cy="11" r="7" />
+                            <line x1="16.5" y1="16.5" x2="22" y2="22" />
+
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+            <div class="wf-block wf-dark px-3 py-2">GIỎ HÀNG | TÀI KHOẢN</div>
+        </div>
+    </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <div id="navbar" class="wf-block w-100 mb-3">
+        <!-- [ MENU DANH MỤC: Văn học | Kỹ năng | Thiếu nhi | Giáo khoa | Ngoại ngữ | ... ] -->
+
+        <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top ">
+            <div class="container ">
+
+                <!-- TOGGLE MOBILE -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- MENU -->
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav">
+
+                        <!-- VĂN HỌC -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Văn học</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <h6 class="dropdown-header">Thể loại</h6>
+                                </li>
+                                <li><a class="dropdown-item" href="#">📖 Tiểu thuyết</a></li>
+                                <li><a class="dropdown-item" href="#">✍️ Truyện ngắn</a></li>
+                                <li><a class="dropdown-item" href="#">🌏 Văn học dịch</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <h6 class="dropdown-header">Tác giả nổi bật</h6>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Nguyễn Nhật Ánh</a></li>
+                                <li><a class="dropdown-item" href="#">Paulo Coelho</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- THIẾU NHI -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Thiếu nhi</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <h6 class="dropdown-header">Độ tuổi</h6>
+                                </li>
+                                <li><a class="dropdown-item" href="#">🧸 0 – 6 tuổi</a></li>
+                                <li><a class="dropdown-item" href="#">🎨 7 – 12 tuổi</a></li>
+                                <li><a class="dropdown-item" href="#">📚 13 – 15 tuổi</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item text-danger fw-semibold" href="#">Xem tất cả →</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- KỸ NĂNG (2 cột) -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Kỹ năng</a>
+                            <ul class="dropdown-menu p-3" style="min-width: 400px">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h6 class="dropdown-header">Cá nhân</h6>
+                                            <a class="dropdown-item" href="#">🧠 Tư duy & logic</a>
+                                            <a class="dropdown-item" href="#">💬 Giao tiếp</a>
+                                            <a class="dropdown-item" href="#">⏰ Quản lý thời gian</a>
+                                            <a class="dropdown-item" href="#">❤️ Sức khoẻ tâm thần</a>
+                                        </div>
+                                        <div class="col-6 border-start">
+                                            <h6 class="dropdown-header">Công việc</h6>
+                                            <a class="dropdown-item" href="#">💼 Lãnh đạo</a>
+                                            <a class="dropdown-item" href="#">📈 Kinh doanh</a>
+                                            <a class="dropdown-item" href="#">🚀 Khởi nghiệp</a>
+                                            <a class="dropdown-item" href="#">🤝 Làm việc nhóm</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- GIÁO KHOA -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Giáo khoa</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <h6 class="dropdown-header">Cấp học</h6>
+                                </li>
+                                <li><a class="dropdown-item" href="#">🏫 Tiểu học (lớp 1–5)</a></li>
+                                <li><a class="dropdown-item" href="#">📐 THCS (lớp 6–9)</a></li>
+                                <li><a class="dropdown-item" href="#">🎓 THPT (lớp 10–12)</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item" href="#">Sách tham khảo & luyện thi</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- NGOẠI NGỮ -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Ngoại ngữ</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">🇺🇸 Tiếng Anh</a></li>
+                                <li><a class="dropdown-item" href="#">🇯🇵 Tiếng Nhật</a></li>
+                                <li><a class="dropdown-item" href="#">🇨🇳 Tiếng Trung</a></li>
+                                <li><a class="dropdown-item" href="#">🇰🇷 Tiếng Hàn</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item text-danger fw-semibold" href="#">Ngôn ngữ khác →</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- TÂM LÝ -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Tâm lý</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">🧘 Tâm lý học đại cương</a></li>
+                                <li><a class="dropdown-item" href="#">💞 Tình cảm & hôn nhân</a></li>
+                                <li><a class="dropdown-item" href="#">🌱 Phát triển bản thân</a></li>
+                                <li><a class="dropdown-item" href="#">👨‍👩‍👧 Nuôi dạy con cái</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- FLASH SALE -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-danger fw-semibold" href="#">🔥 Flash Sale</a>
+                        </li> -->
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    </div>
+    <!-- thân -->
+    <div class="container-md " id="info_box">
+
+        <div class="section-wrapper mt-5">
+            <div class="row g-2 align-items-stretch">
+                <div class="col-md-4 ">
+                    <div id="prod_pic" class="wf-block wf-img rounded-3">[ pic ]</div>
+                </div>
+                <div class="col-md-8">
+                    <div  style="min-height: 400px;">
+                        
+
+                            <div class="basic-info-box" >
+
+                                <div>
+                                    <h2 class="book-title">Heo Hồng</h2>
+                                    <p class="tacgia_sach text-muted">Tác giả: <a href="#">Tên Tác Giả</a> &nbsp;·&nbsp; NXB: Nhà
+                                        Xuất Bản</p>
+                                    <p class="tacgia_sach text-muted">Mã SP: <a href="#">36363636</a> &nbsp;·&nbsp; Tình trạng:
+                                        <span style="color:green;font-weight:600;">Còn hàng</span></p>
+                                </div>
+
+                                <hr class="info-divider">
+
+                                <div class="price-block">
+                                    <div class="price">
+                                        <span class="price_new">89.000đ</span>
+                                        <span class="price-old text-muted" >120.000đ</span>
+                                        
+                                    </div>
+                                    <p class="note text-muted">Tiết kiệm <strong>31.000đ</strong> · Miễn phí ship đơn từ
+                                        <strong>199.000đ</strong></p>
+                                </div>
+
+                                <div class="qty-row">
+                                    <span class="qty-label text-muted">Số lượng:</span>
+                                    <div class="qty-ctrl">
+                                        <button class="qty-btn" onclick="changeQty(-1)">-</button>
+                                        <input class="qty-val" id="qtyVal" type="text" value="1" readonly>
+                                        <button class="qty-btn" onclick="changeQty(1)">+</button>
+                                    </div>
+                                    <span style="font-size:12px;color:#888;">Còn 47 sản phẩm</span>
+                                </div>
+
+                                <div class="btn-row">
+                                    <button class="btn-them">🛒 Thêm vào giỏ hàng</button>
+                                    <button class="btn-buy">Mua ngay</button>
+                                </div>
+
+                               
+
+                            </div>
+                        
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Mô tả Thông tin chi tiết Chính sách -->
+        <div class="section-wrapper">
+            <div class="row g-lg-5">
+                <div class=" col-md-9 ">
+                    <div id="disc_box">
+                        <div class="container-fluid p-0 h-100" id="decs_detail_info_box">
+                            <div class="sliderTab" role="tablist">
+                                <ul class="nav_tabs">
+                                    <li class="nav_item active" data-index="0" style="text-transform: uppercase;">
+                                        Thông
+                                        tin chi tiết</li>
+                                    <li class="nav_item" id="tab2" data-index="1" style="text-transform: uppercase;">Mô
+                                        tả</li>
+                                    <div class="back_item" id="backItem">
+                                        <div class="line"></div>
+                                    </div>
+                                </ul>
+                                <div class="content_tabs">
+                                    <div class="tab active">
+                                        <div class="table-responsive">
+
+
+                                            <table class="table table-borderless px-4" id="info_table">
+                                                <tbody>
+                                                    <tr class="border-bottom">
+                                                        <td class="fw-bold">Mã hàng</td>
+                                                        <td class="text-muted" style="font-size: 13px;">
+                                                            9786044354231
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="border-bottom">
+                                                        <td class="fw-bold">Tên nhà cung cấp</td>
+                                                        <td class="text-muted" style="font-size: 13px;">
+                                                            9786044354231
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="border-bottom">
+                                                        <td class="fw-bold">Tác giả</td>
+                                                        <td class="text-muted" style="font-size: 13px;">
+                                                            9786044354231
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="border-bottom">
+                                                        <td class="fw-bold">NXB</td>
+                                                        <td class="text-muted" style="font-size: 13px;">
+                                                            9786044354231
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="border-bottom">
+                                                        <td class="fw-bold">Năm XB</td>
+                                                        <td class="text-muted" style="font-size: 13px;">
+                                                            9786044354231
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="border-bottom">
+                                                        <td class="fw-bold">Trọng lượng (gr)</td>
+                                                        <td class="text-muted" style="font-size: 13px;">
+                                                            9786044354231
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="border-bottom">
+                                                        <td class="fw-bold">Kích thước bao bì</td>
+                                                        <td class="text-muted" style="font-size: 13px;">
+                                                            9786044354231
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="border-bottom">
+                                                        <td class="fw-bold">Số trang</td>
+                                                        <td class="text-muted" style="font-size: 13px;">
+                                                            9786044354231
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="border-bottom">
+                                                        <td class="fw-bold">Hình thức</td>
+                                                        <td class="text-muted" style="font-size: 13px;">
+                                                            9786044354231
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="fw-bold">Sản phẩm bán chạy nhất</td>
+                                                        <td style="font-size: 13px;">
+                                                            <a href="#" class="info-link">Thầy cl Giang Sang</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="tab ">
+                                        <p>Ngày con cất tiếng khóc chào đời ngày mẹ đã nói niềm vui trào dâng ngập
+                                            trời</p>
+                                        <p>Cho con gánh mẹ một lần cả đời mẹ đã tảo tần gánh con</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="chinh_sach_bl wf-img rounded-3" style="min-height: 400px;">
+                        <h3 class="cs_title">CHÍNH SÁCH</h3>
+                        <div class="cs_btn_gr">
+                            <button class="cs_btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasGiaoHang">
+                                Giao hàng
+                            </button>
+                            <button class="cs_btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoiTra">
+                                Đổi trả
+                            </button>
+                            <button class="cs_btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasKhuyenMai">
+                                Khuyến mãi và ưu đãi
+                            </button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-bottom mx-5" tabindex="-1" id="offcanvasGiaoHang"
+            style="height:auto; max-height:50vh;">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Chính sách Giao hàng</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <table class="cs-table">
+                    <tr class="border-bottom">
+                        <td>Phạm vi</td>
+                        <td>Toàn quốc</td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>Thời gian</td>
+                        <td>Nội thành: 1-2 ngày<br>Ngoại thành: 2-5 ngày</td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>Phí giao hàng</td>
+                        <td>Miễn phí đơn từ 199.000đ</td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>Giao nhanh</td>
+                        <td>Hỏa tốc trong ngày tại TP.HCM & Hà Nội</td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>Đơn vị vận chuyển</td>
+                        <td>GHN, GHTK, ViettelPost</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-bottom mx-5" tabindex="-1" id="offcanvasDoiTra"
+            style="height:auto; max-height:50vh;">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Chính sách Đổi trả</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <table class="cs-table">
+                    <tr class="border-bottom">
+                        <td>Thời gian</td>
+                        <td>7 ngày kể từ ngày nhận hàng</td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>Điều kiện</td>
+                        <td>Sản phẩm lỗi do nhà sản xuất</td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>Tình trạng</td>
+                        <td>Còn nguyên vẹn, chưa qua sử dụng</td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>Hồ sơ cần</td>
+                        <td>Hoá đơn + ảnh sản phẩm lỗi</td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>Chi phí</td>
+                        <td>Miễn phí đổi trả 1 lần đầu</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- ===== OFFCANVAS KHUYẾN MÃI ===== -->
+        <div class="offcanvas offcanvas-bottom mx-5" tabindex="-1" id="offcanvasKhuyenMai"
+            style="height:auto; max-height:50vh;">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Khuyến mãi ưu đãi</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <table class="cs-table">
+                    <tr class="border-bottom">
+                        <td>Đăng ký mới</td>
+                        <td>Giảm 10% đơn hàng đầu tiên</td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>Tích điểm</td>
+                        <td>1.000đ = 1 điểm, đổi quà từ 500 điểm</td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>Flash sale</td>
+                        <td>Mỗi thứ 6 hàng tuần — giảm đến 40%</td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>Sinh nhật</td>
+                        <td>Voucher 50.000đ vào ngày sinh nhật</td>
+                    </tr>
+                    <tr class="border-bottom">
+                        <td>Giới thiệu bạn</td>
+                        <td>Nhận 30.000đ khi bạn bè mua lần đầu</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ===== SÁCH ĐỀ XUẤT ===== -->
+    <div class="section-wrapper">
+        <div class="section-title">SÁCH ĐỀ XUẤT</div>
+        <div class="row g-3">
+            <div class="col-6 col-md-2">
+                <div class="book-card d-flex flex-column gap-1">
+                    <div class="wf-block wf-img book-img rounded">[ẢNH BÌA]</div>
+                    <div class="wf-block wf-light book-info rounded flex-fill">Tên sách · Giá</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-2">
+                <div class="book-card d-flex flex-column gap-1">
+                    <div class="wf-block wf-img book-img rounded">[ẢNH BÌA]</div>
+                    <div class="wf-block wf-light book-info rounded flex-fill">Tên sách · Giá</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-2">
+                <div class="book-card d-flex flex-column gap-1">
+                    <div class="wf-block wf-img book-img rounded">[ẢNH BÌA]</div>
+                    <div class="wf-block wf-light book-info rounded flex-fill">Tên sách · Giá</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-2">
+                <div class="book-card d-flex flex-column gap-1">
+                    <div class="wf-block wf-img book-img rounded">[ẢNH BÌA]</div>
+                    <div class="wf-block wf-light book-info rounded flex-fill">Tên sách · Giá</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-2">
+                <div class="book-card d-flex flex-column gap-1">
+                    <div class="wf-block wf-img book-img rounded">[ẢNH BÌA]</div>
+                    <div class="wf-block wf-light book-info rounded flex-fill">Tên sách · Giá</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-2">
+                <div class="book-card d-flex flex-column gap-1">
+                    <div class="wf-block wf-img book-img rounded">[ẢNH BÌA]</div>
+                    <div class="wf-block wf-light book-info rounded flex-fill">Tên sách · Giá</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div><!-- /container -->
+
+    <!-- ===== FOOTER ===== -->
+    <div id="footer" class="wf-block wf-dark w-100 mt-2">
+        [ FOOTER: Giới thiệu | Liên hệ | Chính sách | Mạng xã hội | Bản quyền ]
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+
+        const navItems = document.querySelectorAll('.nav_item[data-index]');
+        const tabs = document.querySelectorAll('.tab');
+        const backItem = document.getElementById('backItem');
+
+        navItems.forEach((item) => {
+            item.addEventListener('click', () => {
+                const index = parseInt(item.dataset.index);
+                navItems.forEach(i => i.classList.remove('active'));
+                tabs.forEach(t => t.classList.remove('active'));
+                item.classList.add('active');
+                tabs[index].classList.add('active');
+                backItem.style.left = (index * 200) + 'px';
+            });
+        });
+    </script>
+</body>
+
+</html>
