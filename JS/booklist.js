@@ -1,6 +1,16 @@
 books = [];
 category = null;
 
+const categoryMap = new Map([
+    ['vanhoc', 'Văn học'],
+    ['thieunhi', 'Thiếu nhi'],
+    ['kinhte', 'Kinh tế'],
+    ['giaokhoa', 'Giáo khoa'],
+    ['ngoaingu', 'Ngoại ngữ'],
+    ['tamly', 'Tâm lý']
+]);
+
+
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(param);
@@ -32,7 +42,7 @@ function displayBooks() {
     const categoryEl = document.getElementById('category');
 
     if (categoryEl && category) {
-        categoryEl.innerHTML = `<h2 class="mb-4">${category ? `Danh mục: ${category}` : 'Tất cả sách'}</h2>`;
+        categoryEl.innerHTML = `<h2 class="mb-4">${category ? `Danh mục: ${categoryMap.get(category) || category}` : 'Tất cả sách'}</h2>`;
     }
     if (!bookList) return;
 
