@@ -7,6 +7,7 @@
     <title>Wireframe - Trang Chủ Web Bán Sách</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/img.css">
 </head>
 
 <body>
@@ -41,7 +42,7 @@
                     <img class="img-fluid" src="../IMG/shopping-cart.svg" alt="" srcset="" width="20px">
                     <p class="text-first" style="font-size:13px;margin: 0;">Giỏ hàng</p>
                 </a>
-                
+
                 <a href="login.html" class="text-decoration-none d-flex flex-column align-items-center gap-1">
                     <img class="img-fluid" src="../IMG/user.svg" alt="" srcset="" width="20px">
                     <p class="text-first" style="font-size:13px;margin: 0;">Đăng nhập</p>
@@ -66,11 +67,11 @@
                 <div class="collapse navbar-collapse" id="navMenu">
                     <ul class="navbar-nav">
                         <a class="nav-link" href="booklist.html?category=vanhoc">Văn học</a>
-                        <a class="nav-link" href="booklist.html?category=thieunhi" >Thiếu nhi</a>
-                        <a class="nav-link" href="booklist.html?category=kinhte" >Kinh tế</a>
-                        <a class="nav-link" href="booklist.html?category=giaokhoa" >Giáo khoa</a>
-                        <a class="nav-link " href="booklist.html?category=ngoaingu" >Ngoại ngữ</a>
-                        <a class="nav-link" href="booklist.html?category=tamly" >Tâm lý</a>
+                        <a class="nav-link" href="booklist.html?category=thieunhi">Thiếu nhi</a>
+                        <a class="nav-link" href="booklist.html?category=kinhte">Kinh tế</a>
+                        <a class="nav-link" href="booklist.html?category=giaokhoa">Giáo khoa</a>
+                        <a class="nav-link " href="booklist.html?category=ngoaingu">Ngoại ngữ</a>
+                        <a class="nav-link" href="booklist.html?category=tamly">Tâm lý</a>
 
                         <!-- FLASH SALE -->
                         <!-- <li class="nav-item">
@@ -88,52 +89,55 @@
         <!-- ===== BANNER SLIDER ===== -->
         <div class="section-wrapper">
             <div class="row g-2">
-                    <div class="col-md-8">
-                        <div id="bannerCarousel" class="carousel slide rounded overflow-hidden" 
-                            data-bs-ride="carousel">
+                <div class="col-md-8">
+                    <div id="bannerCarousel" class="carousel slide rounded overflow-hidden" data-bs-ride="carousel">
 
-                            <!-- Dots -->
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0"
-                                    class="active"></button>
-                                <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="1"></button>
-                                <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="2"></button>
+                        <!-- Dots -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0"
+                                class="active"></button>
+                            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="2"></button>
+                        </div>
+
+                        <!-- Slides -->
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active ">
+                                <img src="../IMG/logo.png" class="d-block" style="width: 100%; height: 461.81px;"
+                                    alt="Banner 1">
                             </div>
-
-                            <!-- Slides -->
-                            <div class="carousel-inner ">
-                                <div class="carousel-item active ">
-                                    <img src="../IMG/logo.png" class="d-block" style="width: 100%; height: 461.81px;"
-                                        alt="Banner 1">
-                                </div>
-                                <div class="carousel-item h-100">
-                                    <img src="../IMG/vanhoc.png" class="d-block" style="width: 100%; height: 461.81px;"
-                                        alt="Banner 2">
-                                </div>
-                                <div class="carousel-item h-100">
-                                    <img src="../IMG/vanhoc2.png" class="d-block" style="width: 100%; height: 461.81px;"
-                                        alt="Banner 3">
-                                </div>
+                            <div class="carousel-item h-100">
+                                <img src="../IMG/vanhoc.png" class="d-block" style="width: 100%; height: 461.81px;"
+                                    alt="Banner 2">
                             </div>
+                            <div class="carousel-item h-100">
+                                <img src="../IMG/vanhoc2.png" class="d-block" style="width: 100%; height: 461.81px;"
+                                    alt="Banner 3">
+                            </div>
+                        </div>
 
-                            <!-- Prev / Next -->
-                            <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </button>
+                        <!-- Prev / Next -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
 
                     </div>
                 </div>
                 <div class="col-md-4 d-flex flex-column gap-2">
                     <div class="rounded flex-fill" style="min-height:185px">
-                        <img  class="d-block w-100 h-100" src="https://cdn1.fahasa.com/media/wysiwyg/Thang-03-2026/Fahasa%20T3_392x156.jpg" alt="" srcset="">
+                        <img class="d-block w-100 h-100"
+                            src="https://cdn1.fahasa.com/media/wysiwyg/Thang-03-2026/Fahasa%20T3_392x156.jpg" alt=""
+                            srcset="">
                     </div>
                     <div class="rounded flex-fill" style="min-height:185px">
-                        <img  class="d-block w-100 h-100" src="https://cdn1.fahasa.com/media/wysiwyg/Thang-03-2026/Shopeebanner_%20392x156.png" alt="" srcset="">
+                        <img class="d-block w-100 h-100"
+                            src="https://cdn1.fahasa.com/media/wysiwyg/Thang-03-2026/Shopeebanner_%20392x156.png" alt=""
+                            srcset="">
                     </div>
                 </div>
             </div>
@@ -182,41 +186,190 @@
             <div class="row g-3">
                 <div class="col-6 col-md-2" *ngFor="let i of [1,2,3,4,5,6]">
                     <div class="book-card d-flex flex-column gap-1">
-                        <div class="wf-block wf-img book-img rounded">[ ẢNH BÌA ]</div>
-                        <div class="wf-block wf-light book-info rounded p-1 flex-fill">
-                            Tên sách<br />Tác giả<br />Giá tiền
-                        </div>
+                        <a href="../HTML/detail_page.html?id=1" style="text-decoration: none; color:inherit;">
+                            <div class="wf-block wf-img book-img rounded ">
+                                <img src="https://cdn1.fahasa.com/media/catalog/product/b/i/bia-2d_ho-diep-va-kinh-ngu_17307.jpg "
+                                 alt="Hồ Điệp Và Kinh Ngư" 
+                                 class="img-fluid h-100 w-100" 
+                                 id="img-1"
+                                 name="Tuế Kiến"
+                                 price="119350₫">
+                                
+                            </div>
+                            <div class="d-block wf-light book-info rounded p-1 flex-fill">
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate">Hồ Điệp Và Kinh Ngư</span>
+                                    
+                                    
+                                </div>
+                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate">Tuế Kiến</span>
+                                </div>
+                                
+                                <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
+                                    119.350₫
+                                </div>
+
+                            </div>
+                            
+                        </a>
+
                     </div>
                 </div>
                 <!-- 6 cards -->
                 <div class="col-6 col-md-2">
                     <div class="book-card d-flex flex-column gap-1">
-                        <div class="wf-block wf-img book-img rounded">[ẢNH BÌA]</div>
-                        <div class="wf-block wf-light book-info rounded flex-fill">Tên sách · Giá</div>
+                        <a href="../HTML/detail_page.html?id=24" style="text-decoration: none; color:inherit;">
+                            <div class="wf-block wf-img book-img rounded">
+                                <img src="https://cdn1.fahasa.com/media/catalog/product/l/i/livestream-thuc-chien-01.jpg"
+                                 alt="Livestream Thực Chiến" 
+                                 class="img-fluid h-100 w-100" 
+                                 id="img-24"
+                                 name="Chen Nanhua, Li Gehua"
+                                 price="224100₫">
+                                
+                            </div>
+                            <div class="d-block wf-light book-info rounded p-1 flex-fill">
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate">Livestream Thực Chiến</span>
+                                    
+                                    
+                                </div>
+                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate">Chen Nanhua, Li Gehua</span>
+                                </div>
+                                
+                                <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
+                                    224.100₫
+                                </div>
+
+                            </div>
+                            
+                        </a>
                     </div>
                 </div>
                 <div class="col-6 col-md-2">
                     <div class="book-card d-flex flex-column gap-1">
-                        <div class="wf-block wf-img book-img rounded">[ẢNH BÌA]</div>
-                        <div class="wf-block wf-light book-info rounded flex-fill">Tên sách · Giá</div>
+                        <a href="../HTML/detail_page.html?id=63" style="text-decoration: none; color:inherit;">
+                            <div class="wf-block wf-img book-img rounded">
+                                <img src="https://cdn1.fahasa.com/media/catalog/product/8/9/8935230010654.jpg"
+                                 alt="Rèn Luyện IQ-EQ-CQ Cho Bé - Mẹ Hỏi Bé Trả Lời - Bé Thông Minh Học Cùng Mẹ - 2-3 Tuổi - Bìa Cứng" 
+                                 class="img-fluid h-100 w-100" 
+                                 id="img-63"
+                                 name="Linh Lan"
+                                 price="28500₫">
+                                
+                            </div>
+                            <div class="d-block wf-light book-info rounded p-1 flex-fill">
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate">Rèn Luyện IQ-EQ-CQ Cho Bé</span>
+                                    
+                                    
+                                </div>
+                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate">Linh Lan</span>
+                                </div>
+                                
+                                <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
+                                    28.500₫
+                                </div>
+
+                            </div>
+                            
+                        </a>
                     </div>
                 </div>
                 <div class="col-6 col-md-2">
                     <div class="book-card d-flex flex-column gap-1">
-                        <div class="wf-block wf-img book-img rounded">[ẢNH BÌA]</div>
-                        <div class="wf-block wf-light book-info rounded flex-fill">Tên sách · Giá</div>
+                        <a href="../HTML/detail_page.html?id=82" style="text-decoration: none; color:inherit;">
+                            <div class="wf-block wf-img book-img rounded">
+                                <img src="https://cdn1.fahasa.com/media/catalog/product/6/0/60dethpttoan.jpg"
+                                 alt="60 Đề Minh Họa Tốt Nghiệp THPT 2026 - Môn Toán" 
+                                 class="img-fluid h-100 w-100" 
+                                 id="img-82"
+                                 name="Lê Văn Tuấn, Nguyễn Thế Duy, Bùi Quyết Tiến, Hà Quang Hưng"
+                                 price="146000₫">
+                                
+                            </div>
+                            <div class="d-block wf-light book-info rounded p-1 flex-fill">
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate">60 Đề Minh Họa Tốt Nghiệp THPT 2026 - Môn Toán</span>
+                                    
+                                    
+                                </div>
+                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate">Lê Văn Tuấn, Nguyễn Thế Duy, Bùi Quyết Tiến, Hà Quang Hưng</span>
+                                </div>
+                                
+                                <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
+                                    146.000₫
+                                </div>
+
+                            </div>
+                            
+                        </a>
                     </div>
                 </div>
                 <div class="col-6 col-md-2">
                     <div class="book-card d-flex flex-column gap-1">
-                        <div class="wf-block wf-img book-img rounded">[ẢNH BÌA]</div>
-                        <div class="wf-block wf-light book-info rounded flex-fill">Tên sách · Giá</div>
+                        <a href="../HTML/detail_page.html?id=101" style="text-decoration: none; color:inherit;">
+                            <div class="wf-block wf-img book-img rounded">
+                                <img src="https://cdn1.fahasa.com/media/catalog/product/9/7/9786043775662.jpg"
+                                 alt="Giáo Trình Chuẩn HSK 1 (Tái Bản 2023)" 
+                                 class="img-fluid h-100 w-100" 
+                                 id="img-101"
+                                 name="Khương Lệ Bình, Vương Phương, Vương Phong, Lưu Lệ Bình"
+                                 price="168000₫">
+                                
+                            </div>
+                           <div class="d-block wf-light book-info rounded p-1 flex-fill">
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate">Giáo Trình Chuẩn HSK 1 (Tái Bản 2023)</span>
+                                    
+                                    
+                                </div>
+                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate">Khương Lệ Bình, Vương Phương, Vương Phong, Lưu Lệ Bình</span>
+                                </div>
+                                
+                                <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
+                                    168.000₫
+                                </div>
+
+                            </div>
+                            
+                        </a>
                     </div>
                 </div>
                 <div class="col-6 col-md-2">
                     <div class="book-card d-flex flex-column gap-1">
-                        <div class="wf-block wf-img book-img rounded">[ẢNH BÌA]</div>
-                        <div class="wf-block wf-light book-info rounded flex-fill">Tên sách · Giá</div>
+                        <a href="../HTML/detail_page.html?id=48" style="text-decoration: none; color:inherit;">
+                            <div class="wf-block wf-img book-img rounded">
+                                <img src="https://cdn1.fahasa.com/media/catalog/product/i/m/image_195509_1_38609.jpg"
+                                 alt="Những Quy Luật Của Bản Chất Con Người" 
+                                 class="img-fluid h-100 w-100" 
+                                 id="img-48"
+                                 name="Robert Greene"
+                                 price="225000₫">
+                                
+                            </div>
+                            <div class="d-block wf-light book-info rounded p-1 flex-fill">
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate">Những Quy Luật Của Bản Chất Con Người</span>
+                                    
+                                    
+                                </div>
+                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate">Robert Greene</span>
+                                </div>
+                                
+                                <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
+                                    225.000₫
+                                </div>
+
+                            </div>
+                            
+                        </a>
                     </div>
                 </div>
             </div>
@@ -293,8 +446,7 @@
                     </p>
                     <!-- Mạng xã hội -->
                     <div class="d-flex gap-2 mt-2">
-                        <a href="https://www.facebook.com/minh.tranquang.71653318"
-                            target="_blank"
+                        <a href="https://www.facebook.com/minh.tranquang.71653318" target="_blank"
                             style="width:36px;height:36px;border-radius:50%;background:#2e2e4d;color:#ccc;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:15px;"
                             onmouseover="this.style.background='#a80116'"
                             onmouseout="this.style.background='#2e2e4d'">f</a>
@@ -348,7 +500,8 @@
                     <h6 class="text-white fw-bold text-uppercase mb-3 pb-2"
                         style="border-bottom:2px solid #a80116; display:inline-block; letter-spacing:.8px; font-size:14px;">
                         Liên Hệ</h6>
-                    <p style="font-size:13.5px; color:#aaa; display:flex; gap:8px; line-height:1.5;">📍 14 Nguyễn văn Bảo, Hạnh Thông, Hồ Chí Minh, Việt Nam</p>
+                    <p style="font-size:13.5px; color:#aaa; display:flex; gap:8px; line-height:1.5;">📍 14 Nguyễn văn
+                        Bảo, Hạnh Thông, Hồ Chí Minh, Việt Nam</p>
                     <p style="font-size:13.5px; color:#aaa; display:flex; gap:8px;">📞 1800 1234 (Miễn phí)</p>
                     <p style="font-size:13.5px; color:#aaa; display:flex; gap:8px;">✉️ support@nhasach.vn</p>
                     <p style="font-size:13.5px; color:#aaa; display:flex; gap:8px;">🕐 T2 – T7: 8:00 – 21:00</p>
@@ -407,6 +560,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
