@@ -49,15 +49,82 @@
             border: 1px solid #dee2e6;
         }
     </style>
+
+    <link rel="stylesheet" href="../CSS/main.css">
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="booklist.html">BookStore</a>
-            <a class="btn btn-outline-light" href="booklist.html">← Tiếp tục mua sắm</a>
+    <!-- ===== HEADER ===== -->
+    <div id="header" class="wf-dark w-100 mb-1 bg-first">
+        <div class="container d-flex justify-content-between align-items-center h-100">
+            <div>
+                <a href="index.html">
+                    <img src="../IMG/logo4.png" alt="" style="width: 200px;">
+                </a>
+            </div>
+            <div class="wf-block wf-block1 wf-dark px-4 py-2" style="width:50%">
+
+                <div class="input-group">
+                    <!-- <span class="input-group-text">🔍</span> -->
+                    <input type="text" class="form-control" placeholder="Tìm kiếm..." style="border: none;">
+                    <button class="search-btn" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" viewBox="0 0 24 24"
+                            stroke="#a80116" stroke-width="2.7">
+
+                            <circle cx="11" cy="11" r="7" />
+                            <line x1="16.5" y1="16.5" x2="22" y2="22" />
+
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+            <div class="wf-dark px-3 py-2 d-flex gap-3 rounded-5">
+                <a href="checkout.html" class="text-decoration-none d-flex flex-column align-items-center gap-1">
+                    <img class="img-fluid" src="../IMG/shopping-cart.svg" alt="" srcset="" width="20px">
+                    <p class="text-first" style="font-size:13px;margin: 0;">Giỏ hàng</p>
+                </a>
+                
+                <a href="login.html" class="text-decoration-none d-flex flex-column align-items-center gap-1">
+                    <img class="img-fluid" src="../IMG/user.svg" alt="" srcset="" width="20px">
+                    <p class="text-first" style="font-size:13px;margin: 0;">Đăng nhập</p>
+                </a>
+            </div>
         </div>
-    </nav>
+    </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <div id="navbar" class="wf-block w-100 mb-3">
+        <!-- [ MENU DANH MỤC: Văn học | Kỹ năng | Thiếu nhi | Giáo khoa | Ngoại ngữ | ... ] -->
+
+        <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top ">
+            <div class="container ">
+
+                <!-- TOGGLE MOBILE -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- MENU -->
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav">
+                        <a class="nav-link" href="booklist.html?category=vanhoc">Văn học</a>
+                        <a class="nav-link" href="booklist.html?category=thieunhi" >Thiếu nhi</a>
+                        <a class="nav-link" href="booklist.html?category=kinhte" >Kinh tế</a>
+                        <a class="nav-link" href="booklist.html?category=giaokhoa" >Giáo khoa</a>
+                        <a class="nav-link " href="booklist.html?category=ngoaingu" >Ngoại ngữ</a>
+                        <a class="nav-link" href="booklist.html?category=tamly" >Tâm lý</a>
+
+                        <!-- FLASH SALE -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-danger fw-semibold" href="#">🔥 Flash Sale</a>
+                        </li> -->
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
 
     <div class="container my-5">
         <h4 class="mb-4 fw-bold">Thanh toán đơn hàng</h4>

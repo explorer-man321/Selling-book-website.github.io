@@ -14,9 +14,9 @@
     <!-- ===== HEADER ===== -->
     <div id="header" class="wf-dark w-100 mb-1 bg-first">
         <div class="container d-flex justify-content-between align-items-center h-100">
-            <div class="wf-block wf-dark px-4 py-2">
+            <div>
                 <a href="index.html">
-                    <img src="../IMG/logo.png" alt="" style="width: 100px; border-radius: 5px;">
+                    <img src="../IMG/logo4.png" alt="" style="width: 200px;">
                 </a>
             </div>
             <div class="wf-block wf-block1 wf-dark px-4 py-2" style="width:50%">
@@ -36,9 +36,16 @@
                 </div>
 
             </div>
-            <div class="wf-dark px-3 py-2 d-flex gap-3">
-                <a href="checkout.html" class="text-decoration-none text-main" style="font-size:13px;">Giỏ hàng</a>
-                <a href="login.html" class="text-decoration-none text-main" style="font-size:13px;">Đăng nhập</a>
+            <div class="wf-dark px-3 py-2 d-flex gap-3 rounded-5">
+                <a href="checkout.html" class="text-decoration-none d-flex flex-column align-items-center gap-1">
+                    <img class="img-fluid" src="../IMG/shopping-cart.svg" alt="" srcset="" width="20px">
+                    <p class="text-first" style="font-size:13px;margin: 0;">Giỏ hàng</p>
+                </a>
+                
+                <a href="login.html" class="text-decoration-none d-flex flex-column align-items-center gap-1">
+                    <img class="img-fluid" src="../IMG/user.svg" alt="" srcset="" width="20px">
+                    <p class="text-first" style="font-size:13px;margin: 0;">Đăng nhập</p>
+                </a>
             </div>
         </div>
     </div>
@@ -74,8 +81,6 @@
                 </div>
             </div>
         </nav>
-
-
     </div>
 
     <div class="container">
@@ -124,8 +129,12 @@
                     </div>
                 </div>
                 <div class="col-md-4 d-flex flex-column gap-2">
-                    <div class="wf-block wf-img rounded flex-fill" style="min-height:185px">[ BANNER PHỤ 1 ]</div>
-                    <div class="wf-block wf-img rounded flex-fill" style="min-height:185px">[ BANNER PHỤ 2 ]</div>
+                    <div class="rounded flex-fill" style="min-height:185px">
+                        <img  class="d-block w-100 h-100" src="https://cdn1.fahasa.com/media/wysiwyg/Thang-03-2026/Fahasa%20T3_392x156.jpg" alt="" srcset="">
+                    </div>
+                    <div class="rounded flex-fill" style="min-height:185px">
+                        <img  class="d-block w-100 h-100" src="https://cdn1.fahasa.com/media/wysiwyg/Thang-03-2026/Shopeebanner_%20392x156.png" alt="" srcset="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -135,24 +144,34 @@
             <div class="section-title">DANH MỤC SÁCH</div>
             <div class="row g-2">
                 <div class="col-6 col-md-2">
-                    <div class="wf-block cat-item image-cat rounded" style="--cat-bg: url(../IMG/vanhoc2.png);">
+                    <div class="wf-block cat-item image-cat rounded" style="--cat-bg: url(../IMG/vanhoc3.jpg);">
                         <span>Văn Học</span>
                     </div>
                 </div>
                 <div class="col-6 col-md-2">
-                    <div class="wf-block cat-item rounded">Kinh Tế</div>
+                    <div class="wf-block cat-item image-cat rounded" style="--cat-bg: url(../IMG/kinhte.jpg);">
+                        <span>Kinh Tế</span>
+                    </div>
                 </div>
                 <div class="col-6 col-md-2">
-                    <div class="wf-block cat-item rounded">Thiếu Nhi</div>
+                    <div class="wf-block cat-item image-cat rounded" style="--cat-bg: url(../IMG/thieunhi.jpg);">
+                        <span>Thiếu Nhi</span>
+                    </div>
                 </div>
                 <div class="col-6 col-md-2">
-                    <div class="wf-block cat-item rounded">Giáo Khoa</div>
+                    <div class="wf-block cat-item image-cat rounded" style="--cat-bg: url(../IMG/giaokhoa.jpg);">
+                        <span>Giáo Khoa</span>
+                    </div>
                 </div>
                 <div class="col-6 col-md-2">
-                    <div class="wf-block cat-item rounded">Ngoại Ngữ</div>
+                    <div class="wf-block cat-item image-cat rounded" style="--cat-bg: url(../IMG/ngoaingu.webp);">
+                        <span>Ngoại Ngữ</span>
+                    </div>
                 </div>
                 <div class="col-6 col-md-2">
-                    <div class="wf-block cat-item rounded">Tâm Lý</div>
+                    <div class="wf-block cat-item image-cat rounded" style="--cat-bg: url(../IMG/tamly.jpg);">
+                        <span>Tâm Lý</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -170,12 +189,6 @@
                     </div>
                 </div>
                 <!-- 6 cards -->
-                <div class="col-6 col-md-2">
-                    <div class="book-card d-flex flex-column gap-1">
-                        <div class="wf-block wf-img book-img rounded">[ẢNH BÌA]</div>
-                        <div class="wf-block wf-light book-info rounded flex-fill">Tên sách · Giá</div>
-                    </div>
-                </div>
                 <div class="col-6 col-md-2">
                     <div class="book-card d-flex flex-column gap-1">
                         <div class="wf-block wf-img book-img rounded">[ẢNH BÌA]</div>
