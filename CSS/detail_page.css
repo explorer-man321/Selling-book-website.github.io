@@ -416,7 +416,7 @@ nav {
 
 /* Giá */
 .price-block {
-    background: linear-gradient(135deg, #fffbf0, navajowhite);
+    background-image: linear-gradient(135deg, #fffbf0, navajowhite);
     border: 1px solid #d0ae50;
     border-radius: 16px 32px;
     padding: 16px 20px;
@@ -477,7 +477,7 @@ nav {
 }
 
 .qty-btn {
-    background: #e8e8e8;
+    background-color: #e8e8e8;
     border: none;
     width: 36px;
     height: 36px;
@@ -504,7 +504,7 @@ nav {
     font-size: 15px;
     border: none;
     outline: none;
-    background: #fff;
+    background-color: #fff;
     color: navy;
 }
 
@@ -534,7 +534,7 @@ nav {
 }
 
 .btn-them:hover {
-    background: #0a3080;
+    background-color: #0a3080;
     transform: translateY(-2px);
     box-shadow: 0 6px 18px rgba(0, 31, 91, .28);
 }
@@ -542,7 +542,7 @@ nav {
 .btn-buy {
     flex: 1;
     min-width: 130px;
-    background: linear-gradient(135deg, #f3d070, navajowhite);
+    background-image: linear-gradient(135deg, #f3d070, navajowhite);
     color: #fff;
     border: none;
     border-radius: 12px;
