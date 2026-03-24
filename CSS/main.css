@@ -243,3 +243,8 @@ nav {
     background-color: var(--second-color);
     color: white;
 }
+
+.nav-link:hover{
+    background-color: var(--first-color);
+    color: white !important;
+}
