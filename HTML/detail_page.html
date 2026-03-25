@@ -42,7 +42,7 @@
                     <img class="img-fluid" src="../IMG/shopping-cart.svg" alt="" srcset="" width="20px">
                     <p class="text-first" style="font-size:13px;margin: 0;">Giỏ hàng</p>
                 </a>
-                
+
                 <a href="login.html" class="text-decoration-none d-flex flex-column align-items-center gap-1">
                     <img class="img-fluid" src="../IMG/user.svg" alt="" srcset="" width="20px">
                     <p class="text-first" style="font-size:13px;margin: 0;">Đăng nhập</p>
@@ -67,11 +67,11 @@
                 <div class="collapse navbar-collapse" id="navMenu">
                     <ul class="navbar-nav">
                         <a class="nav-link" href="booklist.html?category=vanhoc">Văn học</a>
-                        <a class="nav-link" href="booklist.html?category=thieunhi" >Thiếu nhi</a>
-                        <a class="nav-link" href="booklist.html?category=kinhte" >Kinh tế</a>
-                        <a class="nav-link" href="booklist.html?category=giaokhoa" >Giáo khoa</a>
-                        <a class="nav-link " href="booklist.html?category=ngoaingu" >Ngoại ngữ</a>
-                        <a class="nav-link" href="booklist.html?category=tamly" >Tâm lý</a>
+                        <a class="nav-link" href="booklist.html?category=thieunhi">Thiếu nhi</a>
+                        <a class="nav-link" href="booklist.html?category=kinhte">Kinh tế</a>
+                        <a class="nav-link" href="booklist.html?category=giaokhoa">Giáo khoa</a>
+                        <a class="nav-link " href="booklist.html?category=ngoaingu">Ngoại ngữ</a>
+                        <a class="nav-link" href="booklist.html?category=tamly">Tâm lý</a>
 
                         <!-- FLASH SALE -->
                         <!-- <li class="nav-item">
@@ -90,75 +90,78 @@
         <div class="section-wrapper mt-5">
             <div class="row g-2 align-items-stretch">
                 <div class="col-md-4 ">
-                    <img src="" alt="bia sach" id = "book-cover" style="height: 100%; width: 100%; object-fit: cover; border-radius: 10px;">
+                    <img src="" alt="bia sach" id="book-cover"
+                        style="height: 100%; width: 100%; object-fit: cover; border-radius: 10px;">
                 </div>
                 <div class="col-md-8">
-                    <div  style="min-height: 400px;">
-                            <div class="basic-info-box" >
-                                <h2 class="book-title" id="book-title">Heo Hồng</h2>
+                    <div style="min-height: 400px;">
+                        <div class="basic-info-box">
+                            <h2 class="book-title" id="book-title">Heo Hồng</h2>
 
-                                <div class="container-fluid">
-                                    <div class="row g-2">
-                                        <div class="col">
-                                            <p class="text-muted">Tác giả: </p>
-                                        </div>
-                                        <div class="col">
-                                            <p class="text-black" id="book-author">Nguadfk</p>
-                                        </div>
+                            <div class="container-fluid">
+                                <div class="row g-2">
+                                    <div class="col">
+                                        <p class="text-muted">Tác giả: </p>
                                     </div>
-                                    
-                                    <div class="row g-2">
-                                        <div class="col">
-                                            <p class="text-muted">Nhà xuất bản: </p>
-                                        </div>
-                                        <div class="col">
-                                            <p class="text-black" id="book-publisher">Năm anh em</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="row g-2">
-                                        <div class="col">
-                                            <p class="text-muted">Tình trạng: </p>
-                                        </div>
-                                        <div class="col">
-                                            <p class="text-muted">
-                                                <span style="color:green;font-weight:600;">Còn hàng</span>
-                                            </p>
-                                        </div>
+                                    <div class="col">
+                                        <p class="text-black" id="book-author">Nguadfk</p>
                                     </div>
                                 </div>
 
-                                <hr class="info-divider">
-
-                                <div class="price-block">
-                                    <div class="price">
-                                        <span class="price_new" id = "book-price">89.000đ</span>
-                                        <span class="price-old text-muted" id = "book-old-price">120.000đ</span>
-                                        
+                                <div class="row g-2">
+                                    <div class="col">
+                                        <p class="text-muted">Nhà xuất bản: </p>
                                     </div>
-                                    <p class="note text-muted" id = "savings-note">Tiết kiệm <strong>31.000đ</strong> · Miễn phí ship đơn từ
-                                        <strong>199.000đ</strong></p>
-                                </div>
-
-                                <div class="qty-row">
-                                    <span class="qty-label text-muted">Số lượng:</span>
-                                    <div class="qty-ctrl">
-                                        <button class="qty-btn" id="decrement-btn">-</button>
-                                        <input class="qty-val" id="quantity-input" type="text" value="1" readonly>
-                                        <button class="qty-btn" id="increment-btn">+</button>
+                                    <div class="col">
+                                        <p class="text-black" id="book-publisher">Năm anh em</p>
                                     </div>
-                                    <span style="font-size:12px;color:#888;">Còn 36 sản phẩm</span>
                                 </div>
 
-                                <div class="btn-row">
-                                    <button class="btn-them btn-first" id="add-to-cart-btn">Thêm vào giỏ hàng</button>
-                                    <button class="btn-buy btn-second" id="buy-now-btn">Mua ngay</button>
+                                <div class="row g-2">
+                                    <div class="col">
+                                        <p class="text-muted">Tình trạng: </p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="text-muted">
+                                            <span style="color:green;font-weight:600;">Còn hàng</span>
+                                        </p>
+                                    </div>
                                 </div>
-
-                               
-
                             </div>
-                        
+
+                            <hr class="info-divider">
+
+                            <div class="price-block">
+                                <div class="price">
+                                    <span class="price_new" id="book-price">89.000đ</span>
+                                    <span class="price-old text-muted" id="book-old-price">120.000đ</span>
+
+                                </div>
+                                <p class="note text-muted" id="savings-note">Tiết kiệm <strong>31.000đ</strong> · Miễn
+                                    phí ship đơn từ
+                                    <strong>199.000đ</strong>
+                                </p>
+                            </div>
+
+                            <div class="qty-row">
+                                <span class="qty-label text-muted">Số lượng:</span>
+                                <div class="qty-ctrl">
+                                    <button class="qty-btn" id="decrement-btn">-</button>
+                                    <input class="qty-val" id="quantity-input" type="text" value="1" readonly>
+                                    <button class="qty-btn" id="increment-btn">+</button>
+                                </div>
+                                <span style="font-size:12px;color:#888;">Còn 36 sản phẩm</span>
+                            </div>
+
+                            <div class="btn-row">
+                                <button class="btn-them btn-first" id="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                                <button class="btn-buy btn-second" id="buy-now-btn">Mua ngay</button>
+                            </div>
+
+
+
+                        </div>
+
 
                     </div>
 
@@ -247,7 +250,8 @@
                                                     <tr>
                                                         <td class="fw-bold">Sản phẩm bán chạy nhất</td>
                                                         <td style="font-size: 13px;">
-                                                            <a href="#" class="info-link">Top 100 Cuốn Sách bán chạy nhất của tuần</a>
+                                                            <a href="#" class="info-link">Top 100 Cuốn Sách bán chạy
+                                                                nhất của tuần</a>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -255,7 +259,7 @@
                                             </table>
                                         </div>
                                     </div>
-                                    <div class="tab " id = "description">
+                                    <div class="tab " id="description">
                                         <p>Ngày con cất tiếng khóc chào đời ngày mẹ đã nói niềm vui trào dâng ngập
                                             trời</p>
                                         <p>Cho con gánh mẹ một lần cả đời mẹ đã tảo tần gánh con</p>
@@ -266,16 +270,16 @@
                     </div>
                 </div>
                 <div class="col-md-3 ">
-                    <div class="chinh_sach_bl wf-img rounded-3" style="min-height: 400px; background-color: white;">
+                    <div class="chinh_sach_bl rounded-3" style="min-height: 400px; background-color: rgb(255, 255, 255); ">
                         <h3 class="cs_title text-first">CHÍNH SÁCH</h3>
                         <div class="cs_btn_gr">
-                            <button class="cs_btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasGiaoHang">
+                            <button class="cs_btn" onclick="openCsModal('giao-hang')">
                                 Giao hàng
                             </button>
-                            <button class="cs_btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoiTra">
+                            <button class="cs_btn" onclick="openCsModal('doi-tra')">
                                 Đổi trả
                             </button>
-                            <button class="cs_btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasKhuyenMai">
+                            <button class="cs_btn" onclick="openCsModal('khuyen-mai')">
                                 Khuyến mãi và ưu đãi
                             </button>
                         </div>
@@ -285,103 +289,17 @@
                 </div>
             </div>
         </div>
-        <div class="offcanvas offcanvas-bottom mx-5" tabindex="-1" id="offcanvasGiaoHang"
-            style="height:auto; max-height:50vh;">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title">Chính sách Giao hàng</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-            </div>
-            <div class="offcanvas-body">
-                <table class="cs-table">
-                    <tr class="border-bottom">
-                        <td>Phạm vi</td>
-                        <td>Toàn quốc</td>
-                    </tr>
-                    <tr class="border-bottom">
-                        <td>Thời gian</td>
-                        <td>Nội thành: 1-2 ngày<br>Ngoại thành: 2-5 ngày</td>
-                    </tr>
-                    <tr class="border-bottom">
-                        <td>Phí giao hàng</td>
-                        <td>Miễn phí đơn từ 199.000đ</td>
-                    </tr>
-                    <tr class="border-bottom">
-                        <td>Giao nhanh</td>
-                        <td>Hỏa tốc trong ngày tại TP.HCM & Hà Nội</td>
-                    </tr>
-                    <tr class="border-bottom">
-                        <td>Đơn vị vận chuyển</td>
-                        <td>GHN, GHTK, ViettelPost</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <div class="offcanvas offcanvas-bottom mx-5" tabindex="-1" id="offcanvasDoiTra"
-            style="height:auto; max-height:50vh;">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title">Chính sách Đổi trả</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-            </div>
-            <div class="offcanvas-body">
-                <table class="cs-table">
-                    <tr class="border-bottom">
-                        <td>Thời gian</td>
-                        <td>7 ngày kể từ ngày nhận hàng</td>
-                    </tr>
-                    <tr class="border-bottom">
-                        <td>Điều kiện</td>
-                        <td>Sản phẩm lỗi do nhà sản xuất</td>
-                    </tr>
-                    <tr class="border-bottom">
-                        <td>Tình trạng</td>
-                        <td>Còn nguyên vẹn, chưa qua sử dụng</td>
-                    </tr>
-                    <tr class="border-bottom">
-                        <td>Hồ sơ cần</td>
-                        <td>Hoá đơn + ảnh sản phẩm lỗi</td>
-                    </tr>
-                    <tr class="border-bottom">
-                        <td>Chi phí</td>
-                        <td>Miễn phí đổi trả 1 lần đầu</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
 
-        <!-- ===== OFFCANVAS KHUYẾN MÃI ===== -->
-        <div class="offcanvas offcanvas-bottom mx-5" tabindex="-1" id="offcanvasKhuyenMai"
-            style="height:auto; max-height:50vh;">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title">Khuyến mãi ưu đãi</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div id="csModalBackdrop" class="cs-modal-backdrop" onclick="closeCsModal(event)">
+        <div class="cs-modal-box">
+            <div class="cs-modal-header">
+                <h5 class="cs-modal-title" id="csModalTitle"></h5>
+                <button class="cs-modal-close" onclick="closeCsModalDirect()">✕</button>
             </div>
-            <div class="offcanvas-body">
-                <table class="cs-table">
-                    <tr class="border-bottom">
-                        <td>Đăng ký mới</td>
-                        <td>Giảm 10% đơn hàng đầu tiên</td>
-                    </tr>
-                    <tr class="border-bottom">
-                        <td>Tích điểm</td>
-                        <td>1.000đ = 1 điểm, đổi quà từ 500 điểm</td>
-                    </tr>
-                    <tr class="border-bottom">
-                        <td>Flash sale</td>
-                        <td>Mỗi thứ 6 hàng tuần — giảm đến 40%</td>
-                    </tr>
-                    <tr class="border-bottom">
-                        <td>Sinh nhật</td>
-                        <td>Voucher 50.000đ vào ngày sinh nhật</td>
-                    </tr>
-                    <tr class="border-bottom">
-                        <td>Giới thiệu bạn</td>
-                        <td>Nhận 30.000đ khi bạn bè mua lần đầu</td>
-                    </tr>
-                </table>
-            </div>
+            <div class="cs-modal-body" id="csModalBody"></div>
         </div>
     </div>
-
 
 
     <!-- ===== SÁCH ĐỀ XUẤT ===== -->
@@ -580,6 +498,65 @@
                 tabs[index].classList.add('active');
                 backItem.style.left = (index * 200) + 'px';
             });
+        });
+         const csData = {
+            'giao-hang': {
+                title: 'Chính sách Giao hàng',
+                rows: [
+                    ['Phạm vi',            'Toàn quốc'],
+                    ['Thời gian',          'Nội thành: 1-2 ngày<br>Ngoại thành: 2-5 ngày'],
+                    ['Phí giao hàng',      'Miễn phí đơn từ 199.000đ'],
+                    ['Giao nhanh',         'Hỏa tốc trong ngày tại TP.HCM & Hà Nội'],
+                    ['Đơn vị vận chuyển',  'GHN, GHTK, ViettelPost']
+                ]
+            },
+            'doi-tra': {
+                title: 'Chính sách Đổi trả',
+                rows: [
+                    ['Thời gian',   '7 ngày kể từ ngày nhận hàng'],
+                    ['Điều kiện',   'Sản phẩm lỗi do nhà sản xuất'],
+                    ['Tình trạng',  'Còn nguyên vẹn, chưa qua sử dụng'],
+                    ['Hồ sơ cần',   'Hoá đơn + ảnh sản phẩm lỗi'],
+                    ['Chi phí',     'Miễn phí đổi trả 1 lần đầu']
+                ]
+            },
+            'khuyen-mai': {
+                title: 'Khuyến mãi ưu đãi',
+                rows: [
+                    ['Đăng ký mới',    'Giảm 10% đơn hàng đầu tiên'],
+                    ['Tích điểm',      '1.000đ = 1 điểm, đổi quà từ 500 điểm'],
+                    ['Flash sale',     'Mỗi thứ 6 hàng tuần — giảm đến 40%'],
+                    ['Sinh nhật',      'Voucher 50.000đ vào ngày sinh nhật'],
+                    ['Giới thiệu bạn', 'Nhận 30.000đ khi bạn bè mua lần đầu']
+                ]
+            }
+        };
+ 
+        function openCsModal(key) {
+            const data = csData[key];
+            document.getElementById('csModalTitle').textContent = data.title;
+            document.getElementById('csModalBody').innerHTML = `
+                <table>
+                    ${data.rows.map(row => `
+                        <tr class="border-bottom">
+                            <td>${row[0]}</td>
+                            <td>${row[1]}</td>
+                        </tr>
+                    `).join('')}
+                </table>
+            `;
+            document.getElementById('csModalBackdrop').classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeCsModalDirect() {
+            document.getElementById('csModalBackdrop').classList.remove('show');
+            document.body.style.overflow = '';
+        }
+        function closeCsModal(e) {
+            if (e.target.id === 'csModalBackdrop') closeCsModalDirect();
+        }
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeCsModalDirect();
         });
     </script>
 </body>
