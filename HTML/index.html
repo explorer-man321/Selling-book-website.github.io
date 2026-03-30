@@ -68,17 +68,14 @@
                 <!-- MENU -->
                 <div class="collapse navbar-collapse" id="navMenu">
                     <ul class="navbar-nav">
-                        <a class="nav-link" href="booklist.html?category=vanhoc">Văn học</a>
-                        <a class="nav-link" href="booklist.html?category=thieunhi">Thiếu nhi</a>
-                        <a class="nav-link" href="booklist.html?category=kinhte">Kinh tế</a>
-                        <a class="nav-link" href="booklist.html?category=giaokhoa">Giáo khoa</a>
-                        <a class="nav-link " href="booklist.html?category=ngoaingu">Ngoại ngữ</a>
-                        <a class="nav-link" href="booklist.html?category=tamly">Tâm lý</a>
+                        <a class="nav-link px-3 mx-2" href="booklist.html?category=vanhoc">Văn học</a>
+                        <a class="nav-link px-3 mx-2" href="booklist.html?category=thieunhi">Thiếu nhi</a>
+                        <a class="nav-link px-3 mx-2" href="booklist.html?category=kinhte">Kinh tế</a>
+                        <a class="nav-link px-3 mx-2" href="booklist.html?category=giaokhoa">Giáo khoa</a>
+                        <a class="nav-link px-3 mx-2" href="booklist.html?category=ngoaingu">Ngoại ngữ</a>
+                        <a class="nav-link px-3 mx-2" href="booklist.html?category=tamly">Tâm lý</a>
 
-                        <!-- FLASH SALE -->
-                        <!-- <li class="nav-item">
-                            <a class="nav-link text-danger fw-semibold" href="#">🔥 Flash Sale</a>
-                        </li> -->
+                        
 
                     </ul>
                 </div>
@@ -147,35 +144,35 @@
 
         <!-- ===== DANH MỤC NHANH ===== -->
         <div class="section-wrapper">
-            <div class="section-title">DANH MỤC SÁCH</div>
+            <div class="section-title danh-muc">DANH MỤC SÁCH</div>
             <div class="row g-2">
                 <div class="col-6 col-md-2">
-                    <a class="wf-block cat-item image-cat rounded" style="--cat-bg: url(../IMG/vanhoc3.jpg); text-decoration: none;" href="booklist.html?category=vanhoc">
+                    <a class="wf-block cat-item image-cat rounded category-img" style="--cat-bg: url(../IMG/vanhoc3.jpg); text-decoration: none;" href="booklist.html?category=vanhoc">
                         <span>Văn Học</span>
                     </a>
                 </div>
                 <div class="col-6 col-md-2">
-                    <a class="wf-block cat-item image-cat rounded" style="--cat-bg: url(../IMG/kinhte.jpg); text-decoration: none;" href="booklist.html?category=kinhte">
+                    <a class="wf-block cat-item image-cat rounded category-img" style="--cat-bg: url(../IMG/kinhte.jpg); text-decoration: none;" href="booklist.html?category=kinhte">
                         <span>Kinh Tế</span>
                     </a>
                 </div>
                 <div class="col-6 col-md-2">
-                    <a class="wf-block cat-item image-cat rounded" style="--cat-bg: url(../IMG/thieunhi.jpg); text-decoration: none;" href="booklist.html?category=thieunhi">
+                    <a class="wf-block cat-item image-cat rounded category-img" style="--cat-bg: url(../IMG/thieunhi.jpg); text-decoration: none;" href="booklist.html?category=thieunhi">
                         <span>Thiếu Nhi</span>
                     </a>
                 </div>
                 <div class="col-6 col-md-2">
-                    <a class="wf-block cat-item image-cat rounded" style="--cat-bg: url(../IMG/giaokhoa.jpg); text-decoration: none;" href="booklist.html?category=giaokhoa">
+                    <a class="wf-block cat-item image-cat rounded category-img " style="--cat-bg: url(../IMG/giaokhoa.jpg); text-decoration: none;" href="booklist.html?category=giaokhoa">
                         <span>Giáo Khoa</span>
                     </a>
                 </div>
                 <div class="col-6 col-md-2">
-                    <a class="wf-block cat-item image-cat rounded" style="--cat-bg: url(../IMG/ngoaingu.webp); text-decoration: none;" href="booklist.html?category=ngoaingu">
+                    <a class="wf-block cat-item image-cat rounded category-img" style="--cat-bg: url(../IMG/ngoaingu.webp); text-decoration: none;" href="booklist.html?category=ngoaingu">
                         <span>Ngoại Ngữ</span>
                     </a>
                 </div>
                 <div class="col-6 col-md-2">
-                    <a class="wf-block cat-item image-cat rounded" style="--cat-bg: url(../IMG/tamly.jpg); text-decoration: none;" href="booklist.html?category=tamly">
+                    <a class="wf-block cat-item image-cat rounded category-img" style="--cat-bg: url(../IMG/tamly.jpg); text-decoration: none;" href="booklist.html?category=tamly">
                         <span>Tâm Lý</span>
                     </a>
                 </div>
@@ -184,12 +181,12 @@
 
         <!-- ===== SÁCH BÁN CHẠY ===== -->
         <div class="section-wrapper">
-            <div class="section-title">SÁCH BÁN CHẠY</div>
+            <div class="section-title danh-muc">SÁCH BÁN CHẠY</div>
             <div class="row g-3">
                 <div class="col-6 col-md-2" *ngFor="let i of [1,2,3,4,5,6]">
-                    <div class="book-card d-flex flex-column gap-1">
-                        <a href="../HTML/detail_page.html?id=1" style="text-decoration: none; color:inherit;">
-                            <div class="wf-block wf-img book-img rounded ">
+                    <div class=" rounded-3  d-flex flex-column gap-1 wf-block1 ">
+                        <a  href="../HTML/detail_page.html?id=1" style="text-decoration: none; color:inherit;     ">
+                            <div class="wf-block wf-img book-img  rounded-top ">
                                 <img src="https://cdn1.fahasa.com/media/catalog/product/b/i/bia-2d_ho-diep-va-kinh-ngu_17307.jpg "
                                  alt="Hồ Điệp Và Kinh Ngư" 
                                  class="img-fluid h-100 w-100" 
@@ -198,15 +195,15 @@
                                  price="119350₫">
                                 
                             </div>
-                            <div class="d-block wf-light book-info rounded p-1 flex-fill">
-                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">Hồ Điệp Và Kinh Ngư</span>
+                            <div class="d-block wf-light book-info  p-1 flex-fill rounded-bottom">
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark " style="height: 60%;">
+                                    <span class="text-truncate-2">Hồ Điệp Và Kinh Ngư</span>
                                     
                                     
                                 </div>
-                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">Tuế Kiến</span>
-                                </div>
+                                <!-- <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate-2">Tuế Kiến</span>
+                                </div> -->
                                 
                                 <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
                                     119.350₫
@@ -232,14 +229,14 @@
                                 
                             </div>
                             <div class="d-block wf-light book-info rounded p-1 flex-fill">
-                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">Livestream Thực Chiến</span>
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark " style="height: 60%;">
+                                    <span class="text-truncate-2">Livestream Thực Chiến</span>
                                     
                                     
                                 </div>
-                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                <!-- <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
                                     <span class="text-truncate">Chen Nanhua, Li Gehua</span>
-                                </div>
+                                </div> -->
                                 
                                 <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
                                     224.100₫
@@ -263,14 +260,14 @@
                                 
                             </div>
                             <div class="d-block wf-light book-info rounded p-1 flex-fill">
-                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">Rèn Luyện IQ-EQ-CQ Cho Bé</span>
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark  " style="height: 60%;">
+                                    <span class="text-truncate-2">Rèn Luyện IQ-EQ-CQ Cho Bé</span>
                                     
                                     
                                 </div>
-                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                <!-- <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
                                     <span class="text-truncate">Linh Lan</span>
-                                </div>
+                                </div> -->
                                 
                                 <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
                                     28.500₫
@@ -294,14 +291,14 @@
                                 
                             </div>
                             <div class="d-block wf-light book-info rounded p-1 flex-fill">
-                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">60 Đề Minh Họa Tốt Nghiệp THPT 2026 - Môn Toán</span>
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark" style="height: 60%;">
+                                    <span class="text-truncate-2" style="height: fit-content;">60 Đề Minh Họa Tốt Nghiệp THPT 2026 - Môn Toán</span>
                                     
                                     
                                 </div>
-                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                <!-- <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
                                     <span class="text-truncate">Lê Văn Tuấn, Nguyễn Thế Duy, Bùi Quyết Tiến, Hà Quang Hưng</span>
-                                </div>
+                                </div> -->
                                 
                                 <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
                                     146.000₫
@@ -325,14 +322,14 @@
                                 
                             </div>
                            <div class="d-block wf-light book-info rounded p-1 flex-fill">
-                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">Giáo Trình Chuẩn HSK 1 (Tái Bản 2023)</span>
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark" style="height: 60%;">
+                                    <span class="text-truncate-2">Giáo Trình Chuẩn HSK 1 (Tái Bản 2023)</span>
                                     
                                     
                                 </div>
-                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                <!-- <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
                                     <span class="text-truncate">Khương Lệ Bình, Vương Phương, Vương Phong, Lưu Lệ Bình</span>
-                                </div>
+                                </div> -->
                                 
                                 <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
                                     168.000₫
@@ -356,14 +353,14 @@
                                 
                             </div>
                             <div class="d-block wf-light book-info rounded p-1 flex-fill">
-                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">Những Quy Luật Của Bản Chất Con Người</span>
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark " style="height: 60%;">
+                                    <span class="text-truncate-2">Những Quy Luật Của Bản Chất Con Người</span>
                                     
                                     
                                 </div>
-                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                <!-- <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
                                     <span class="text-truncate">Robert Greene</span>
-                                </div>
+                                </div> -->
                                 
                                 <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
                                     225.000₫
@@ -379,12 +376,47 @@
 
         <!-- ===== BANNER KHUYẾN MÃI ===== -->
         <div class="section-wrapper">
-            <div id="promo" class="wf-block wf-img rounded w-100">[ BANNER KHUYẾN MÃI / FLASH SALE ]</div>
+            <div id="promo" class="wf-block wf-dark rounded w-100">
+                <ul class="d-flex list-unstyled py-1 align-content-center justify-content-center flex-wrap gap-3">
+                    <li>
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/3_NCC_TanViet_115x115.png" alt="">
+                    </li>
+                    <li>
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_AlphaBooks_115x115.png" alt="">
+                    </li>
+                    <li>
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_DinhTi_115x115.png" alt="">
+                    </li>
+                    <li>
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_Deli_115x115.png" alt="">
+                    </li>
+                    <li>
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_NXB_Tre_115x115.png" alt="">
+                    </li>
+                    <li>
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/17_NCC_AZ_115x115.png" alt="">
+                    </li>
+                    <li>
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/18_NCC_SkyBook_115x115.png" alt="">
+                    </li>
+                    <li>
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_PhuSi_115x115.png" alt="">
+                    </li>
+                    <li>
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_TueTri_115x115.png" alt="">
+                    </li>
+                    <li>
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/11_NCC_BachViet_115x115.png" alt="">
+                    </li>
+                    
+                </ul>
+
+            </div>
         </div>
 
         <!-- ===== SÁCH MỚI NHẤT ===== -->
         <div class="section-wrapper">
-            <div class="section-title">SÁCH MỚI NHẤT</div>
+            <div class="section-title danh-muc">SÁCH MỚI NHẤT</div>
             <div class="row g-3">
                 <div class="col-6 col-md-2">
                     <div class="book-card d-flex flex-column gap-1">
@@ -399,14 +431,14 @@
                                 
                             </div>
                             <div class="d-block wf-light book-info rounded p-1 flex-fill">
-                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">Cho Tôi Xin Một Vé Đi Tuổi Thơ (Tái Bản 2023)</span>
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark " style="height: 60%;">
+                                    <span class="text-truncate-2">Cho Tôi Xin Một Vé Đi Tuổi Thơ (Tái Bản 2023)</span>
                                     
                                     
                                 </div>
-                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                <!-- <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
                                     <span class="text-truncate">Nguyễn Nhật Ánh</span>
-                                </div>
+                                </div> -->
                                 
                                 <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
                                     76.500₫
@@ -430,14 +462,14 @@
                                 
                             </div>
                             <div class="d-block wf-light book-info rounded p-1 flex-fill">
-                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">Khởi Nghiệp Ít Rút Ro - Rủi Ro Càng Ít, Lợi Nhuận Càng Cao</span>
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark  " style="height: 60%;">
+                                    <span class="text-truncate-2">Khởi Nghiệp Ít Rút Ro - Rủi Ro Càng Ít, Lợi Nhuận Càng Cao</span>
                                     
                                     
                                 </div>
-                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                <!-- <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
                                     <span class="text-truncate">Phàn Đăng</span>
-                                </div>
+                                </div> -->
                                 
                                 <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
                                     198.000₫
@@ -461,14 +493,14 @@
                                 
                             </div>
                             <div class="d-block wf-light book-info rounded p-1 flex-fill">
-                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">Dế Mèn Phiêu Lưu Ký - Tái Bản 2020</span>
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark " style="height: 60%;">
+                                    <span class="text-truncate-2">Dế Mèn Phiêu Lưu Ký - Tái Bản 2020</span>
                                     
                                     
                                 </div>
-                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                <!-- <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark " >
                                     <span class="text-truncate">Tô Hoài</span>
-                                </div>
+                                </div> -->
                                 
                                 <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
                                     45.000₫
@@ -492,14 +524,14 @@
                                 
                             </div>
                             <div class="d-block wf-light book-info rounded p-1 flex-fill">
-                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">Giáo Trình Chuẩn HSK 5 - Tập 1</span>
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark " style="height: 60%;">
+                                    <span class="text-truncate-2">Giáo Trình Chuẩn HSK 5 - Tập 1</span>
                                     
                                     
                                 </div>
-                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                <!-- <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
                                     <span class="text-truncate">Khương Lệ Bình, Lỗ Giang, Lưu Sướng</span>
-                                </div>
+                                </div> -->
                                 
                                 <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
                                     236.000₫
@@ -523,14 +555,14 @@
                                 
                             </div>
                             <div class="d-block wf-light book-info rounded p-1 flex-fill">
-                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">Ôn Tập Thi Vào Lớp 10 - Môn Tiếng Anh - Năm Học 2026-2027 (Theo CT GDPT 2018)</span>
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark " style="height: 60%;">
+                                    <span class="text-truncate-2">Ôn Tập Thi Vào Lớp 10 - Môn Tiếng Anh - Năm Học 2026-2027 (Theo CT GDPT 2018)</span>
                                     
                                     
                                 </div>
-                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">Nguyễn Thị Chi (CB) - Nguyễn NGọc Anh - Nguyễn Hưu Cương</span>
-                                </div>
+                                <!-- <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate-2">Nguyễn Thị Chi (CB) - Nguyễn NGọc Anh - Nguyễn Hưu Cương</span>
+                                </div> -->
                                 
                                 <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
                                     38.000₫
@@ -554,14 +586,14 @@
                                 
                             </div>
                             <div class="d-block wf-light book-info rounded p-1 flex-fill">
-                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">Khéo Ăn Nói Sẽ Có Được Thiên Hạ (Tái Bản 2022)</span>
+                                <div  class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark " style="height: 60%;">
+                                    <span class="text-truncate-2">Khéo Ăn Nói Sẽ Có Được Thiên Hạ (Tái Bản 2022)</span>
                                     
                                     
                                 </div>
-                                <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
-                                    <span class="text-truncate">Trác Nhã</span>
-                                </div>
+                                <!-- <div class="d-flex justify-content-center p-1 fw-bold fs-6 text-dark ">
+                                    <span class="text-truncate-2">Trác Nhã</span>
+                                </div> -->
                                 
                                 <div class=" text-danger d-flex justify-content-center p-1 fw-bold fs-6">
                                     91.000₫
