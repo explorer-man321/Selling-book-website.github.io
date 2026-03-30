@@ -287,3 +287,23 @@ nav {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+.cart-link-badge {
+        position: relative;
+}
+
+.cart-count-badge {
+        position: absolute;
+        top: -6px;
+        right: -8px;
+        min-width: 18px;
+        height: 18px;
+        border-radius: 999px;
+        background-color: #dc3545;
+        color: #fff;
+        font-size: 11px;
+        line-height: 18px;
+        text-align: center;
+        font-weight: 700;
+        padding: 0 5px;
+}

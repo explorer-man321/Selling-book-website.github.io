@@ -29,8 +29,9 @@ function saveCart() {
 
 function updateCartCount() {
     const count = Array.from(cart.values()).reduce((a, b) => a + b, 0);
-    const cartCountEl = document.getElementById('cart-count');
-    if (cartCountEl) cartCountEl.innerText = count;
+    document.querySelectorAll('.cart-count-badge').forEach(badge => {
+        badge.innerText = count;
+    });
 }
 
 function addToCart(bookId, quantity = 1) {

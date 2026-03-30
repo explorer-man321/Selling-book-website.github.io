@@ -35,8 +35,9 @@
 
             </div>
             <div class="wf-dark px-3 py-2 d-flex gap-3 rounded-5">
-                <a href="checkout.html" class="text-decoration-none d-flex flex-column align-items-center gap-1">
+                <a href="checkout.html" class="text-decoration-none d-flex flex-column align-items-center gap-1 cart-link-badge">
                     <img class="img-fluid" src="../IMG/shopping-cart.svg" alt="" srcset="" width="20px">
+                    <span class="cart-count-badge">0</span>
                     <p class="text-first" style="font-size:13px;margin: 0;">Giỏ hàng</p>
                 </a>
                 
@@ -81,10 +82,113 @@
         </nav>
     </div> 
 
-    <main class="container my-5">
+    <main class="container-fluid" style="margin: 0 12px; width: auto;">
         <div id="category"></div>
-        <div class="row" id="book-list">
+        <div class="row g-3">
+            <!-- FILTER SIDEBAR -->
+            <div class="col-12 col-lg-3 mb-4 mb-lg-0 my-1">
+                <div class="bg-white rounded-3 p-4" style="box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                    <h5 class="fw-bold mb-4" style="color: #1a1a2e;">Bộ Lọc</h5>
+
+                    <!-- CLEAR FILTERS -->
+                    <button class="btn btn-sm btn-outline-danger w-100 mb-4" id="clear-filters">
+                        Xóa Bộ Lọc
+                    </button>
+
+                    <!-- PRICE RANGE -->
+                    <div class="mb-4">
+                        <h6 class="fw-semibold mb-3" style="color: #1a1a2e; font-size: 14px;">Giá</h6>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input price-filter" type="radio" id="price1" value="0-50000" name="price">
+                            <label class="form-check-label" for="price1">Dưới 50.000đ</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input price-filter" type="radio" id="price2" value="50000-100000" name="price">
+                            <label class="form-check-label" for="price2">50.000đ - 100.000đ</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input price-filter" type="radio" id="price3" value="100000-200000" name="price">
+                            <label class="form-check-label" for="price3">100.000đ - 200.000đ</label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input price-filter" type="radio" id="price4" value="200000-500000" name="price">
+                            <label class="form-check-label" for="price4">200.000đ - 500.000đ</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input price-filter" type="radio" id="price5" value="500000+" name="price">
+                            <label class="form-check-label" for="price5">Trên 500.000đ</label>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <!-- RATING -->
+                    <div class="mb-4">
+                        <h6 class="fw-semibold mb-3" style="color: #1a1a2e; font-size: 14px;">Đánh Giá</h6>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input rating-filter" type="radio" id="rating5" value="5" name="rating">
+                            <label class="form-check-label" for="rating5">
+                                ⭐⭐⭐⭐⭐
+                            </label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input rating-filter" type="radio" id="rating4" value="4" name="rating">
+                            <label class="form-check-label" for="rating4">
+                                ⭐⭐⭐⭐
+                            </label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input rating-filter" type="radio" id="rating3" value="3" name="rating">
+                            <label class="form-check-label" for="rating3">
+                                ⭐⭐⭐
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input rating-filter" type="radio" id="rating2" value="2" name="rating">
+                            <label class="form-check-label" for="rating2">
+                                ⭐⭐
+                            </label>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <!-- AVAILABILITY -->
+                    <div class="mb-4">
+                        <h6 class="fw-semibold mb-3" style="color: #1a1a2e; font-size: 14px;">Tính Sẵn Có</h6>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input availability-filter" type="radio" id="instock" value="in-stock" name="availability">
+                            <label class="form-check-label" for="instock">Còn hàng</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input availability-filter" type="radio" id="outofstock" value="out-of-stock" name="availability">
+                            <label class="form-check-label" for="outofstock">Hết hàng</label>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <!-- SORT BY -->
+                    <div>
+                        <h6 class="fw-semibold mb-3" style="color: #1a1a2e; font-size: 14px;">Sắp Xếp</h6>
+                        <select class="form-select form-select-sm" id="sort-by">
+                            <option value="">Mặc định</option>
+                            <option value="price-asc">Giá: Thấp → Cao</option>
+                            <option value="price-desc">Giá: Cao → Thấp</option>
+                            <option value="newest">Sách Mới Nhất</option>
+                            <option value="popular">Bán Chạy Nhất</option>
+                            <option value="rating">Đánh Giá Cao Nhất</option>
+                        </select>
+                    </div>
+                </div>
             </div>
+
+            <!-- BOOK LIST -->
+            <div class="col-12 col-lg-9 my-1">
+                <div class="row" id="book-list">
+                </div>
+            </div>
+        </div>
     </main>
 
     <!-- ===== FOOTER ===== -->

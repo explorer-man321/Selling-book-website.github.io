@@ -57,7 +57,7 @@ function displayBooks() {
             return;
         }
         const bookCard = `
-            <div class="col-md-3 mb-4">
+            <div class="col-md-3 mb-4" style="padding: 2px;">
                 <div class="card h-100 shadow-sm">
                     <a href="detail_page?id=${book.id}">
                         <img src="${book.imglink}" class="card-img-top" alt="${book.title}" style="height: 300px; object-fit: cover;">
