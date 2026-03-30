@@ -22,62 +22,82 @@
                     <img src="../IMG/logo4.png" alt="" style="width: 200px;">
                 </a>
             </div>
-            <div class="wf-block wf-block1 wf-dark px-4 py-2" style="width:50%">
-
+            <!-- Search: ẩn trên mobile -->
+            <div class="wf-block wf-block1 wf-dark px-4 py-2 d-none d-lg-block rounded" style="width:50%">
                 <div class="input-group">
-                    <!-- <span class="input-group-text">🔍</span> -->
                     <input type="text" class="form-control" placeholder="Tìm kiếm..." style="border: none;">
                     <button class="search-btn" type="submit">
                         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" viewBox="0 0 24 24"
                             stroke="#a80116" stroke-width="2.7">
-
                             <circle cx="11" cy="11" r="7" />
                             <line x1="16.5" y1="16.5" x2="22" y2="22" />
-
                         </svg>
                     </button>
                 </div>
-
             </div>
-            <div class="wf-dark px-3 py-2 d-flex gap-3 rounded-5">
+            <!-- Icons: ẩn trên mobile -->
+            <div class="wf-dark px-3 py-2 d-none d-lg-flex gap-3 rounded-5">
                 <a href="checkout.html" class="text-decoration-none d-flex flex-column align-items-center gap-1">
                     <img class="img-fluid" src="../IMG/shopping-cart.svg" alt="" srcset="" width="20px">
                     <p class="text-first" style="font-size:13px;margin: 0;">Giỏ hàng</p>
                 </a>
-
                 <a href="login.html" class="text-decoration-none d-flex flex-column align-items-center gap-1">
                     <img class="img-fluid" src="../IMG/user.svg" alt="" srcset="" width="20px">
                     <p class="text-first" style="font-size:13px;margin: 0;">Đăng nhập</p>
                 </a>
             </div>
+            <!-- Hamburger: chỉ hiện mobile, toggle navMenu của navbar -->
+            <button class="navbar-toggler  navbar-dark d-lg-none border-0 bg-transparent"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navMenu"
+                aria-controls="navMenu"
+                aria-expanded="false">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
         </div>
     </div>
-
+ 
     <!-- ===== NAVBAR ===== -->
-    <div id="navbar" class="wf-block w-100 mb-3">
-        <!-- [ MENU DANH MỤC: Văn học | Kỹ năng | Thiếu nhi | Giáo khoa | Ngoại ngữ | ... ] -->
-
-        <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top ">
-            <div class="container ">
-
-                <!-- TOGGLE MOBILE -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- MENU -->
-                <div class="collapse navbar-collapse" id="navMenu">
-                    <ul class="navbar-nav">
-                        <a class="nav-link px-3 mx-2" href="booklist.html?category=vanhoc">Văn học</a>
-                        <a class="nav-link px-3 mx-2" href="booklist.html?category=thieunhi">Thiếu nhi</a>
-                        <a class="nav-link px-3 mx-2" href="booklist.html?category=kinhte">Kinh tế</a>
-                        <a class="nav-link px-3 mx-2" href="booklist.html?category=giaokhoa">Giáo khoa</a>
-                        <a class="nav-link px-3 mx-2" href="booklist.html?category=ngoaingu">Ngoại ngữ</a>
-                        <a class="nav-link px-3 mx-2" href="booklist.html?category=tamly">Tâm lý</a>
-
+    <div id="navbar" class="wf-block w-100 mb-3 ">
+        <nav class="navbar navbar-expand-lg  sticky-top" >
+            <div class="container">
+                <!-- MENU — dùng chung id với hamburger header -->
+                <div class="collapse navbar-collapse " id="navMenu">
+                    <!-- Search + Icons: chỉ hiện trong dropdown mobile -->
+                    <div class="d-lg-none mt-2 pt-2 border-top px-5" style="width: 100%;">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control rounded"  placeholder="Tìm kiếm..." >
+                            <button class="search-btn" type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" viewBox="0 0 24 24"
+                                    stroke="#a80116" stroke-width="2.7">
+                                    <circle cx="11" cy="11" r="7" />
+                                    <line x1="16.5" y1="16.5" x2="22" y2="22" />
+                                </svg>
+                            </button>
+                            <div class="d-flex gap-4 pb-2 ">
+                            <a href="checkout.html" class="text-decoration-none d-flex align-items-center gap-2 ">
+                                <img src="../IMG/shopping-cart.svg" alt="" width="18px">
+                                
+                            </a>
+                            <a href="login.html" class="text-decoration-none d-flex align-items-center gap-2">
+                                <img src="../IMG/user.svg" alt="" width="18px">
+                                
+                            </a>
+                        </div>
+                        </div>
                         
-
+                    </div>
+                    <!-- Danh mục -->
+                    <ul class="navbar-nav">
+                        <a class="nav-link px-3 mx-2 rounded" href="booklist.html?category=vanhoc">Văn học</a>
+                        <a class="nav-link px-3 mx-2 rounded" href="booklist.html?category=thieunhi">Thiếu nhi</a>
+                        <a class="nav-link px-3 mx-2 rounded" href="booklist.html?category=kinhte">Kinh tế</a>
+                        <a class="nav-link px-3 mx-2 rounded" href="booklist.html?category=giaokhoa">Giáo khoa</a>
+                        <a class="nav-link px-3 mx-2 rounded" href="booklist.html?category=ngoaingu">Ngoại ngữ</a>
+                        <a class="nav-link px-3 mx-2 rounded" href="booklist.html?category=tamly">Tâm lý</a>
                     </ul>
+                    
                 </div>
             </div>
         </nav>
@@ -379,34 +399,34 @@
             <div id="promo" class="wf-block wf-dark rounded w-100">
                 <ul class="d-flex list-unstyled py-1 align-content-center justify-content-center flex-wrap gap-3">
                     <li>
-                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/3_NCC_TanViet_115x115.png" alt="">
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/3_NCC_TanViet_115x115.png" alt="" >
                     </li>
                     <li>
-                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_AlphaBooks_115x115.png" alt="">
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_AlphaBooks_115x115.png" alt="" >
                     </li>
                     <li>
-                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_DinhTi_115x115.png" alt="">
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_DinhTi_115x115.png" alt="" >
                     </li>
                     <li>
-                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_Deli_115x115.png" alt="">
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_Deli_115x115.png" alt="" >
                     </li>
                     <li>
-                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_NXB_Tre_115x115.png" alt="">
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_NXB_Tre_115x115.png" alt="" >
                     </li>
                     <li>
-                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/17_NCC_AZ_115x115.png" alt="">
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/17_NCC_AZ_115x115.png" alt="" >
                     </li>
                     <li>
-                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/18_NCC_SkyBook_115x115.png" alt="">
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/18_NCC_SkyBook_115x115.png" alt="" >
                     </li>
                     <li>
-                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_PhuSi_115x115.png" alt="">
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_PhuSi_115x115.png" alt="" >
                     </li>
                     <li>
-                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_TueTri_115x115.png" alt="">
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/NCC_TueTri_115x115.png" alt="" >
                     </li>
                     <li>
-                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/11_NCC_BachViet_115x115.png" alt="">
+                        <img src="https://cdn1.fahasa.com/media/wysiwyg/Hien_UI/LogoNCC/11_NCC_BachViet_115x115.png" alt="" >
                     </li>
                     
                 </ul>
