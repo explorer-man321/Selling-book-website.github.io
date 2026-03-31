@@ -10,8 +10,8 @@ body {
 
 .wf-block {
     background: #cccccc;
-    border: 2px dashed #999;
-    border-radius: 6px;
+    /* border: 2px solid ưhi;
+    border-radius: 6px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +24,7 @@ body {
 
 .wf-block1 {
     border: 1px solid black;
-}
+} 
 
 .wf-dark {
     /* background: #aaaaaa; */
