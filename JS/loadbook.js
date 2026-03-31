@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 // console.log(`Buying now: Book ID ${book.id}`);
                 if (typeof addToCart === 'function') {
                     addToCart(book.id);
-                    window.location.href = 'checkout.html';
+                    window.location.href = '/HTML/checkout.html';
                 } else {
                     alert('addToCart function not found!');
                 }

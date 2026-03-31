@@ -59,11 +59,11 @@ function displayBooks() {
         const bookCard = `
             <div class="col-md-3 mb-4" style="padding: 2px;">
                 <div class="card h-100 shadow-sm">
-                    <a href="detail_page?id=${book.id}">
+                    <a href="/HTML/detail_page.html?id=${book.id}">
                         <img src="${book.imglink}" class="card-img-top" alt="${book.title}" style="height: 300px; object-fit: cover;">
                     </a>
                     <div class="card-body">
-                        <a href="detail_page?id=${book.id}" style="color: black; text-decoration: none;">
+                        <a href="/HTML/detail_page.html?id=${book.id}" style="color: black; text-decoration: none;">
                             <h5 class="card-title" style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${book.title}</h5>
                         </a>
                         <p class="card-text text-danger fw-bold">${book.price.toLocaleString('vi-VN')} VNĐ</p>
