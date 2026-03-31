@@ -333,10 +333,21 @@ nav {
     padding: 0 5px;
 }
 
+.info_box {
+    width: 90%;
+}
 
-@media (max-width: 991px) {
+.container{
+    max-width: 1200px;
+}
+
+@media (max-width: 1000px) {
     .sach{
         width: 180px;
+    }
+
+    .book-header{
+        min-width: 700px;
     }
 }
 
@@ -352,6 +363,10 @@ nav {
 
     .sach{
         width: 200px;
+    }
+
+    .book-header{
+        min-width: 0;
     }
 }
 
