@@ -667,3 +667,21 @@ nav {
     color: var(--second-color);
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    /* Avoid nested scroll containers on mobile browsers to prevent clipped tab content */
+    #disc_box,
+    #decs_detail_info_box,
+    .sliderTab {
+        min-height: unset;
+        height: auto !important;
+    }
+
+    .content_tabs {
+        flex: unset !important;
+        min-height: unset !important;
+        max-height: none;
+        overflow: visible !important;
+        padding: 14px;
+    }
+}
