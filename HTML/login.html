@@ -104,8 +104,7 @@
             </div>
             <!-- Icons: ẩn trên mobile -->
             <div class="wf-dark px-3 py-2 d-none d-lg-flex gap-3 rounded-5">
-                <a href="/HTML/checkout.html"
-                    class="text-decoration-none d-flex flex-column align-items-center gap-1 cart-link-badge">
+                <a href="/HTML/checkout.html" class="text-decoration-none d-flex flex-column align-items-center gap-1 cart-link-badge">
                     <span class="cart-icon-wrap">
                         <img class="img-fluid" src="../IMG/shopping-cart.svg" alt="" srcset="" width="20px">
                         <span class="cart-count-badge">0</span>
@@ -118,43 +117,48 @@
                 </a>
             </div>
             <!-- Hamburger: chỉ hiện mobile, toggle navMenu của navbar -->
-            <button class="navbar-toggler  navbar-dark d-lg-none border-0 bg-transparent" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler  navbar-dark d-lg-none border-0 bg-transparent"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navMenu"
+                aria-controls="navMenu"
+                aria-expanded="false">
+                <span class="navbar-toggler-icon" ></span>
             </button>
         </div>
     </div>
-
+ 
     <!-- ===== NAVBAR ===== -->
     <div id="navbar" class="wf-block w-100 mb-3 ">
-        <nav class="navbar navbar-expand-lg  sticky-top">
+        <nav class="navbar navbar-expand-lg  sticky-top" >
             <div class="container">
                 <!-- MENU — dùng chung id với hamburger header -->
                 <div class="collapse navbar-collapse " id="navMenu">
                     <!-- Search + Icons: chỉ hiện trong dropdown mobile -->
                     <div class="d-lg-none mt-2 pt-2 border-top px-5" style="width: 100%;">
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control rounded" placeholder="Tìm kiếm...">
+                            <input type="text" class="form-control rounded"  placeholder="Tìm kiếm..." >
                             <button class="search-btn" type="submit">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none"
-                                    viewBox="0 0 24 24" stroke="#a80116" stroke-width="2.7">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" viewBox="0 0 24 24"
+                                    stroke="#a80116" stroke-width="2.7">
                                     <circle cx="11" cy="11" r="7" />
                                     <line x1="16.5" y1="16.5" x2="22" y2="22" />
                                 </svg>
                             </button>
                             <div class="d-flex gap-4 pb-2 ">
-                                <a href="/HTML/checkout.html"
-                                    class="text-decoration-none d-flex align-items-center gap-2 ">
-                                    <img src="../IMG/shopping-cart.svg" alt="" width="18px">
-
-                                </a>
-                                <a href="/HTML/login.html" class="text-decoration-none d-flex align-items-center gap-2">
-                                    <img src="../IMG/user.svg" alt="" width="18px">
-
-                                </a>
-                            </div>
+                            <a href="/HTML/checkout.html" class="text-decoration-none d-flex align-items-center gap-2 ">
+                                <span class="cart-icon-wrap">
+                                    <img class="img-fluid" src="../IMG/shopping-cart.svg" alt="" srcset="" width="20px">
+                                    <span class="cart-count-badge">0</span>
+                                </span>
+                            </a>
+                            <a href="/HTML/login.html" class="text-decoration-none d-flex align-items-center gap-2">
+                                <img src="../IMG/user.svg" alt="" width="18px">
+                                
+                            </a>
                         </div>
-
+                        </div>
+                        
                     </div>
                     <!-- Danh mục -->
                     <ul class="navbar-nav">
@@ -165,7 +169,7 @@
                         <a class="nav-link px-3 mx-2 rounded" href="/HTML/booklist.html?category=ngoaingu">Ngoại ngữ</a>
                         <a class="nav-link px-3 mx-2 rounded" href="/HTML/booklist.html?category=tamly">Tâm lý</a>
                     </ul>
-
+                    
                 </div>
             </div>
         </nav>
@@ -203,7 +207,7 @@
         </div>
     </div>
 
-    <!-- ===== FOOTER ===== -->
+<!-- ===== FOOTER ===== -->
     <!-- <div id="footer" class="wf-block wf-dark w-100 mt-2">
         [ FOOTER: Giới thiệu | Liên hệ | Chính sách | Mạng xã hội | Bản quyền ]
     </div> -->
@@ -214,7 +218,7 @@
 
                 <!-- CỘT 1: LOGO + GIỚI THIỆU -->
                 <div class="col-12 col-md-3">
-                    <a href="../HTML/index.html">
+                    <a href="/HTML/index.html">
                         <img src="../IMG/logo4.png" alt="Logo"
                             style="width:90px; border-radius:6px; margin-bottom:12px;">
                     </a>
@@ -226,22 +230,26 @@
                     <div class="d-flex gap-3 mt-2">
                         <a href="https://www.facebook.com/minh.tranquang.71653318" target="_blank"
                             style="width:36px;height:36px;border-radius:50%;background:#2e2e4d;color:#ccc;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:15px;"
-                            onmouseover="this.style.background='#a80116'" onmouseout="this.style.background='#2e2e4d'">
+                            onmouseover="this.style.background='#a80116'"
+                            onmouseout="this.style.background='#2e2e4d'">
                             <img class="img-fluid" src="../IMG/icons8-facebook-50.svg" alt="">
                         </a>
                         <a href="#"
                             style="width:36px;height:36px;border-radius:10px;background:#2e2e4d;color:#ccc;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:13px;"
-                            onmouseover="this.style.background='#a80116'" onmouseout="this.style.background='#2e2e4d'">
-                            <img class="img-fluid" src="../IMG/icons8-instagram-50.svg" alt="">
+                            onmouseover="this.style.background='#a80116'"
+                            onmouseout="this.style.background='#2e2e4d'">
+                            <img class="img-fluid"  src="../IMG/icons8-instagram-50.svg" alt="">
                         </a>
                         <a href="#"
                             style="width:36px;height:36px;border-radius:8px;background:#2e2e4d;color:#ccc;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:13px;"
-                            onmouseover="this.style.background='#a80116'" onmouseout="this.style.background='#2e2e4d'">
+                            onmouseover="this.style.background='#a80116'"
+                            onmouseout="this.style.background='#2e2e4d'">
                             <img class="img-fluid" src="../IMG/icons8-youtube-50.svg" alt="">
                         </a>
                         <a href="#"
                             style="width:36px;height:36px;border-radius:10px;background:#2e2e4d;color:#ccc;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:13px;"
-                            onmouseover="this.style.background='#a80116'" onmouseout="this.style.background='#2e2e4d'">
+                            onmouseover="this.style.background='#a80116'"
+                            onmouseout="this.style.background='#2e2e4d'">
                             <img class="img-fluid" src="../IMG/icons8-tiktok-50.svg" alt="">
                         </a>
                     </div>
@@ -390,6 +398,7 @@
     </script>
 
     <script src="../JS/cart.js"></script>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
 
 </body>
 

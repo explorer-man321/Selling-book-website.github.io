@@ -14,7 +14,7 @@
 <body>
 
     <!-- ===== HEADER ===== -->
-   <div id="header" class="wf-dark w-100 mb-1 bg-first">
+    <div id="header" class="wf-dark w-100 mb-1 bg-first">
         <div class="container d-flex justify-content-between align-items-center h-100">
             <div>
                 <a href="/HTML/index.html">
@@ -79,8 +79,10 @@
                             </button>
                             <div class="d-flex gap-4 pb-2 ">
                             <a href="/HTML/checkout.html" class="text-decoration-none d-flex align-items-center gap-2 ">
-                                <img src="../IMG/shopping-cart.svg" alt="" width="18px">
-                                
+                                <span class="cart-icon-wrap">
+                                    <img class="img-fluid" src="../IMG/shopping-cart.svg" alt="" srcset="" width="20px">
+                                    <span class="cart-count-badge">0</span>
+                                </span>
                             </a>
                             <a href="/HTML/login.html" class="text-decoration-none d-flex align-items-center gap-2">
                                 <img src="../IMG/user.svg" alt="" width="18px">
@@ -379,7 +381,7 @@
 
                 <!-- CỘT 1: LOGO + GIỚI THIỆU -->
                 <div class="col-12 col-md-3">
-                    <a href="../HTML/index.html">
+                    <a href="/HTML/index.html">
                         <img src="../IMG/logo4.png" alt="Logo"
                             style="width:90px; border-radius:6px; margin-bottom:12px;">
                     </a>

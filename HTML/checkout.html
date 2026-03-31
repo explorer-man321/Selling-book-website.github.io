@@ -63,7 +63,6 @@
                     <img src="../IMG/logo4.png" alt="" style="width: 200px;">
                 </a>
             </div>
-            
             <!-- Search: ẩn trên mobile -->
             <div class="wf-block wf-block1 wf-dark px-4 py-2 d-none d-lg-block rounded" style="width:50%">
                 <div class="input-group">
@@ -100,18 +99,8 @@
                 aria-expanded="false">
                 <span class="navbar-toggler-icon" ></span>
             </button>
-            <!-- Hamburger: chỉ hiện mobile, toggle navMenu của navbar -->
-            <button class="navbar-toggler  navbar-dark d-lg-none border-0 bg-transparent"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navMenu"
-                aria-controls="navMenu"
-                aria-expanded="false">
-                <span class="navbar-toggler-icon" ></span>
-            </button>
         </div>
     </div>
- 
  
     <!-- ===== NAVBAR ===== -->
     <div id="navbar" class="wf-block w-100 mb-3 ">
@@ -132,8 +121,10 @@
                             </button>
                             <div class="d-flex gap-4 pb-2 ">
                             <a href="/HTML/checkout.html" class="text-decoration-none d-flex align-items-center gap-2 ">
-                                <img src="../IMG/shopping-cart.svg" alt="" width="18px">
-                                
+                                <span class="cart-icon-wrap">
+                                    <img class="img-fluid" src="../IMG/shopping-cart.svg" alt="" srcset="" width="20px">
+                                    <span class="cart-count-badge">0</span>
+                                </span>
                             </a>
                             <a href="/HTML/login.html" class="text-decoration-none d-flex align-items-center gap-2">
                                 <img src="../IMG/user.svg" alt="" width="18px">
@@ -145,18 +136,12 @@
                     </div>
                     <!-- Danh mục -->
                     <ul class="navbar-nav">
-                        <a class="nav-link" href="booklist.html?category=vanhoc">Văn học</a>
-                        <a class="nav-link" href="booklist.html?category=thieunhi" >Thiếu nhi</a>
-                        <a class="nav-link" href="booklist.html?category=kinhte" >Kinh tế</a>
-                        <a class="nav-link" href="booklist.html?category=giaokhoa" >Giáo khoa</a>
-                        <a class="nav-link " href="booklist.html?category=ngoaingu" >Ngoại ngữ</a>
-                        <a class="nav-link" href="booklist.html?category=tamly" >Tâm lý</a>
-
-                        <!-- FLASH SALE -->
-                        <!-- <li class="nav-item">
-                            <a class="nav-link text-danger fw-semibold" href="#">🔥 Flash Sale</a>
-                        </li> -->
-
+                        <a class="nav-link px-3 mx-2 rounded" href="/HTML/booklist.html?category=vanhoc">Văn học</a>
+                        <a class="nav-link px-3 mx-2 rounded" href="/HTML/booklist.html?category=thieunhi">Thiếu nhi</a>
+                        <a class="nav-link px-3 mx-2 rounded" href="/HTML/booklist.html?category=kinhte">Kinh tế</a>
+                        <a class="nav-link px-3 mx-2 rounded" href="/HTML/booklist.html?category=giaokhoa">Giáo khoa</a>
+                        <a class="nav-link px-3 mx-2 rounded" href="/HTML/booklist.html?category=ngoaingu">Ngoại ngữ</a>
+                        <a class="nav-link px-3 mx-2 rounded" href="/HTML/booklist.html?category=tamly">Tâm lý</a>
                     </ul>
                     
                 </div>
