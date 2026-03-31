@@ -169,11 +169,11 @@ nav {
 
 #disc_box {
 
-    height: 400px !important;
+    min-height: 400px;
     display: flex !important;
     flex-direction: column !important;
     padding: 0;
-    overflow: hidden !important;
+    overflow: visible;
 
 }
 
