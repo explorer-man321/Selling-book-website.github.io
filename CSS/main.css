@@ -58,7 +58,7 @@ body {
 
 /* BANNER */
 #banner {
-    height: 380px;
+    object-fit: cover;
     font-size: 20px;
 }
 
@@ -338,7 +338,7 @@ nav {
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1500px;
 }
 
 @media (max-width: 1000px) {
@@ -348,6 +348,17 @@ nav {
 
     .book-header{
         min-width: 700px;
+    }
+
+    .banner,
+    #banner{
+        width: 0!important;
+        height: 0!important;
+        display:none !important;
+    }
+
+    #slider{
+        width: 100%;
     }
 }
 
