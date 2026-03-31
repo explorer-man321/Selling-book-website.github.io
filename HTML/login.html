@@ -12,6 +12,14 @@
             --first-color: #9b2903;
             --second-color: #1a1a2e;
         }
+
+        .red{
+            color:red;
+        }
+
+        .green{
+            color:green;
+        }
         
         body {
             background: #f0f2f5;
@@ -155,7 +163,7 @@
                 <input type="text" id="loginUser" class="form-control mb-3" placeholder="Tên đăng nhập">
                 <input type="password" id="loginPass" class="form-control mb-3" placeholder="Mật khẩu">
                 <button class="btn btn-login w-100" onclick="login()">Đăng nhập</button>
-                
+                <span id="loginError" class="text-danger"></span>
                 <div class="switch">
                     Chưa có tài khoản?
                     <a onclick="showRegister()">Đăng ký</a>
@@ -169,6 +177,7 @@
                 <input type="password" id="regPass" class="form-control mb-3" placeholder="Mật khẩu">
                 <input type="password" id="regPass2" class="form-control mb-3" placeholder="Nhập lại mật khẩu">
                 <button class="btn btn-register w-100" onclick="register()">Đăng ký</button>
+                <span id="regError" class="text-danger"></span>
                 
                 <div class="switch">
                     Đã có tài khoản?
@@ -327,18 +336,21 @@
             let pass2 = document.getElementById("regPass2").value;
 
             if (user === "" || pass === "") {
-                alert("Vui lòng nhập đầy đủ!");
+                document.getElementById("regError").innerText = "Vui lòng nhập đầy đủ!";
+                document.getElementById("regError").className = "red";
                 return;
             }
 
             if (pass !== pass2) {
-                alert("Mật khẩu không khớp!");
+                document.getElementById("regError").innerText = "Mật khẩu không khớp!";
+                document.getElementById("regError").className = "red";
                 return;
             }
 
             localStorage.setItem(user, pass);
-            alert("Đăng ký thành công!");
-            showLogin();
+            document.getElementById("regError").innerText = "Đăng ký thành công!";
+            document.getElementById("regError").className = "green";
+            // showLogin();
         }
 
         function login() {
@@ -348,9 +360,11 @@
             let storedPass = localStorage.getItem(user);
 
             if (storedPass === pass) {
-                alert("Đăng nhập thành công!");
+                document.getElementById("loginError").innerText = "Đăng nhập thành công!";
+                document.getElementById("loginError").className = "green";
             } else {
-                alert("Sai tài khoản hoặc mật khẩu!");
+                document.getElementById("loginError").innerText = "Sai tài khoản hoặc mật khẩu!";
+                document.getElementById("loginError").className = "red";
             }
         }
     </script>

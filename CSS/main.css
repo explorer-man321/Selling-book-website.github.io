@@ -145,29 +145,12 @@ body {
 
 /* PROMO BANNER */
 #promp {
-    height: 120px;
+    height: 120px!important;
 }
+
 #promo img {
     width: 100px;
-    height: auto;
-}
-
-/* Tablet */
-@media (max-width: 768px) {
-    #promo img {
-        width: 70px;
-    }
-}
-
-/* Mobile */
-@media (max-width: 576px) {
-    #promo {
-        height: 30px;
-    }
-    #promo img {
-        padding: 15px 0 0px 0;
-        width: 20px;
-    }
+    height: 100px;
 }
 
 /* FOOTER */
@@ -348,4 +331,37 @@ nav {
     text-align: center;
     font-weight: 700;
     padding: 0 5px;
+}
+
+
+@media (max-width: 991px) {
+    .sach{
+        width: 180px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #promo {
+        height: 150px;
+    }
+    #promo img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .sach{
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    #promo {
+        height: 150px;
+    }
+    #promo img {
+        width: 120px;
+        height: 120px;
+    }
 }

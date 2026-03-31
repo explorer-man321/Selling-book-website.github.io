@@ -25,6 +25,7 @@ function loadCart() {
 function saveCart() {
     const obj = Object.fromEntries(cart);
     localStorage.setItem('cart', JSON.stringify(obj));
+    updateCartCount();
 }
 
 function updateCartCount() {
@@ -39,7 +40,6 @@ function addToCart(bookId, quantity = 1) {
     if (book) {
         cart.set(bookId, (cart.get(bookId) || 0) + quantity);
         saveCart();
-        updateCartCount();
         alert('Đã thêm sách vào giỏ hàng! ' + book.title);
     }
 }
