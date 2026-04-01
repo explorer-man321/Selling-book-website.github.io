@@ -1,90 +1,156 @@
-// loadbook.js
-// Loads book details based on the id in the URL and populates the book-detail-container
-
 document.addEventListener('DOMContentLoaded', function () {
-    // Helper to get query param
     function getQueryParam(param) {
         const urlParams = new URLSearchParams(window.location.search);
         return urlParams.get(param);
     }
 
-    const bookId = getQueryParam('id');
-    if (!bookId) {
-        document.getElementById('book-detail-container').innerHTML = '<div class="col-12 text-center text-danger">Không tìm thấy sách!</div>';
-        return;
+    function formatPrice(value) {
+        const n = Number(value);
+        return Number.isFinite(n) ? n.toLocaleString('vi-VN') + ' VNĐ' : 'N/A';
     }
 
-    // Simulate fetching book data (replace with real API call if available)
-    fetch('../book.json')
-        .then(response => response.json())
-        .then(data => {
-            const book = Array.isArray(data) ? data.find(b => b.id == bookId) : (data.books || []).find(b => b.id == bookId);
-            if (!book) {
-                document.getElementById('book-detail-container').innerHTML = '<div class="col-12 text-center text-danger">Không tìm thấy sách!</div>';
-                return;
-            }
+    function setText(id, text) {
+        const el = document.getElementById(id);
+        if (el) {
+            el.textContent = text;
+        }
+    }
 
-            console.log('Book data loaded:', book);
+    function renderNotFound() {
+        setText('book-title', 'Không tìm thấy sách');
+        setText('book-author', 'N/A');
+        setText('book-price', 'N/A');
+        setText('book-old-price', 'N/A');
+        setText('savings-note', 'Không tìm thấy dữ liệu sách phù hợp.');
+    }
 
-            Cover = document.getElementById("book-cover");
-            if (Cover) Cover.src = book.imglink || 'https://placehold.co/600x800';
+    function renderInfoTable(book) {
+        const table = document.getElementById('info_table');
+        if (!table) {
+            return;
+        }
 
-            Title = document.getElementById("book-title");
-            if (Title) Title.textContent = book.title || 'N/A';
+        const rows = [
+            ['Mã hàng', book['Mã hàng']],
+            ['Tên nhà cung cấp', book['Tên Nhà Cung Cấp']],
+            ['Tác giả', book['Tác giả'] || book.author],
+            ['Người dịch', book['Người Dịch'] || 'N/A'],
+            ['NXB', book['NXB']],
+            ['Năm XB', book['Năm XB']],
+            ['Ngôn ngữ', book['Ngôn Ngữ'] || 'Tiếng Việt'],
+            ['Trọng lượng (gr)', book['Trọng lượng (gr)']],
+            ['Kích thước bao bì', book['Kích Thước Bao Bì']],
+            ['Số trang', book['Số trang']],
+            ['Hình thức', book['Hình thức']],
+            ['Sản phẩm bán chạy nhất', book['Sản phẩm bán chạy nhất']]
+        ];
 
-            Author = document.getElementById("book-author");
-            if (Author) Author.textContent = book.author || 'N/A';
+        const tbody = table.querySelector('tbody');
+        if (!tbody) {
+            return;
+        }
 
-            New_price = document.getElementById("book-price");
-            if (New_price) New_price.textContent = book.price ? book.price.toLocaleString('vi-VN') + ' VNĐ' : 'N/A';
+        tbody.innerHTML = rows
+            .filter(function (row) { return row[1]; })
+            .map(function (row, index, allRows) {
+                const isLast = index === allRows.length - 1;
+                const borderClass = isLast ? '' : ' class="border-bottom"';
+                return '<tr' + borderClass + '><td class="fw-bold">' + row[0] + '</td><td class="text-muted" style="font-size: 13px;">' + row[1] + '</td></tr>';
+            })
+            .join('');
+    }
 
-            Old_price = document.getElementById("book-old-price");
-            oldprice = book.oldprice || book.price ? (book.oldprice || book.price * 1.2) : null; // Giả sử old price cao hơn new price 20%
-            if (Old_price) Old_price.textContent = oldprice ? oldprice.toLocaleString('vi-VN') + ' VNĐ' : 'N/A';
+    function setupActions(book) {
+        const quantityInput = document.getElementById('quantity-input');
+        const decrementBtn = document.getElementById('decrement-btn');
+        const incrementBtn = document.getElementById('increment-btn');
+        const addToCartBtn = document.getElementById('add-to-cart-btn');
+        const buyNowBtn = document.getElementById('buy-now-btn');
 
-            Savings_note = document.getElementById("savings-note");
-            if (Savings_note && book.price && oldprice) {
-                const savings = oldprice - book.price;
-                Savings_note.innerHTML = `Tiết kiệm <strong>${savings.toLocaleString('vi-VN')}đ</strong> · Miễn phí ship đơn từ <strong>199.000đ</strong>`;
-            }
-
-            Description = document.getElementById("description");
-            if (Description) Description.innerHTML = book.description || 'Không có mô tả cho sách này.';
-
-
-            // Add event listeners for quantity buttons
-            const quantityInput = document.getElementById('quantity-input');
-            document.getElementById('decrement-btn').addEventListener('click', function() {
-                let val = parseInt(quantityInput.value, 10);
-                if (val > 1) quantityInput.value = val - 1;
+        if (quantityInput && decrementBtn) {
+            decrementBtn.addEventListener('click', function () {
+                const val = parseInt(quantityInput.value, 10) || 1;
+                quantityInput.value = String(Math.max(1, val - 1));
             });
-            document.getElementById('increment-btn').addEventListener('click', function() {
-                let val = parseInt(quantityInput.value, 10);
-                quantityInput.value = val + 1;
+        }
+
+        if (quantityInput && incrementBtn) {
+            incrementBtn.addEventListener('click', function () {
+                const val = parseInt(quantityInput.value, 10) || 1;
+                quantityInput.value = String(val + 1);
             });
-            document.getElementById('add-to-cart-btn').addEventListener('click', function() {
-                const qty = parseInt(quantityInput.value, 10);
-                // console.log(`Adding to cart: Book ID ${book.id}, Quantity ${qty}`);
+        }
+
+        if (addToCartBtn && quantityInput) {
+            addToCartBtn.addEventListener('click', function () {
+                const qty = parseInt(quantityInput.value, 10) || 1;
                 if (typeof addToCart === 'function') {
                     addToCart(book.id, qty);
                 } else {
                     alert('addToCart function not found!');
                 }
             });
-            document.getElementById('buy-now-btn').addEventListener('click', function() {
-                // console.log(`Buying now: Book ID ${book.id}`);
+        }
+
+        if (buyNowBtn) {
+            buyNowBtn.addEventListener('click', function () {
                 if (typeof addToCart === 'function') {
-                    addToCart(book.id);
+                    addToCart(book.id, 1);
                     window.location.href = '/HTML/checkout.html';
                 } else {
                     alert('addToCart function not found!');
                 }
             });
+        }
+    }
 
+    const bookId = getQueryParam('id');
+    if (!bookId) {
+        renderNotFound();
+        return;
+    }
+
+    fetch('../book.json')
+        .then(function (response) { return response.json(); })
+        .then(function (data) {
+            const books = Array.isArray(data) ? data : (data.books || []);
+            const book = books.find(function (b) { return String(b.id) === String(bookId); });
+
+            if (!book) {
+                renderNotFound();
+                return;
+            }
+
+            const cover = document.getElementById('book-cover');
+            if (cover) {
+                cover.src = book.imglink || 'https://placehold.co/600x800';
+                cover.alt = book.title || 'Book cover';
+            }
+
+            setText('book-title', book.title || 'N/A');
+            setText('book-author', book.author || book['Tác giả'] || 'N/A');
+            setText('book-price', formatPrice(book.price));
+
+            const priceValue = Number(book.price);
+            const oldPriceValue = Number(book.oldprice) || (Number.isFinite(priceValue) ? Math.round(priceValue * 1.2) : null);
+            setText('book-old-price', oldPriceValue ? formatPrice(oldPriceValue) : 'N/A');
+
+            const savingsNote = document.getElementById('savings-note');
+            if (savingsNote && Number.isFinite(priceValue) && oldPriceValue) {
+                const savings = Math.max(0, oldPriceValue - priceValue);
+                savingsNote.innerHTML = 'Tiết kiệm <strong>' + savings.toLocaleString('vi-VN') + 'đ</strong> · Miễn phí ship đơn từ <strong>199.000đ</strong>';
+            }
+
+            const description = document.getElementById('description');
+            if (description) {
+                description.innerHTML = book.description || 'Không có mô tả cho sách này.';
+            }
+
+            renderInfoTable(book);
+            setupActions(book);
         })
-        .catch(err => {
+        .catch(function (err) {
             console.error('Error fetching book data:', err);
+            renderNotFound();
         });
 });
-
-console.log('loadbook.js loaded');
