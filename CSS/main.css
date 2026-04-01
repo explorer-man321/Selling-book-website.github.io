@@ -58,7 +58,7 @@ body {
 
 /* BANNER */
 #banner {
-    height: 380px;
+    object-fit: cover;
     font-size: 20px;
 }
 
@@ -333,10 +333,32 @@ nav {
     padding: 0 5px;
 }
 
+.info_box {
+    width: 90%;
+}
 
-@media (max-width: 991px) {
+.container{
+    max-width: 1500px;
+}
+
+@media (max-width: 1000px) {
     .sach{
         width: 180px;
+    }
+
+    .book-header{
+        min-width: 700px;
+    }
+
+    .banner,
+    #banner{
+        width: 0!important;
+        height: 0!important;
+        display:none !important;
+    }
+
+    #slider{
+        width: 100%;
     }
 }
 
@@ -352,6 +374,10 @@ nav {
 
     .sach{
         width: 200px;
+    }
+
+    .book-header{
+        min-width: 0;
     }
 }
 
