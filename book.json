@@ -17,7 +17,8 @@
         "Kích Thước Bao Bì": "20.5 x 14.5 x 1.3 cm",
         "Số trang": "272",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 0.05
     },
     {
         "id": "2",
@@ -36,7 +37,8 @@
         "Kích Thước Bao Bì": "14.5 x 10 x 0.5 cm",
         "Số trang": "220",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 3.86
     },
     {
         "id": "3",
@@ -57,7 +59,8 @@
         "Kích Thước Bao Bì": "24 x 15.7 x 2.9 cm",
         "Số trang": "592",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 2.09
     },
     {
         "id": "4",
@@ -76,7 +79,8 @@
         "Kích Thước Bao Bì": "22.5 x 14 cm",
         "Số trang": "444",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 2.98
     },
     {
         "id": "5",
@@ -97,7 +101,8 @@
         "Kích Thước Bao Bì": "20.5 x 14 x 1.6 cm",
         "Số trang": "324",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 2.97
     },
     {
         "id": "6",
@@ -118,7 +123,8 @@
         "Kích Thước Bao Bì": "20 x 13 cm",
         "Số trang": "452",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 0.64
     },
     {
         "id": "7",
@@ -138,7 +144,8 @@
         "Kích Thước Bao Bì": "20 x 13 x 1.2 cm",
         "Số trang": "240",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 3.26
     },
     {
         "id": "8",
@@ -158,7 +165,8 @@
         "Kích Thước Bao Bì": "20 x 13 x 1 cm",
         "Số trang": "208",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 0.66
     },
     {
         "id": "9",
@@ -178,7 +186,8 @@
         "Số trang": "180",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Nguyễn Nhật Ánh",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 4.41
     },
     {
         "id": "10",
@@ -198,7 +207,8 @@
         "Kích Thước Bao Bì": "20 x 13 x 1.8 cm",
         "Số trang": "378",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 2.19
     },
     {
         "id": "11",
@@ -219,7 +229,8 @@
         "Kích Thước Bao Bì": "24 x 16 x 2.5 cm",
         "Số trang": "512",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 2.04
     },
     {
         "id": "12",
@@ -240,7 +251,8 @@
         "Kích Thước Bao Bì": "24 x 16 x 2 cm",
         "Số trang": "484",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 1.61
     },
     {
         "id": "13",
@@ -261,7 +273,8 @@
         "Số trang": "244",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Đồ Chơi Cho Bé - Giá Cực Tốt Nhã Nam RƯỚC DEAL LINH ĐÌNH VUI ĐÓN TRUNG THU",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 4.01
     },
     {
         "id": "14",
@@ -281,7 +294,8 @@
         "Kích Thước Bao Bì": "20.5 x 14.5 x 2.1 cm",
         "Số trang": "392",
         "Hình thức": "Bìa Cứng",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 4.55
     },
     {
         "id": "15",
@@ -302,7 +316,8 @@
         "Kích Thước Bao Bì": "20.5 x 14 x 1.1 cm",
         "Số trang": "228",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 4.57
     },
     {
         "id": "16",
@@ -321,7 +336,8 @@
         "Kích Thước Bao Bì": "14.5 x 10 x 1 cm",
         "Số trang": "184",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 2.88
     },
     {
         "id": "17",
@@ -340,7 +356,8 @@
         "Kích Thước Bao Bì": "14.5 x 10 x 0.5 cm",
         "Số trang": "236",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 1.53
     },
     {
         "id": "18",
@@ -360,7 +377,8 @@
         "Kích Thước Bao Bì": "20.5 x 14 x 1.5 cm",
         "Số trang": "304",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 3.49
     },
     {
         "id": "19",
@@ -379,7 +397,8 @@
         "Kích Thước Bao Bì": "22 x 14 x 1.6 cm",
         "Số trang": "334",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 4.88
     },
     {
         "id": "20",
@@ -398,7 +417,8 @@
         "Kích Thước Bao Bì": "14.5 x 10 x 0.5 cm",
         "Số trang": "244",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiểu thuyết bán chạy của tháng",
+        "rating": 4.31
     },
     {
         "id": "21",
@@ -418,7 +438,8 @@
         "Kích Thước Bao Bì": "24x16",
         "Số trang": "69",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Quản Trị - Lãnh Đạo bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Quản Trị - Lãnh Đạo bán chạy của tháng",
+        "rating": 2.36
     },
     {
         "id": "22",
@@ -438,7 +459,8 @@
         "Kích Thước Bao Bì": "24 x 19 x 0.2 cm",
         "Số trang": "4",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kế Toán - Kiểm Toán - Thuế bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kế Toán - Kiểm Toán - Thuế bán chạy của tháng",
+        "rating": 2.5
     },
     {
         "id": "23",
@@ -459,7 +481,8 @@
         "Số trang": "127",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Sách Kinh Tế",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Khởi Nghiệp - Làm Giàu bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Khởi Nghiệp - Làm Giàu bán chạy của tháng",
+        "rating": 3.05
     },
     {
         "id": "24",
@@ -480,7 +503,8 @@
         "Số trang": "72",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Công ty TNHH Ecoblader",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Nhân vật - Bài Học Kinh doanh bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Nhân vật - Bài Học Kinh doanh bán chạy của tháng",
+        "rating": 0.25
     },
     {
         "id": "25",
@@ -502,7 +526,8 @@
         "Kích Thước Bao Bì": "20.5 x 13 x 0.9 cm",
         "Số trang": "192",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Nhân vật - Bài Học Kinh doanh bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Nhân vật - Bài Học Kinh doanh bán chạy của tháng",
+        "rating": 3.84
     },
     {
         "id": "26",
@@ -524,7 +549,8 @@
         "Kích Thước Bao Bì": "20.5 x 13.5 x 1.1 cm",
         "Số trang": "224",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Khởi Nghiệp - Làm Giàu bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Khởi Nghiệp - Làm Giàu bán chạy của tháng",
+        "rating": 2.69
     },
     {
         "id": "27",
@@ -546,7 +572,8 @@
         "Kích Thước Bao Bì": "20.5 x 13.5 x 1 cm",
         "Số trang": "208",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Phân Tích Kinh Tế bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Phân Tích Kinh Tế bán chạy của tháng",
+        "rating": 0.81
     },
     {
         "id": "28",
@@ -568,7 +595,8 @@
         "Kích Thước Bao Bì": "18 x 11.5 x 0.7 cm",
         "Số trang": "152",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Nhân vật - Bài Học Kinh doanh bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Nhân vật - Bài Học Kinh doanh bán chạy của tháng",
+        "rating": 1.59
     },
     {
         "id": "29",
@@ -588,7 +616,8 @@
         "Kích Thước Bao Bì": "14.5 x 20.5",
         "Số trang": "112",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Nhân vật - Bài Học Kinh doanh bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Nhân vật - Bài Học Kinh doanh bán chạy của tháng",
+        "rating": 4.46
     },
     {
         "id": "30",
@@ -607,7 +636,8 @@
         "Kích Thước Bao Bì": "20.5 x 13 x 1.4 cm",
         "Số trang": "275",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Nhân Sự - Việc Làm  bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Nhân Sự - Việc Làm  bán chạy của tháng",
+        "rating": 4.3
     },
     {
         "id": "31",
@@ -627,7 +657,8 @@
         "Kích Thước Bao Bì": "21 x 13.5 x 0.5 cm",
         "Số trang": "136",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Quản Trị - Lãnh Đạo bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Quản Trị - Lãnh Đạo bán chạy của tháng",
+        "rating": 4.47
     },
     {
         "id": "32",
@@ -648,7 +679,8 @@
         "Kích Thước Bao Bì": "18 x 11 x 1 cm",
         "Số trang": "112",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Chứng Khoán - Bất Động Sản -  Đầu Tư  bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Chứng Khoán - Bất Động Sản -  Đầu Tư  bán chạy của tháng",
+        "rating": 1.63
     },
     {
         "id": "33",
@@ -670,7 +702,8 @@
         "Kích Thước Bao Bì": "20 x 14.5 x 1.1 cm",
         "Số trang": "232",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tài Chính - Ngân Hàng bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tài Chính - Ngân Hàng bán chạy của tháng",
+        "rating": 3.67
     },
     {
         "id": "34",
@@ -691,7 +724,8 @@
         "Kích Thước Bao Bì": "20.5 x 14.5 x 1.3 cm",
         "Số trang": "272",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Marketing - Bán Hàng bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Marketing - Bán Hàng bán chạy của tháng",
+        "rating": 0.36
     },
     {
         "id": "35",
@@ -712,7 +746,8 @@
         "Kích Thước Bao Bì": "20 x 12 x 0.6 cm",
         "Số trang": "136",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Marketing - Bán Hàng bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Marketing - Bán Hàng bán chạy của tháng",
+        "rating": 4.02
     },
     {
         "id": "36",
@@ -732,7 +767,8 @@
         "Kích Thước Bao Bì": "24.5 x 14.5 x 0.9 cm",
         "Số trang": "210",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Quản Trị - Lãnh Đạo bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Quản Trị - Lãnh Đạo bán chạy của tháng",
+        "rating": 2.22
     },
     {
         "id": "37",
@@ -753,7 +789,8 @@
         "Số trang": "152",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Minh Long",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Marketing - Bán Hàng bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Marketing - Bán Hàng bán chạy của tháng",
+        "rating": 3.37
     },
     {
         "id": "38",
@@ -774,7 +811,8 @@
         "Số trang": "186",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "FIRST NEWS",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Quản Trị - Lãnh Đạo bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Quản Trị - Lãnh Đạo bán chạy của tháng",
+        "rating": 2.28
     },
     {
         "id": "39",
@@ -794,7 +832,8 @@
         "Số trang": "214",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Panda Books",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Quản Trị - Lãnh Đạo bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Quản Trị - Lãnh Đạo bán chạy của tháng",
+        "rating": 3.61
     },
     {
         "id": "40",
@@ -813,7 +852,8 @@
         "Kích Thước Bao Bì": "18 x 11 cm",
         "Số trang": "104",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Chứng Khoán - Bất Động Sản -  Đầu Tư  bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Chứng Khoán - Bất Động Sản -  Đầu Tư  bán chạy của tháng",
+        "rating": 4.82
     },
     {
         "id": "41",
@@ -833,7 +873,8 @@
         "Kích Thước Bao Bì": "21 x 14.5 x 1.7 cm",
         "Số trang": "344",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 0.37
     },
     {
         "id": "42",
@@ -852,7 +893,8 @@
         "Kích Thước Bao Bì": "20.5 x 13 x 1.1 cm",
         "Số trang": "234",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 2.81
     },
     {
         "id": "43",
@@ -872,7 +914,8 @@
         "Kích Thước Bao Bì": "22 x 14.5 x 2 cm",
         "Số trang": "260",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 1.44
     },
     {
         "id": "44",
@@ -891,7 +934,8 @@
         "Kích Thước Bao Bì": "24 x 16 x 1 cm",
         "Số trang": "204",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 0.98
     },
     {
         "id": "45",
@@ -910,7 +954,8 @@
         "Kích Thước Bao Bì": "20.5 x 15 x 1 cm",
         "Số trang": "203",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 4.25
     },
     {
         "id": "46",
@@ -932,7 +977,8 @@
         "Số trang": "404",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Minh Long Tủ Sách Tâm Lý Kỹ Năng VNPAY RƯỚC DEAL LINH ĐÌNH VUI ĐÓN TRUNG THU",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 3.01
     },
     {
         "id": "47",
@@ -953,7 +999,8 @@
         "Kích Thước Bao Bì": "20.5 x 14.5 x 1.8 cm",
         "Số trang": "385",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 0.57
     },
     {
         "id": "48",
@@ -973,7 +1020,8 @@
         "Số trang": "242",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Đồ Chơi Cho Bé - Giá Cực Tốt BACK TO SCHOOL",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 4.86
     },
     {
         "id": "49",
@@ -994,7 +1042,8 @@
         "Số trang": "224",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Tủ Sách Tâm Lý Kỹ Năng VNPAY RƯỚC DEAL LINH ĐÌNH VUI ĐÓN TRUNG THU",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 4.38
     },
     {
         "id": "50",
@@ -1016,7 +1065,8 @@
         "Số trang": "531",
         "Hình thức": "Bìa Cứng",
         "Sản phẩm hiển thị trong": "Viện Quản lý PACE",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 4.55
     },
     {
         "id": "51",
@@ -1036,7 +1086,8 @@
         "Kích Thước Bao Bì": "20.5 x 13 x 2.5 cm",
         "Số trang": "479",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 1.64
     },
     {
         "id": "52",
@@ -1056,7 +1107,8 @@
         "Kích Thước Bao Bì": "20 x 12 x 2.2 cm",
         "Số trang": "328",
         "Hình thức": "Bìa Cứng",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 3.44
     },
     {
         "id": "53",
@@ -1075,7 +1127,8 @@
         "Kích Thước Bao Bì": "20.5 x 13 x 1 cm",
         "Số trang": "208",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 0.11
     },
     {
         "id": "54",
@@ -1096,7 +1149,8 @@
         "Kích Thước Bao Bì": "21 x 14 x 2 cm",
         "Số trang": "260",
         "Hình thức": "Bìa Cứng",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 3.31
     },
     {
         "id": "55",
@@ -1117,7 +1171,8 @@
         "Kích Thước Bao Bì": "21 x 14.5 x 1.1 cm",
         "Số trang": "224",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tâm lý bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tâm lý bán chạy của tháng",
+        "rating": 0.4
     },
     {
         "id": "56",
@@ -1138,7 +1193,8 @@
         "Số trang": "448",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Nhân Trí Việt Mới - Nổi Bật Tâm lý - Kỹ năng sống",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 0.6
     },
     {
         "id": "57",
@@ -1158,7 +1214,8 @@
         "Kích Thước Bao Bì": "20.5 x 14 x 1.8 cm",
         "Số trang": "300",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 2.45
     },
     {
         "id": "58",
@@ -1179,7 +1236,8 @@
         "Kích Thước Bao Bì": "21 x 15 x 0.7 cm",
         "Số trang": "272",
         "Hình thức": "Bìa Cứng",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 4.58
     },
     {
         "id": "59",
@@ -1201,7 +1259,8 @@
         "Số trang": "419",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "MCBooks Tủ Sách Tâm Lý Kỹ Năng",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 0.13
     },
     {
         "id": "60",
@@ -1222,7 +1281,8 @@
         "Kích Thước Bao Bì": "20.5 x 14.5 x 1.7 cm",
         "Số trang": "370",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Kỹ năng sống bán chạy của tháng",
+        "rating": 3.56
     },
     {
         "id": "61",
@@ -1242,7 +1302,8 @@
         "Kích Thước Bao Bì": "20.5 x 12.5 cm",
         "Số trang": "364",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng",
+        "rating": 2.98
     },
     {
         "id": "62",
@@ -1261,7 +1322,8 @@
         "Kích Thước Bao Bì": "14 x 12 x 0.6 cm",
         "Số trang": "80",
         "Hình thức": "Bìa Cứng",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Vừa Học Vừa Chơi Với Trẻ bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Vừa Học Vừa Chơi Với Trẻ bán chạy của tháng",
+        "rating": 2.45
     },
     {
         "id": "63",
@@ -1282,7 +1344,8 @@
         "Kích Thước Bao Bì": "19 x 13 x 2.4 cm",
         "Số trang": "444",
         "Hình thức": "Bìa Cứng",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng",
+        "rating": 4.97
     },
     {
         "id": "64",
@@ -1301,7 +1364,8 @@
         "Kích Thước Bao Bì": "14 x 12 x 0.6 cm",
         "Số trang": "80",
         "Hình thức": "Bìa Cứng",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Vừa Học Vừa Chơi Với Trẻ bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Vừa Học Vừa Chơi Với Trẻ bán chạy của tháng",
+        "rating": 3.84
     },
     {
         "id": "65",
@@ -1320,7 +1384,8 @@
         "Kích Thước Bao Bì": "14 x 12 x 0.6 cm",
         "Số trang": "80",
         "Hình thức": "Bìa Cứng",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Vừa Học Vừa Chơi Với Trẻ bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Vừa Học Vừa Chơi Với Trẻ bán chạy của tháng",
+        "rating": 1.86
     },
     {
         "id": "66",
@@ -1339,7 +1404,8 @@
         "Kích Thước Bao Bì": "14 x 12 x 0.6 cm",
         "Số trang": "80",
         "Hình thức": "Bìa Cứng",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Vừa Học Vừa Chơi Với Trẻ bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Vừa Học Vừa Chơi Với Trẻ bán chạy của tháng",
+        "rating": 2.86
     },
     {
         "id": "67",
@@ -1358,7 +1424,8 @@
         "Kích Thước Bao Bì": "13.5 x 20.5",
         "Số trang": "400",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng",
+        "rating": 0.18
     },
     {
         "id": "68",
@@ -1377,7 +1444,8 @@
         "Kích Thước Bao Bì": "14 x 12 x 0.6 cm",
         "Số trang": "80",
         "Hình thức": "Bìa Cứng",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Vừa Học Vừa Chơi Với Trẻ bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Vừa Học Vừa Chơi Với Trẻ bán chạy của tháng",
+        "rating": 1.64
     },
     {
         "id": "69",
@@ -1396,7 +1464,8 @@
         "Kích Thước Bao Bì": "13.5 x 20.5",
         "Số trang": "400",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng",
+        "rating": 3.38
     },
     {
         "id": "70",
@@ -1415,7 +1484,8 @@
         "Trọng lượng (gr)": "200",
         "Kích Thước Bao Bì": "19 x 13 cm",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng",
+        "rating": 0.32
     },
     {
         "id": "71",
@@ -1435,7 +1505,8 @@
         "Kích Thước Bao Bì": "24 x 16 x 0.8 cm",
         "Số trang": "176",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Tranh Thiếu Nhi bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Tranh Thiếu Nhi bán chạy của tháng",
+        "rating": 0.27
     },
     {
         "id": "72",
@@ -1452,7 +1523,8 @@
         "Năm XB": "2019",
         "Kích Thước Bao Bì": "13.5 x 20.5 cm",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng",
+        "rating": 1.54
     },
     {
         "id": "73",
@@ -1472,7 +1544,8 @@
         "Kích Thước Bao Bì": "20.5 x 14.5 x 0.6 cm",
         "Số trang": "132",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng",
+        "rating": 0.92
     },
     {
         "id": "74",
@@ -1491,7 +1564,8 @@
         "Kích Thước Bao Bì": "24 x 17 x 0.7 cm",
         "Số trang": "112",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Sách Tranh Kỹ Năng Sống Cho Trẻ bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Sách Tranh Kỹ Năng Sống Cho Trẻ bán chạy của tháng",
+        "rating": 4.63
     },
     {
         "id": "75",
@@ -1500,7 +1574,8 @@
         "price": 0,
         "category": "thieunhi",
         "imglink": "https://cdn1.fahasa.com/media/catalog/product/i/m/image_187163.jpg",
-        "description": "Đang cập nhật..."
+        "description": "Đang cập nhật...",
+        "rating": 4.9
     },
     {
         "id": "76",
@@ -1521,7 +1596,8 @@
         "Số trang": "144",
         "Hình thức": "Bìa Cứng",
         "Sản phẩm hiển thị trong": "VNPAY",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Đọc Thiếu Nhi bán chạy của tháng",
+        "rating": 0.77
     },
     {
         "id": "77",
@@ -1543,7 +1619,8 @@
         "Số trang": "272",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Đinh Tị",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Bách Khoa Tri Thức - Câu Hỏi Vì Sao bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Bách Khoa Tri Thức - Câu Hỏi Vì Sao bán chạy của tháng",
+        "rating": 4.82
     },
     {
         "id": "78",
@@ -1563,7 +1640,8 @@
         "Kích Thước Bao Bì": "20.5 x 15 x 0.4 cm",
         "Số trang": "88",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Sách Tranh Kỹ Năng Sống Cho Trẻ bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Sách Tranh Kỹ Năng Sống Cho Trẻ bán chạy của tháng",
+        "rating": 3.21
     },
     {
         "id": "79",
@@ -1584,7 +1662,8 @@
         "Kích Thước Bao Bì": "25 x 22 x 1.2 cm",
         "Số trang": "160",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Tranh Thiếu Nhi bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Tranh Thiếu Nhi bán chạy của tháng",
+        "rating": 1.16
     },
     {
         "id": "80",
@@ -1604,7 +1683,8 @@
         "Kích Thước Bao Bì": "22 x 15 x 0.2 cm",
         "Số trang": "52",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Tranh Thiếu Nhi bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Truyện Tranh Thiếu Nhi bán chạy của tháng",
+        "rating": 1.3
     },
     {
         "id": "81",
@@ -1623,7 +1703,8 @@
         "Kích Thước Bao Bì": "24 x 17 x 0.6 cm",
         "Số trang": "124",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng",
+        "rating": 0.08
     },
     {
         "id": "82",
@@ -1642,7 +1723,8 @@
         "Kích Thước Bao Bì": "24 x 17 x 1 cm",
         "Số trang": "192",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng",
+        "rating": 1.37
     },
     {
         "id": "83",
@@ -1661,7 +1743,8 @@
         "Kích Thước Bao Bì": "27 x 19 x 0.7 cm",
         "Số trang": "140",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng",
+        "rating": 4.84
     },
     {
         "id": "84",
@@ -1680,7 +1763,8 @@
         "Kích Thước Bao Bì": "27 x 19 x 1.7 cm",
         "Số trang": "350",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 12 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 12 bán chạy của tháng",
+        "rating": 1.14
     },
     {
         "id": "85",
@@ -1699,7 +1783,8 @@
         "Kích Thước Bao Bì": "24 x 17 x 0.7 cm",
         "Số trang": "144",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng",
+        "rating": 4.46
     },
     {
         "id": "86",
@@ -1718,7 +1803,8 @@
         "Kích Thước Bao Bì": "24 x 17 x 0.6 cm",
         "Số trang": "136",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng",
+        "rating": 3.23
     },
     {
         "id": "87",
@@ -1737,7 +1823,8 @@
         "Kích Thước Bao Bì": "32 x 22.5 x 0.5 cm",
         "Số trang": "32",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 10 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 10 bán chạy của tháng",
+        "rating": 2.79
     },
     {
         "id": "88",
@@ -1756,7 +1843,8 @@
         "Kích Thước Bao Bì": "27 x 19 x 3.2 cm",
         "Số trang": "640",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 12 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 12 bán chạy của tháng",
+        "rating": 2.53
     },
     {
         "id": "89",
@@ -1778,7 +1866,8 @@
         "Kích Thước Bao Bì": "24 x 17 x 0.7 cm",
         "Số trang": "108",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Giáo Khoa Lớp 1 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Giáo Khoa Lớp 1 bán chạy của tháng",
+        "rating": 4.87
     },
     {
         "id": "90",
@@ -1797,7 +1886,8 @@
         "Kích Thước Bao Bì": "27 x 19 x 3.2 cm",
         "Số trang": "640",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 12 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 12 bán chạy của tháng",
+        "rating": 4.66
     },
     {
         "id": "91",
@@ -1816,7 +1906,8 @@
         "Kích Thước Bao Bì": "24 x 17 x 0.7 cm",
         "Số trang": "148",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng",
+        "rating": 1.75
     },
     {
         "id": "92",
@@ -1835,7 +1926,8 @@
         "Kích Thước Bao Bì": "27 x 19 x 1.5 cm",
         "Số trang": "300",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 12 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 12 bán chạy của tháng",
+        "rating": 0.78
     },
     {
         "id": "93",
@@ -1857,7 +1949,8 @@
         "Kích Thước Bao Bì": "26.5 x 19 x 0.5 cm",
         "Số trang": "116",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Giáo Khoa Lớp 1 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Giáo Khoa Lớp 1 bán chạy của tháng",
+        "rating": 0.37
     },
     {
         "id": "94",
@@ -1875,7 +1968,8 @@
         "Kích Thước Bao Bì": "12.8 x 10 x 0.5 cm",
         "Số trang": "104",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 12 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 12 bán chạy của tháng",
+        "rating": 3.14
     },
     {
         "id": "95",
@@ -1894,7 +1988,8 @@
         "Kích Thước Bao Bì": "27 x 19 x 2.3 cm",
         "Số trang": "460",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng",
+        "rating": 2.26
     },
     {
         "id": "96",
@@ -1913,7 +2008,8 @@
         "Kích Thước Bao Bì": "27 x 19 x 1.5 cm",
         "Số trang": "312",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng",
+        "rating": 0.9
     },
     {
         "id": "97",
@@ -1933,7 +2029,8 @@
         "Kích Thước Bao Bì": "26.5 x 19 x 1 cm",
         "Số trang": "168",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 9 bán chạy của tháng",
+        "rating": 2.33
     },
     {
         "id": "98",
@@ -1952,7 +2049,8 @@
         "Kích Thước Bao Bì": "27 x 19 x 1.5 cm",
         "Số trang": "300",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 12 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tham Khảo Lớp 12 bán chạy của tháng",
+        "rating": 1.57
     },
     {
         "id": "99",
@@ -1974,7 +2072,8 @@
         "Kích Thước Bao Bì": "26.5 x 19 x 0.7 cm",
         "Số trang": "176",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Giáo Khoa Lớp 1 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Giáo Khoa Lớp 1 bán chạy của tháng",
+        "rating": 1.22
     },
     {
         "id": "100",
@@ -1996,7 +2095,8 @@
         "Kích Thước Bao Bì": "26.5 x 19 x 0.6 cm",
         "Số trang": "128",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Giáo Khoa Lớp 3 bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Giáo Khoa Lớp 3 bán chạy của tháng",
+        "rating": 0.46
     },
     {
         "id": "101",
@@ -2016,7 +2116,8 @@
         "Kích Thước Bao Bì": "28.5 x 21 x 1 cm",
         "Số trang": "141",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 0.89
     },
     {
         "id": "102",
@@ -2037,7 +2138,8 @@
         "Kích Thước Bao Bì": "28.5 x 21 x 0.7 cm",
         "Số trang": "136",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 2.75
     },
     {
         "id": "103",
@@ -2057,7 +2159,8 @@
         "Kích Thước Bao Bì": "28.5 x 21 x 1.5 cm",
         "Số trang": "280",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 1.17
     },
     {
         "id": "104",
@@ -2077,7 +2180,8 @@
         "Kích Thước Bao Bì": "28.5 x 21 x 0.9 cm",
         "Số trang": "142",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 3.68
     },
     {
         "id": "105",
@@ -2097,7 +2201,8 @@
         "Số trang": "168",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Nhân Trí Việt",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 4.87
     },
     {
         "id": "106",
@@ -2118,7 +2223,8 @@
         "Kích Thước Bao Bì": "28.5 x 21 x 1 cm",
         "Số trang": "208",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 1.62
     },
     {
         "id": "107",
@@ -2139,7 +2245,8 @@
         "Số trang": "165",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Nhân Trí Việt Mới - Nổi Bật",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 4.49
     },
     {
         "id": "108",
@@ -2159,7 +2266,8 @@
         "Số trang": "150",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Nhân Trí Việt",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 2.81
     },
     {
         "id": "109",
@@ -2180,7 +2288,8 @@
         "Số trang": "110",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Nhân Trí Việt",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 1.28
     },
     {
         "id": "110",
@@ -2189,7 +2298,8 @@
         "price": 0,
         "category": "ngoaingu",
         "imglink": "https://cdn1.fahasa.com/media/catalog/product/9/7/9786043356380_1.jpg",
-        "description": "Đang cập nhật..."
+        "description": "Đang cập nhật...",
+        "rating": 3.01
     },
     {
         "id": "111",
@@ -2210,7 +2320,8 @@
         "Số trang": "163",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Nhân Trí Việt Mới - Nổi Bật",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 3.04
     },
     {
         "id": "112",
@@ -2230,7 +2341,8 @@
         "Kích Thước Bao Bì": "28.5 x 21 x 2.3 cm",
         "Số trang": "448",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 1.07
     },
     {
         "id": "113",
@@ -2250,7 +2362,8 @@
         "Kích Thước Bao Bì": "28.5 x 21 x 1.5 cm",
         "Số trang": "290",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 1.64
     },
     {
         "id": "114",
@@ -2271,7 +2384,8 @@
         "Số trang": "123",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Nhân Trí Việt",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 2.19
     },
     {
         "id": "115",
@@ -2291,7 +2405,8 @@
         "Kích Thước Bao Bì": "24.5 x 19 x 0.7 cm",
         "Số trang": "144",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Luyện Thi IELTS  bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Luyện Thi IELTS  bán chạy của tháng",
+        "rating": 2.16
     },
     {
         "id": "116",
@@ -2312,7 +2427,8 @@
         "Số trang": "68",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Nhân Trí Việt",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 2.06
     },
     {
         "id": "117",
@@ -2329,7 +2445,8 @@
         "Trọng lượng (gr)": "698",
         "Kích Thước Bao Bì": "28.5 x 21 x 1 cm",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 4.83
     },
     {
         "id": "118",
@@ -2348,7 +2465,8 @@
         "Kích Thước Bao Bì": "28.5 x 21 cm",
         "Số trang": "52",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 0.63
     },
     {
         "id": "119",
@@ -2369,7 +2487,8 @@
         "Số trang": "195",
         "Hình thức": "Bìa Mềm",
         "Sản phẩm hiển thị trong": "Nhân Trí Việt Mới - Nổi Bật",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 0.35
     },
     {
         "id": "120",
@@ -2389,6 +2508,7 @@
         "Kích Thước Bao Bì": "28.5 x 21 cm",
         "Số trang": "144",
         "Hình thức": "Bìa Mềm",
-        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng"
+        "Sản phẩm bán chạy nhất": "Top 100 sản phẩm Tiếng Hoa bán chạy của tháng",
+        "rating": 2.37
     }
 ]

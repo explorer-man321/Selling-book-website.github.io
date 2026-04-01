@@ -1,4 +1,7 @@
 books = [];
+currating = 5;
+curminPrice = 0;
+curmaxPrice = Infinity;
 category = null;
 
 const categoryMap = new Map([
@@ -16,17 +19,19 @@ function getQueryParam(param) {
     return urlParams.get(param);
 }
 
-function loadBook(callback) {
-    category = getQueryParam('category');
+function loadBook() {
+    category = getQueryParam('category')?.trim().toLowerCase() || null;
 
     fetch('../book.json')
         .then(response => response.json())
         .then(data => {
-            books = data;
-            window.books = data;
-            if (typeof callback === 'function') {
-                callback();
-            }
+            const filteredBooks = category
+                ? data.filter(book => book.category === category)
+                : data;
+
+            books = filteredBooks;
+            window.books = filteredBooks;
+            displayBooks(filteredBooks);
         })
         .catch(error => {
             console.error('Lỗi khi tải book.json:', error);
@@ -37,7 +42,7 @@ function loadBook(callback) {
         });
 }
 
-function displayBooks() {
+function displayBooks(books) {
     const bookList = document.getElementById('book-list');
     const categoryEl = document.getElementById('category');
 
@@ -76,4 +81,103 @@ function displayBooks() {
     });
 }
 
-loadBook(displayBooks);
+function showbookbyprice(books, minPrice, maxPrice) {
+    const bookList = document.getElementById('book-list');
+    if (!bookList) return;
+
+    const filteredBooks = books.filter(book => book.price >= minPrice && book.price <= maxPrice);
+
+    bookList.innerHTML = '';
+
+    return filteredBooks;
+}
+
+function sortBooks(books, sortBy) {
+
+    const bookList = document.getElementById('book-list');
+    if (!bookList) return;
+
+    const selectedSort = sortBy || document.getElementById('sort-by')?.value || '';
+    let sortedBooks = books.slice();
+
+    switch (selectedSort) {
+        case 'price-asc':
+            sortedBooks.sort((a, b) => a.price - b.price);
+            break;
+        case 'price-desc':
+            sortedBooks.sort((a, b) => b.price - a.price);
+            break;
+        case 'newest':
+            sortedBooks.sort((a, b) => b.id - a.id);
+            break;
+        case 'oldest':
+            sortedBooks.sort((a, b) => a.id - b.id);
+            break;
+        case 'title-asc':
+            sortedBooks.sort((a, b) => a.title.localeCompare(b.title));
+            break;
+        case 'title-desc':
+            sortedBooks.sort((a, b) => b.title.localeCompare(a.title));
+            break;
+        default:
+            sortedBooks.sort((a, b) => a.id - b.id);
+    }
+
+    return sortedBooks;
+}
+
+function showbyrating(books, rating) {
+    const bookList = document.getElementById('book-list');
+    if (!bookList) return;
+
+    const filteredBooks = books.filter(book => book.rating <= rating);
+
+    return filteredBooks;
+}
+
+function changepricefilter(minPrice, maxPrice) {
+    curminPrice = minPrice;
+    curmaxPrice = maxPrice;
+
+    applyFilters();
+}
+
+function changeRatingFilter(rating) {
+    currating = rating;
+    applyFilters();
+}
+
+function changeSortBy(sortBy) {
+    cursortBy = sortBy;
+    applyFilters();
+}
+
+function applyFilters() {
+    let filteredBooks = window.books || [];
+    if (curminPrice !== 0 || curmaxPrice !== Infinity) {
+        filteredBooks = showbookbyprice(filteredBooks, curminPrice, curmaxPrice);
+    }
+    if (currating !== 5) {
+        filteredBooks = showbyrating(filteredBooks, currating);
+    }
+    sortBy = document.getElementById('sort-by')?.value || 'default';
+    filteredBooks = sortBooks(filteredBooks, sortBy);
+    displayBooks(filteredBooks);
+}
+
+function clearfilter() {
+    const priceFilters = document.querySelectorAll('.price-filter');
+    priceFilters.forEach(filter => filter.checked = false);
+    const ratingFilters = document.querySelectorAll('.rating-filter');
+    ratingFilters.forEach(filter => filter.checked = false);
+    showbookbyprice(window.books || [], 0, Infinity);
+    sortBooks(window.books || [], 'default');
+    const sortBySelect = document.getElementById('sort-by');
+    if (sortBySelect) {
+        sortBySelect.value = '';
+    }
+    displayBooks(window.books || []);
+}
+
+
+loadBook();
