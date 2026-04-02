@@ -1,4 +1,42 @@
 let cart = new Map();
+let addToCartModalTimer = null;
+
+function showAddToCartSuccessModal(bookTitle) {
+    const modalId = 'add-to-cart-success-modal';
+    let modal = document.getElementById(modalId);
+
+    if (!modal) {
+        modal = document.createElement('div');
+        modal.id = modalId;
+        modal.style.position = 'fixed';
+        modal.style.top = '24px';
+        modal.style.left = '50%';
+        modal.style.transform = 'translateX(-50%)';
+        modal.style.zIndex = '9999';
+        modal.style.background = '#198754';
+        modal.style.color = '#fff';
+        modal.style.padding = '12px 20px';
+        modal.style.borderRadius = '10px';
+        modal.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.2)';
+        modal.style.fontSize = '14px';
+        modal.style.fontWeight = '600';
+        modal.style.opacity = '0';
+        modal.style.transition = 'opacity 0.2s ease';
+        modal.style.pointerEvents = 'none';
+        document.body.appendChild(modal);
+    }
+
+    modal.innerText = `Đã thêm "${bookTitle}" vào giỏ hàng!`;
+    modal.style.opacity = '1';
+
+    if (addToCartModalTimer) {
+        clearTimeout(addToCartModalTimer);
+    }
+
+    addToCartModalTimer = setTimeout(() => {
+        modal.style.opacity = '0';
+    }, 1000);
+}
 
 function loadBook(bookId, callback) {
     fetch('../book.json')
@@ -40,7 +78,7 @@ function addToCart(bookId, quantity = 1) {
     if (book) {
         cart.set(bookId, (cart.get(bookId) || 0) + quantity);
         saveCart();
-        // alert('Đã thêm sách vào giỏ hàng! ' + book.title);
+        showAddToCartSuccessModal(book.title);
     }
 }
 
