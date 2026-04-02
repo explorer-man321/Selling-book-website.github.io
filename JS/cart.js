@@ -40,7 +40,7 @@ function addToCart(bookId, quantity = 1) {
     if (book) {
         cart.set(bookId, (cart.get(bookId) || 0) + quantity);
         saveCart();
-        alert('Đã thêm sách vào giỏ hàng! ' + book.title);
+        // alert('Đã thêm sách vào giỏ hàng! ' + book.title);
     }
 }
 
