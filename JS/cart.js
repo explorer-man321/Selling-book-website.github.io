@@ -35,7 +35,7 @@ function showAddToCartSuccessModal(bookTitle) {
 
     addToCartModalTimer = setTimeout(() => {
         modal.style.opacity = '0';
-    }, 1000);
+    }, 3000);
 }
 
 function loadBook(bookId, callback) {
